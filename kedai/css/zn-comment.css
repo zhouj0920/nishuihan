@@ -1,0 +1,205 @@
+.w {
+    width: 1170px;
+    margin: 0 auto;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.hide {
+    display: none;
+}
+/* 头部固定导航 */
+.header-box {
+    width: 100%;
+}
+.top-box {
+    position: fixed;
+    top: 0;
+    /* left: 0; */
+    height: 55px;
+    width: 100%;
+    z-index: 999;
+    /* background-color: #624f48; */
+}
+.top-contant {
+    width: 1300px;
+    height: 55px;
+    padding-left: 5%;
+}
+
+body {
+    height: 1500px;
+}
+/* 搜索框的 */
+.search {
+    display: none;
+    position: relative;
+    left: 250px;
+    padding-left:50px;
+    width: 700px;
+    height: 50px;
+    border-bottom: 1px solid #fff;
+    overflow: hidden;
+}
+.search a{
+    position: absolute;
+    display: block;
+    height: 50px;
+    color: #fff;
+}
+.search_box {
+    float: right;
+    border: none;
+    width: 666px;
+    height: 50px;
+}
+.search .close {
+    top: 14px;
+    left: 0;
+}
+.search .submit {
+    top: 14px;
+    right: 0;
+}
+.search input {
+    height: 50px;
+    color: #fff;
+}
+.navbar-nav ul {
+    /* display: none; */
+    padding-left: 70px;
+}
+.navbar-nav ul li {
+    float: left;
+    padding-right:35px;
+    line-height: 55px;
+    font-size: 15px;
+} 
+ i {
+    /*display: inline-block;*/
+    /*width: 10px;*/
+    /*height: 10px;*/
+    /*border: 1px solid #fff;*/
+}
+.navbar-nav ul li a {
+    color: #fff;
+}
+.navbar-nav ul li a:hover{
+    font-weight: 700;
+}
+
+.logo img{
+    margin-top: 5px;
+    width: 70px;
+    height: 45px;
+}
+/* 登陆按钮 */
+.top-login {
+    margin-top: 20px;
+}
+.top-login a{
+    /* display: inline-block; */
+   
+    padding: 6px 15px;
+    background-color: #625c5c; 
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+/* //模态登陆 */
+.motai {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    /* left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0; */
+    z-index: 99;
+    background-color: rgba(0,0,0,.6);
+    display: none;
+}    
+.motai-login {
+    margin: 100px auto 0;
+    width: 600px;
+    background-color: #eee;
+    display: none;
+}
+.login-head {
+    height: 50px;
+    text-align: center;
+    background-color: #624f48;
+    font-size: 20px;
+}
+.motai h3 {
+    line-height: 50px;
+    color: #fff;
+    font-weight: normal;
+}
+.motai button {
+    outline: none;
+    line-height: 50px;
+    border: none;
+    width: 30px;
+    color: #fff;
+    font-weight: 700;
+    background-color: #624f48;
+}
+.login-main-left {
+    width: 50%;
+}
+.login-main-right {
+    width: 50%;
+    padding: 20px 0;
+    height: 323px;
+}
+.login-main-right form {
+    padding: 15px;
+}
+.motai .login-main-right  input {
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: #666;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding-left: 10px;
+}
+.yanzhengma {
+    position: relative;
+    padding: 0 15px;
+    width: 100%; 
+}
+.yanzhengma img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.yanzhengma button {
+    display: block;
+    width: 100px;
+    height: 35px;
+    padding-left: 0;
+    margin: 0 auto;
+    text-align: center;
+    background: #624f48;
+    border: 0;
+    color: #fff;
+    line-height: 35px;
+    border-radius: 10px;
+}
+.yanzhengma a {
+    color: #a79011;
+    font-size: 12px;
+    position: relative;
+    right: -209px;
+    top: -20px;
+}
+
+
+
+
+/* 侧边悬浮栏目 */

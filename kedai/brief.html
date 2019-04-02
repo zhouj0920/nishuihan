@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/basexhy.css">
+    <link rel="stylesheet" href="css/brief.css">
+    <link rel="stylesheet" href="css/commentxhy.css">
+    <script src="js/brief.js"></script>
+    <script src="js/jquery-1.12.2.js"></script>
+    <title>可待科技-公司简介</title>
+</head>
+<body>
+    <!-- 登录注册弹框开始 -->
+    <div id="bg"></div>
+    <div id="login">
+        <div class="l-tit">会员登录 <em class="fr guanbi">关闭</em></div>
+        <div class="dengluc">
+            <div class="fl">
+                <img src="img/login.jpg" alt="">
+            </div>
+            <div class="fl pad">
+                <ul>
+                    <li>
+                        <input type="text"value="用户名/邮箱">
+                    </li>
+                    <li>
+                        <input type="text" value="密码">
+                    </li>
+                    <li>
+                        <input type="text" value="验证码">
+                    </li>
+                </ul>
+                <img src="img/captcha.php" alt=""class='yanzhengma'>
+                <button class="anniu">立即登录</button>
+                <span class="wangji" id="wangji">忘记密码</span>
+            </div>
+        </div>
+    </div>
+    <div id="register">
+        <div class="l-tit">会员注册 <em class="fr guanbi">关闭</em></div>
+        <div class="register">
+            <div class="fl">
+                <img src="img/register.jpg" alt="">
+            </div>
+            <div class="fl pad">
+                <ul>
+                    <li>
+                        <input type="text"value="用户名" class="inputText">
+                    </li>
+                    <li>
+                        <input type="text" value="邮箱"class="inputText">
+                    </li>
+                    <li>
+                        <input type="text" value="密码" class="inputText">
+                    </li>
+                    <li>
+                        <input type="text" value="重复密码" class="inputText">
+                    </li>
+                    <li class="unborder-b">
+                        <input type="checkbox" >
+                        我已阅读并同意《注册协议》
+                    </li>
+                    <li>
+                        <input type="text" value="输入验证码" class="inputText">
+                    </li>
+                </ul>
+                <img src="img/captcha.php" alt=""class='yanzhengma'>
+                <button class="anniu">立即注册</button>
+            </div>
+        </div>
+    </div>
+    <div id="retrievePassword">
+        <div class="l-tit">找回密码 <em class="fr guanbi">关闭</em></div>
+        <div class="register">
+            <div class="fl">
+                <img src="img/forgotpwd.jpg" alt="">
+            </div>
+            <div class="fl pad">
+                <ul>
+                    <li>
+                        <input type="text"value="请输入邮箱" class="inputText">
+                    </li>
+                </ul>
+                <button class="anniu">提交</button>
+            </div>
+        </div>
+    </div>
+    <!-- 登录注册弹框结束 -->
+    <!-- 固定导航开始 -->
+    <div class="relation" id="relation">
+        <img src="img/contact.png" alt="">
+    </div>
+    <div class="broadside-nav" id="broadside-nav">
+        <ul>
+            <li>
+                <i class="iconfont original">&#xe634;</i>
+                可待科技
+                <img src="img/kissnecktech.jpg" width="120" height="120" alt="">
+            </li>
+            <li>
+                <i class="iconfont original">&#xe619;</i>
+                QQ客服
+            </li>
+            <li class="ov">
+                <i class="iconfont original">&#xe63b;</i>
+                客服热线：027-87688212
+                客服手机：18171267166
+            </li>
+            <li>
+                <i class="iconfont original fl">&#xe613;</i>
+
+                <ul class="navbar-left">
+                    <li>
+                        <a href="javascript:;">定制服务
+                            <i class="iconfont">&#xe601;</i>
+                        </a>
+                        <ul class="sub-menu">
+                            <li>微信小程序</li>
+                            <li>B2C商城</li>
+                            <li>外贸商城</li>
+                            <li>电商平台</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;">产品服务
+                            <i class="iconfont">&#xe601;</i>
+                        </a>
+                        <ul class="sub-menu">
+                            <li>新零售</li>
+                            <li>可以购</li>
+                            <li>可以付</li>
+                            <li>API</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;">可待学院
+                            <i class="iconfont">&#xe601;</i>
+                        </a>
+                        <ul class="sub-menu">
+                            <li>学院简介</li>
+                            <li>学院博客</li>
+                            <li>视频教程</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;">关于我们
+                            <i class="iconfont">&#xe601;</i>
+                        </a>
+                        <ul class="sub-menu">
+                            <li>公司简介</li>
+                            <li>公司新闻</li>
+                            <li>相关问答</li>
+                            <li>反馈留言</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="finally">
+                <i class="iconfont original">&#xe600;</i>
+            </li>
+        </ul>
+    </div>
+    <!-- 固定导航结束 -->
+    <!-- 头部开始 -->
+    <div class="header-tl">
+        <div class="hw">
+                <div class="logo fl">
+                        <a href="index.html"><img src="img/logo_03.png" alt="可待科技"></a>
+                        <h1>可待科技</h1>
+                </div>
+                <div class="anniu fr">
+                    <button id='loginBtn'>登录</button>
+                    <button id="registerBtn">注册</button>
+                    
+                </div>
+                <div class="h-nav fl">
+                    <ul>
+                        <li><a href="index.html">首页</a></li>
+                        <li class="list">
+                                <a>可待科技</a>
+                                <ul class="pull-down-list">
+                                   <li><a href="brief.html">公司简介</a></li>
+                                   <li><a href="kedaixinwen.html">公司新闻</a></li>
+                                   <li><a href="#">常见问题</a></li> 
+                                   <li><a href="#">联系我们</a></li> 
+                                </ul>
+                        </li>
+                        <li><a href="定制服务.html">定制服务</a></li>
+                        <li class="list">
+                                <a>产品服务</a>
+                                <ul class="pull-down-list1 pull-down-list">
+                                   <li><a href="lingshouye.html">新零售</a></li>
+                                   <li><a href="#">可以付</a></li> 
+                                   <li><a href="kyg.htm">可以购</a></li>
+                                </ul>
+                        </li>
+                        <li><a href="website.html">网站建设</a></li>
+                        <li><a href="yc-popularize.html">推广运营</a></li>
+                        <li><a href="#">成功案例</a></li>
+                        <li class="list">
+                                <a>可待学院</a>
+                                <ul class="pull-down-list1 pull-down-list">
+                                   <li><a href="#">学院简介</a></li> 
+                                   <li><a href="#">学院博客</a></li> 
+                                   <li><a href="#">视频教程</a></li>
+                                </ul>
+                        </li>
+                    </ul>
+                    
+                </div>
+        </div>
+        
+    </div>
+    <!-- 头部结束 -->
+    <!-- content内容1开始 -->
+    <div class="content1-tl">
+        <div class="w">
+            <h2>可待科技</h2>
+            <p>一家专业的互联网解决方案供应商，专注于新零售，致力于通过定制软件为客户创造更多价值！公司宗旨是通过创新，把握市场风口，为中小企业顺利突破瓶颈，跨入数据时代贡献力量！</p>
+        </div>
+    </div>
+    <!-- content内容1结束 -->
+    <!-- tab区开始 -->
+    <div class="tab_wrap clearfix">
+        <div class="tab-list">
+            <ul class="tab" id="tab">
+                <li class="hover">关于我们</li>
+                <li class="normal">收获成绩</li>
+                <li class="normal">客户口碑</li>
+                <li class="normal">战略伙伴</li>
+                <li class="normal">服务介绍</li>
+            </ul>
+        </div>
+        <div class="content w" id="content">
+            <div class="dabox show">
+                <h2 class="kissNeck">关于可待科技（KissNeck）</h2>
+                <h6 class="text">
+                    <p>可待科技2015年创立于武汉，可待科技专注于移动互联网服务6年以网站建设、微信开发、app开发为核心业务。</p>
+                    <p>专注于创意设计、定制开发与营销策划于一体，探索并实现商业价值最大化为，为所有谋求长久发展的企业机构贡献全力。</p>
+                    <p>可待科技注重行业探索在更精细的产品定制和营销中不断深入行业，完善创作方案以探求精品塑造和品牌升华。</p>
+                    <p>可待科技有6年的行业服务经验,凭借对设计的热爱执着，营销趋势的敏锐洞察和深刻理解,与众多客户在蓬勃发展的市场环境中互利共生。</p>
+                    <p>可待科技珍视与客户的每次合作，坚持一切工作都以"创意、传播"这一极富生命力的情节展开并始终信奉"全力以赴" 的服务理念总是付出更多参与其中。</p>
+                </h6>
+                <h6 class="MyValue clearfix">
+                    <p class="MVtext">我们的价值观</p>
+                    <p class="MV-left fl">
+                        <img src="img/about-us_03.jpg" alt="" class="fl">
+                        <span class="fl">服务的品质和客户的满意度</span>
+                    </p>
+                    <p class="MV-right fr">
+                        <img src="img/about-us_05.jpg" alt=""class="fl">
+                        <span class="fl">是检验工作成效的唯一标准</span>
+                    </p>
+                </h6>
+                <h6 class="text2">
+                    <p><b>专业 Professional: </b>以高效完善的方式解决问题。</p>
+                    <p><b>责任 Ownership:</b> 对自己的工作拥有坚定和积极向上的使命感。</p>
+                    <p><b>服务 Service:</b> 通过服务获得客户口碑和信任。</p>
+                    <p><b>执行力 Execution:</b> 遇问题直接沟通，有结论后坚决执行。</p>
+                    <p><b>结果 Result:</b> 以创造客户价值为目标，必须有结果。</p>
+                </h6>
+            </div>
+            <div class="dabox none">
+                <h3 class="kissNeck">收获成绩</h3>
+                <p class="text3">可待科技通过三年多的精耕细作，在业务方面一步步的拓展自己的渠道，在技术方面一点点的积累沉淀自己产品。得到了越来越多的客户认可，同时可待科技也获得了一些平台邀请，积极入驻一些大型云计算平台展现自己。</p>
+                <h4 class="dadiv clearfix">
+                            <p class="left fl">
+                                <img src="img/alibaba.jpg" alt="">
+                            </p>
+                            <p class="right fl">
+                                    阿里云，阿里巴巴集团旗下云计算品牌，全球卓越的云计算技术和服务提供商。创立于2009年，在杭州、北京、硅谷等地设有研发中心和运营机构。是全球领先的云计算及人工智能科技公司，致力于以在线公共服务的方式，提供安全、可靠的计算和数据处理能力，让计算和人工智能成为普惠科技。
+                            </p>
+                            <p class="left fl">
+                                <img src="img/tencent.jpg" alt="">
+                            </p>
+                            <p class="right fl">
+                                    腾讯云有着深厚的基础架构，并且有着多年对海量互联网服务的经验，不管是社交、游戏还是其他领域，都有多年的成熟产品来提供产品服务。腾讯在云端完成重要部署，为开发者及企业提供云服务、云数据、云运营等整体一站式服务方案。 具体包括云服务器、云存储、云数据库和弹性web引擎等基础云服务；腾讯云分析（MTA）、腾讯云推送（信鸽）等腾讯整体大数据能力；以及 QQ互联、QQ空间、微云、微社区等云端链接社交体系。这些正是腾讯云可以提供给这个行业的差异化优势，造就了可支持各种互联网使用场景的高品质的腾讯云技术平台。
+                            </p>
+                            <p class="left fl">
+                                <img src="img/baiducloud.jpg" alt="">
+                            </p>
+                            <p class="right fl">
+                                    百度云是百度提供的公有云平台，于2015年正式开放运营。百度云秉承“用科技力量推动社会创新”的愿景，不断将百度在云计算、大数据、人工智能的技术能力向社会输出。2016年，百度正式对外发布了“云计算+大数据+人工智能“三位一体的云计算战略。百度云推出了40余款高性能云计算产品，天算、天像、天工三大智能平台，分别提供智能大数据、智能多媒体、智能物联网服务。为社会各个行业提供最安全、高性能、智能的计算和数据处理服务，让智能的云计算成为社会发展的新引擎。
+                            </p>
+                            <p class="left fl">
+                                <img src="img/suning.jpg" alt="">
+                            </p>
+                            <p class="right fl">
+                                    苏宁云、中国领先的零售云服务商。提供大数据、新零售解决方案。
+                            </p>
+                </h4>
+            </div>
+            <div class="dabox none">
+                    <h3 class="kissNeck">客户口碑</h3>
+                    <p class="text3">“金碑银碑不如客户的口碑”，可待科技做项目一直以来都坚持把每一个项目当作是一次自我口碑建设的阶梯。客户的口碑是最无敌的商业广告，直接决定了我们的产品和服务在市场傻姑娘的存活寿命。</p>
+                    <div class="content1" id="content1">
+                        <ul>
+                            <!-- li占位置 -->
+                            <li>
+                                <!-- 直接加style放大 -->
+                                <div class="img-box">
+                        
+                                </div>
+                                <div class="text-box">
+                                    <h5 class="c-tit">大唐电力<i class="border-top">集团灞</i>桥热电厂</h5>
+                                    <!-- p需要切换类 不能添加类 -->
+                                    <p class="c-text">我们是大唐电力集团的工会组织，我们下属员工有两万多人，平时大家活动和培训都比较多，一直没有一个很好的方式把大家聚集起来，一起展现组织的风采。通过与可待科技的合作，了解到小程序非常适合我们，因为厂里的员工年纪都比较大，使用微信比较方便，小程序上线后，收到大家一致好评，大家在我们小程序上非常活跃，感谢可待科技给予我们的帮助！ </p>
+                                    <!-- 直接显示显示出来 -->
+                                    <button class="c-btn">查看详情</button>
+                                </div>
+                             </li>
+                            <li>
+                                 <!-- 直接加style放大 -->
+                                 <div class="img-box" style ="background: url(img/cky.jpg);">
+                        
+                                </div>
+                                <div class="text-box">
+                                    <h5 class="c-tit">长<i class="border-top">江科学</i>院</h5>
+                                    <!-- p需要切换类 不能添加类 -->
+                                    <p class="c-text">我们跟可待科技合作已经两年多了，从第一次中标合作开始，到现在达成深度合作伙伴关系，可待科技的设计水平、开发能力都是值得认可的。可待科技每个技术人员专业负责，祝福可待科技越来越好。 </p>
+                                    <!-- 直接显示显示出来 -->
+                                    <button class="c-btn">查看详情</button>
+                                </div>
+                            </li>
+                            <li>
+                                 <!-- 直接加style放大 -->
+                                 <div class="img-box" style ="background: url(img/uksc.jpg);">
+                        
+                                </div>
+                                <div class="text-box">
+                                    <h5 class="c-tit"><i class="border-top">UKSC</i></h5>
+                                    <!-- p需要切换类 不能添加类 -->
+                                    <p class="c-text">我们是一家英国公司，做跨境留学教育的，今年成立中国分公司。对于中国公司的官网总部非常的重视，可待科技在网站定制方面非常专业，总部最终从10对家投标公司选择与可待合作。结果让我们非常吃惊，可待科技的设计和制作水平超出了我们的预期，可待科技的设计和项目开发效率让我们钦佩。 </p>
+                                    <!-- 直接显示显示出来 -->
+                                    <button class="c-btn">查看详情</button>
+                                </div>
+                            </li>
+                            <li>
+                                <!-- 直接加style放大 -->
+                                <div class="img-box" style ="background: url(img/kinzd.jpg);">
+                        
+                                </div>
+                                <div class="text-box">
+                                    <h5 class="c-tit"><i class="border-top">Kinzd</i></h5>
+                                    <!-- p需要切换类 不能添加类 -->
+                                    <p class="c-text">我们是一家做出口的皮包设计生产的外贸企业，和可待科技合作三年多了，非常愉快，平常网站使用过程中出现的一些细微用户体验的调整，可待科技都安排专业的技术为我们支持，非常感谢可待科技团队的辛勤劳动！ </p>
+                                    <!-- 直接显示显示出来 -->
+                                    <button class="c-btn">查看详情</button>
+                                </div>
+                            </li>
+                            <li>
+                                <!-- 直接加style放大 -->
+                                <div class="img-box"  style ="background: url(img/bsjr.jpg);">
+                        
+                                </div>
+                                <div class="text-box">
+                                    <h5 class="c-tit"><i class="border-top">峰田医疗</i></h5>
+                                    <!-- p需要切换类 不能添加类 -->
+                                    <p class="c-text">我们芬瑞医疗科技集团是国内HMO模式倡导者，专注于社区医疗服务，打造专业家庭医生全科中心，在网站平台搭建的过程中，和可待科技深度合作，建立了我们现在的峰田医疗平台，非常感谢他们的帮助！ </p>
+                                    <!-- 直接显示显示出来 -->
+                                    <button class="c-btn">查看详情</button>
+                                </div>
+                            </li>
+                            <li>
+                                 <!-- 直接加style放大 -->
+                                 <div class="img-box" style ="background: url(img/bsjr.jpg);">
+                        
+                                </div>
+                                <div class="text-box">
+                                    <h5 class="c-tit"><i class="border-top">北欧瑞景</i></h5>
+                                    <!-- p需要切换类 不能添加类 -->
+                                    <p class="c-text">我们是一家做清新优雅北欧行的旅游公司，非常感谢与可待科技的合作，让我们快速搭建起我们的官网，网站做的非常漂亮，非常符合我们旅游公司的感觉！ </p>
+                                    <!-- 直接显示显示出来 -->
+                                    <button class="c-btn">查看详情</button>
+                                </div>
+                            </li>
+                            <li>
+                               <!-- 直接加style放大 -->
+                               <div class="img-box" style ="background: url(img/borj.jpg);">
+                        
+                                </div>
+                                <div class="text-box">
+                                    <h5 class="c-tit"><i class="border-top">博思金融</i></h5>
+                                    <!-- p需要切换类 不能添加类 -->
+                                    <p class="c-text">可待科技是我们在武汉多家网站建设公司中挑选的一家，因为我们非常重视公司官网的建设，下面有很多代理商也需要用到我们的官网，非常感谢可待科技的设计，让我们非常满意，后台操作简单，后续继续合作！ </p>
+                                    <!-- 直接显示显示出来 -->
+                                    <button class="c-btn">查看详情</button>
+                                </div>
+                            </li>
+                            <li>
+                             <!-- 直接加style放大 -->
+                                <div class="img-box" style ="background: url(img/slsd.jpg);">
+                        
+                                </div>
+                                <div class="text-box">
+                                    <h5 class="c-tit"><i class="border-top">北京师联</i></h5>
+                                    <!-- p需要切换类 不能添加类 -->
+                                    <p class="c-text">我们是北京一家教育机构，通过互联网找到了可待科技，然后一合作就是两年多时间，这期间我们一共做了五期的项目，在线视频播放平台，电子书平台，实体书销售平台，试卷测试平台等等，可待科技都帮我们顺利完成。非常感谢他们的努力！ </p>
+                                    <!-- 直接显示显示出来 -->
+                                    <button class="c-btn">查看详情</button>
+                                </div>
+                            </li>
+                            <li>
+                                <!-- 直接加style放大 -->
+                                <div class="img-box" style ="background: url(img/gqt.jpg);">
+                        
+                                </div>
+                                <div class="text-box">
+                                    <h5 class="c-tit">洪<i class="border-top">山共青</i>团</h5>
+                                    <!-- p需要切换类 不能添加类 -->
+                                    <p class="c-text">我们是武汉市洪山区团委，和可待合作两年多，非常感谢他们帮助我们来运营我们的公众号，让我们的宣传工作能够顺利进行，这期间也帮我们策划了很多的活动，效果都还不错，感谢！ </p>
+                                    <!-- 直接显示显示出来 -->
+                                    <button class="c-btn">查看详情</button>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+            <div class="dabox none">
+                <h3 class="kissNeck">战略伙伴</h3>
+                <p class="text4">合作共赢永远是我们团队之间至高追求，我们一直相信同行之前不只有竞争，更多的应该是合作。只有整合好了所有资源，我们大家才能健康的发展，创造更多优秀的产品和服务。我们也真诚的希望有更多的团队和我们合作，成为我们的战略伙伴，成为可待科技战略合作伙伴的条件包括以下几点：</p>
+                <p style="font-size:14px;line-height: 25px;">拥有正确的价值观；<br>
+                    高标准的专业技术团队；<br>
+                    丰富的行业解决方案；<br>
+                    善于沟通，永远站在客户的角度解决问题。</p>
+                <div class="company">
+                    <ul>
+                        <li>
+                            <div class="synopsis fl">
+                                <h3 class="companyName">深圳挚友科技有限公司</h3>
+                                <p style="font-size:14px">挚友科技是一家善于整合海外资源，致力于海外社团搭建和服务的国际化公司。
+                                    <br>
+                                    挚友科技希望更多专注于商务板块的拓展，把技术板块作为和可待科技长久合作的基础，深入的整合团队资源，共同开发海外社交团队类项目。</p>
+                            </div>
+                            <div class="img fr">
+                                <img src="img/shyq.jpg" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="synopsis fl">
+                                <h3 class="companyName">北京六翼信息技术有限公司</h3>
+                                <p style="font-size:14px">六艺互联网应用开发业务，着重于网站策划定制、平面美术设计、与手机端应用开发。由策划、设计、开发、广告平面等核心服务，为众多企业提供互联网业务开展方案。
+                                    <br>
+                                    六艺是在国内最早研发Joomla CMS技术应用的团队，并致力于位国内企业开展Joomla应用提供全面支持。</p>
+                            </div>
+                            <div class="img fr">
+                                <img src="img/bjly.jpg" alt="">
+                            </div>
+                        </li>
+                        <li class="border-bottom">
+                            <div class="synopsis fl">
+                                <h3 class="companyName">Wordpress开发团队</h3>
+                                <p style="font-size:14px">目前国内Wordpress开发团队在逐渐增多，作为以Wordpress团队起家的可待科技也一直与众多国内外wp团队保持密切的合作，共同为这一世界流行的开源系统作出自己贡献！
+
+                                </p>
+                            </div>
+                            <div class="img fr">
+                                <img src="img/wordpress.jpg" alt="">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="dabox none">
+                <h3 class="kissNeck">服务介绍</h3>
+                <p class="text4">客户虐我千百遍，我当客户如初恋。
+                        <br>
+                    我们拥有丰富的行业经验，致力于提供最一流的服务，为我们的每个客户推荐最适合的解决方案，提供最合适的软件产品、运营技巧和推广策略。
+                        <br>
+                    可待科技团队以沟通为服务根本。与绝大多数互联网软件公司不同的是，我们的设计师站在最普通用户体验的角度看待问题。通过严格的质量管理和系统化的定期反馈处理，更新迭代，我们得以了解每个客户的需求和想法，用专业精神确保客户实现理想的目标。</p>
+                <div class="introduce" id='introduce'>
+                    <div class="introduce1" >
+                        <img src="img/1.jpg" alt="" style="width:100%;height:53.4%">
+                        <div class="img-text">
+                            <p>网站建设</p>
+                        </div>
+                        <div class="in-content">
+                            <p>可待科技专业的技术开发团队，将为您提供专业级的网站建设方案（包括企业展示网站，商城B2B,B2C,B2C，微网站，微商城，微信公众号开发和微信小程序开发等等）,并且根据不同客户的行业特点提供各种解决方案和服务。</p>
+                        </div>
+                    </div>
+                    <div class="introduce1">
+                        <img src="img/2.jpg" alt="" style="width:100%;height:53.4%">
+                        <div class="img-text">
+                            <p>微信小程序</p>
+                        </div>
+                        <div class="in-content">
+                            <p>针对移动端进行网站程序开发，目前微信小程序功能日益丰富，它让手机用户更为方便的管理和使用自己想要的应用，不用繁琐的按照传统方式安装App，也不用担心手机容量不足的问题。只要在微信里打开了一个小程序，用完里面的功能退出即可，它不占据您的微信聊天界面，也不占用手机存储空间。本质上，它是一个具备很强功能的网站。但用完即抛的小程序，提高用户使用的便利性。</p>
+                        </div>
+                    </div>
+                    <div class="introduce1">
+                        <img src="img/3.jpg" alt="" style="width:100%;height:53.4%">
+                        <div class="img-text">
+                            <p>公众号运营</p>
+                        </div>
+                        <div class="in-content">
+                            <p>微信公众号运营最重要的是持之以恒的为用户提供价值，分享干货，增加用户粘性，让用户愿意分享。同时微信公众号运营也有几大难题，没定位、没规划、没时间、没效果等等，这样直接导致我们很多公众号的运营人员经常是纸上谈兵，不懂得一步步经营和策划，最终难得出成绩。</p>
+                        </div>
+                    </div>
+                    <div class="introduce1" >
+                        <img src="img/4.jpg" alt="" style="width:100%;height:53.4%">
+                        <div class="img-text">
+                            <p>微网站开发</p>
+                        </div>
+                        <div class="in-content">
+                            <p>微网站将企业信息、服务、产品、活动等内容通过微网页的形式展现给用户,用户只要使用手机可以查看该公司的企业动态、产品信息等。微商城将商城电子商务平台网站进行浓缩，在所有强大功能依旧拥有的同时，为您的手机端用户提供更为舒服和简洁的浏览使用体验。通过PC+移动端为您的网站提供更大的流量带来更多的用户。</p>
+                        </div>
+                    </div>
+                    <div class="introduce1">
+                        <img src="img/5.jpg" alt="" style="width:100%;height:53.4%">
+                        <div class="img-text">
+                            <p>分销系统开发</p>
+                        </div>
+                        <div class="in-content">
+                            <p>多级分销系统开发定制，以线下事业机构为模型，在系统构建整体架构的数据模型，方便组织管理，以移动端为用户主体，pc端为管理者主题来实现分销系统。</p>
+                        </div>
+                    </div>
+                    <div class="introduce1">
+                        <img src="img/6.jpg" alt="" style="width:100%;height:53.4%">
+                        <div class="img-text">
+                            <p>商城系统开发</p>
+                        </div>
+                        <div class="in-content">
+                            <p>商城类电子商务平台类型的网站，适用于想通过互联网搭建B2C网上商城、B2B商业平台、C2C销售平台的企业或者个人； 这种类型的网站有较高的交互性和整体内容布局，功能丰富强大，较高的网站访问速度和安全性能等等...</p>
+                        </div>
+                    </div>
+                    <div class="introduce1">
+                        <img src="img/7.jpg" alt="" style="width:100%;height:53.4%">
+                        <div class="img-text">
+                            <p>平台应用开发</p>
+                        </div>
+                        <div class="in-content">
+                            <p>设计制作平台级应用，多用户终端管理设计，数据整合，内容由用户产生，服务由服务商提供，平台制定规则的整合型生态链应用开发。</p>
+                        </div>
+                    </div>
+                    <div class="introduce1">
+                        <img src="img/8.jpg" alt="" style="width:100%;height:53.4%">
+                        <div class="img-text">
+                            <p>新零售方案</p>
+                        </div>
+                        <div class="in-content">
+                            <p>我们设计制作全套的定制化的服务，提供面向线下零售门店的经营软件，以及互联互通的新零售解决方案。以行业服务为基点，面向不同行业，提供一站式产品服务支持。</p>
+                        </div>
+                    </div>
+                    <div class="introduce1">
+                        <img src="img/9.jpg" alt="" style="width:100%;height:53.4%">
+                        <div class="img-text">
+                            <p>大数据运维</p>
+                        </div>
+                        <div class="in-content">
+                            <p>以大数据可视化为基本要求，通过大量数据demo，建立数据模型，利用机器自学习能力，提升可视化系统指标数据准确性，达到整合大数据得到可视化的效果。</p>
+                        </div>
+                    </div>
+                    <div class="introduce1">
+                        <img src="img/10.jpg" alt="" style="width:100%;height:53.4%">
+                        <div class="img-text">
+                            <p>品牌推广运营</p>
+                        </div>
+                        <div class="in-content">
+                            <p>品牌策划运营是人们为了达成某种特定的目标，借助一定的科学方法和艺术，为决策、计划而构思、设计、制作策划方案的过程。品牌策划运营是使企业品牌或产品品牌在消费者脑海中形成一种个性化的区隔，并使消费者与企业品牌或产品品牌之间形成统一的价值观，从而建立起自己的品牌声浪。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="introduce-list" id="introduce-list">
+                    <ul>
+                        <li>网站建设</li>
+                        <li>微信小程序</li>
+                        <li class="current">公众号运营</li>
+                        <li>微网站开发</li>
+                        <li>分销系统开发</li>
+                        <li>商城系统开发</li>
+                        <li>平台应用开发</li>
+                        <li>新零售方案</li>
+                        <li>大数据运维</li>
+                        <li>品牌推广运营</li>
+                    </ul>
+                </div>
+                <h3 class="kissNeck">为什么选择我们？</h3>
+                <ul class="yuandain">
+                    <li>靠谱，说人话，做人事，站在客户的角度，说更容易明白的话，用客户更能接受和习惯的方式做好事情。</li>
+                    <li>善于沟通，直接有效，不猜测，在向善的前提下，用最直接有效的方式沟通和协作，不互相猜测和挖坑。</li>
+                    <li>技术精湛，每个人对自己领域的技术都有深厚的功底，信手拈来，每个问题我们都愿意比较多钟方法来解决。</li>
+                    <li>执着追求，每个人对自己从事的工作都有坚定和积极向上的使命感，愿意把每一次项目都当成自己在创业。</li>
+                    <li>无可挑剔，每一件出自自己手中的作品，都应该无可挑剔，对自己苛刻，才能创造精品！</li>
+                </ul>
+            </div> 
+        </div>
+    </div>
+    <!-- tab区结束 -->
+    <!-- science可待科技开始 -->
+    <div class="science-tl">
+        <div class="w">
+            <h2>可待科技 <span>官方资讯 →</span></h2>
+            <div class=" s-content2 s-content1 fl">
+                <img src="img/php-336x202.jpg" alt="">
+                <h4><span>可待</span>科技技术部招聘 PHP工程师
+                </h4>
+                <p>职位诱惑： 丰厚的项目奖金，轻松的工作氛围 职位描述： 岗位职责： 1、使用PHP语言开发互联网应用....</p>
+                <button>查看详情</button>
+            </div>
+            <div class="s-content2 s-content1 fl">
+                <img src="img/3-1f914103515w6-334x202.jpg" alt="">
+                <h4><span>可待</span>科技技术部招聘 PHP工程师
+                </h4>
+                <p>职位诱惑： 丰厚的项目奖金，轻松的工作氛围 职位描述： 岗位职责： 1、使用PHP语言开发互联网应用....</p>
+                <button>查看详情</button>
+            </div>
+            <div class=" s-content2 s-content3 s-content1 fl">
+                <img src="img/qd-336x202.jpg" alt="">   
+                <h4><span>可待</span>科技技术部招聘 前端工程师
+                </h4>
+                <p>职位诱惑： 丰厚的项目奖金，轻松的工作氛围 职位描述： 岗位职责： 1、WEB前端界面样式以及与后端....</p>
+                <button>查看详情</button>
+            </div>
+        </div>
+    </div>
+    <!-- science可待科技结束 -->
+    <!-- 尾部开始 -->
+    <div class="footer-tl">
+        <div class="w">
+           <div class="f-top">
+                <div class="ft-left fl">
+                    <div class="f-logo">
+                        <a href="index.html"><img src="img/footer-logo.png" alt=""></a>
+                    </div>
+                    <dl>
+                        <dt><a href="service.html">定制服务</a></dt>
+                        <dd><a href="#">微信小程序</a></dd>
+                        <dd><a href="#">B2C商城</a></dd>
+                        <dd><a href="#">外贸商城</a></dd>
+                        <dd><a href="#">电商平台</a></dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#">产品服务</a></dt>
+                        <dd><a href="#">新零售</a></dd>
+                        <dd><a href="#">可以购</a></dd>
+                        <dd><a href="#">可以付</a></dd>
+                        <dd><a href="#">API</a></dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#">可待学院</a></dt>
+                        <dd><a href="#">学院简介</a></dd>
+                        <dd><a href="#">学院博客</a></dd>
+                        <dd><a href="#">视频教程</a></dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#">关于我们</a></dt>
+                        <dd><a href="#">公司简介</a></dd>
+                        <dd><a href="#">公司新闻</a></dd>
+                        <dd><a href="#">相关问答</a></dd>
+                        <dd><a href="#">反馈留言</a></dd>
+                    </dl>
+                </div>
+                <div class="ft-rihth fr">
+                    <div class="ftr-nav">
+                        <ul>
+                                <li><a href="index.html">首页</a></li>
+                                <li><a href="service.html">定制服务</a></li>
+                                <li><a href="website.html">网站建设</a></li>
+                                <li><a href="popularize.html">推广运营</a></li>
+                                <li><a href="#">公司团队</a></li>
+                                <li><a href="#">站点地图</a></li>
+                        </ul>
+                    </div>
+                    <p class="tit">联系我们</p>
+                    <div class="erweima fl">
+                        <img src="img/kissnecktech.jpg" alt="">
+                    </div>
+                    <div class="xuxian fl">
+                        <i class="iconfont">&#xe634;</i>
+                        <i class="iconfont">&#xe67a;</i>
+                        <i class="iconfont">&#xe619;</i>
+                    </div>
+                    <div class="contact fl">
+                        <p>公司邮箱：   kissneck@163.com</p>
+                        <p>业务客服：   QQ 2786333917</p>
+                        <p>技术客服：   QQ 1635806792</p>
+                        <p>客服电话：   027-87688212</p>
+                    </div>
+                </div>
+           </div>
+           <div class="phone w">
+            售前电话：18171267166 
+            &nbsp;&nbsp;&nbsp;
+            售后电话：17786487182
+            &nbsp;&nbsp;&nbsp;
+            技术支持：13971068050
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            公司地址：湖北省武汉市洪山区珞狮南路南国大家装A2栋1808室
+           </div>
+           
+        </div>
+        <div class="f-down">
+            Copyright © 2010-2016 KISSNECK. All rights reserved | 
+            <a href="#">备案：鄂ICP备 15008768号</a>
+            |
+            <a href="#">免责声明</a>
+            |
+            <a href="#">隐私政策</a>
+            |
+            <a href="#">风险声明</a>
+            |
+            <a href="#">服务器：腾讯云</a>
+            |
+            <a href="#">旧版官网</a>
+            
+           </div>   
+    </div>
+    
+    <!-- 尾部结束 -->
+    <script>
+        var before;
+        window.onscroll=function(){//鼠标滚动事件
+            var relation =document.getElementById('relation');
+            var broadsideNav=document.getElementById('broadside-nav');
+            var up=before;//记下原来的值
+            before=document.documentElement.scrollTop;
+            relation.style.height='158px';
+            if(before>=450){
+                broadsideNav.style.width='54px';
+            } else {
+                broadsideNav.style.width='0px';
+            }
+            if(before<up){//新值比原来的值小 所以页面是向上滚动 图片消失
+                relation.style.height='0px';
+            }
+        }
+       var loginBtn=document.getElementById('loginBtn');  //登录按钮
+       var bg=document.getElementById('bg');  //遮盖层
+       var login=document.getElementById('login');  //登录页
+       var guanbi=document.getElementsByClassName('guanbi');  //关闭按钮
+       var wangji=document.getElementById('wangji');  //忘记密码按钮
+       var register=document.getElementById('register'); //注册页
+       var registerBtn=document.getElementById('registerBtn'); //注册按钮
+       var retrievePassword=document.getElementById('retrievePassword'); //忘记密码页
+       var body=document.getElementsByTagName('body');
+       loginBtn.onclick=function(){
+           bg.style.display='block';
+           login.style.display='block';
+           body[0].style.height='100%';
+           body[0].style.overflow='hidden';
+       };
+       bg.onclick=function(){
+            bg.style.display='none';
+            login.style.display='none';
+            register.style.display='none';
+            retrievePassword.style.display='none';
+            body[0].style.overflow='initial';
+       };
+       wangji.onclick=function(){
+            bg.style.display='block';
+            retrievePassword.style.display='block';
+            login.style.display='none';
+            body[0].style.height='100%';
+            body[0].style.overflow='hidden';
+       }
+       for(var i=0;i<guanbi.length;i++){
+            guanbi[i].onclick=function(){
+             bg.style.display='none';
+             this.parentNode.parentNode.style.display='none';
+             body[0].style.overflow='initial';
+            }
+       }
+       registerBtn.onclick=function(){
+            bg.style.display='block';
+            register.style.display='block';
+            body[0].style.height='100%';
+            body[0].style.overflow='hidden';
+       }
+    </script>
+     <script src="js/lunbotuxhy.js"></script>
+     <script src="js/navxhy.js"></script>
+</body>
+</html>

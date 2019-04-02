@@ -1,0 +1,1229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/zzhbase.css">
+    <link rel="stylesheet" href="css/zzhindex.css">
+    <link rel="stylesheet" href="font/iconfont.css">
+</head>
+
+<body>
+
+    <div id="xbg"></div>
+    <div id="xlogin">
+        <div class="xl-tit">会员登录 <em class="fr xguanbi">关闭</em></div>
+        <div class="xdengluc">
+            <div class="fl">
+                <img src="img/login.jpg" alt="">
+            </div>
+            <div class="fl xpad">
+                <ul>
+                    <li>
+                        <input type="text" value="用户名/邮箱">
+                    </li>
+                    <li>
+                        <input type="text" value="密码">
+                    </li>
+                    <li>
+                        <input type="text" value="验证码">
+                    </li>
+                </ul>
+                <img src="img/captcha.php" alt="" class='xyanzhengma'>
+                <button class="xanniu">立即登录</button>
+                <span class="xwangji" id="xwangji">忘记密码</span>
+            </div>
+        </div>
+    </div>
+    <div id="xregister">
+        <div class="xl-tit">会员注册 <em class="fr xguanbi">关闭</em></div>
+        <div class="xregister">
+            <div class="fl">
+                <img src="img/register.jpg" alt="">
+            </div>
+            <div class="fl xpad">
+                <ul>
+                    <li>
+                        <input type="text" value="用户名" class="xinputText">
+                    </li>
+                    <li>
+                        <input type="text" value="邮箱" class="xinputText">
+                    </li>
+                    <li>
+                        <input type="text" value="密码" class="xinputText">
+                    </li>
+                    <li>
+                        <input type="text" value="重复密码" class="xinputText">
+                    </li>
+                    <li class="xunborder-b">
+                        <input type="checkbox">
+                        我已阅读并同意《注册协议》
+                    </li>
+                    <li>
+                        <input type="text" value="输入验证码" class="xinputText">
+                    </li>
+                </ul>
+                <img src="img/captcha.php" alt="" class='xyanzhengma'>
+                <button class="xanniu">立即注册</button>
+            </div>
+        </div>
+    </div>
+    <div id="xretrievePassword">
+        <div class="xl-tit">找回密码 <em class="xfr xguanbi">关闭</em></div>
+        <div class="xregister">
+            <div class="fl">
+                <img src="img/forgotpwd.jpg" alt="">
+            </div>
+            <div class="fl xpad">
+                <ul>
+                    <li>
+                        <input type="text" value="请输入邮箱" class="xinputText">
+                    </li>
+                </ul>
+                <button class="xanniu">提交</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 顶部导航 -->
+    <div class="topnav">
+        <div class="w">
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li class="menu">
+                    <a href="#">可待科技</a>
+                    <div class="ul">
+                        <a href="brief.html">公司简介</a>
+                        <a href="kedaixinwen.html">公司新闻</a>
+                        <a href="#">常见问题</a>
+                        <a href="#">联系我们</a>
+                    </div>
+                </li>
+                <li><a href="定制服务.html">定制服务</a></li>
+                <li class="menu clearFix">
+                    <a href="#">产品服务</a>
+                    <div class="ul">
+                        <a href="lingshouye.html">新零售</a>
+                        <a href="#">可以付</a>
+                        <a href="kyg.html">可以购</a>
+                    </div>
+                </li>
+                <li><a href="website.html">网站建设</a></li>
+                <li><a href="yc-popularize.html">推广运营</a></li>
+                <li><a href="#">成功案例</a></li>
+                <li class="menu">
+                    <a href="#">可待学院</a>
+                    <div class="ul">
+                        <a href="#">学院简介</a>
+                        <a href="#">学院博客</a>
+                        <a href="#">视频教程</a>
+                    </div>
+                </li>
+            </ul>
+            <!-- 登录&注册 -->
+            <div class="register">
+                <a href="#" id="dl">登录</a>
+                <a href="#" id="zc">注册</a>
+            </div>
+        </div>
+    </div>
+    <!--banner-->
+    <div class="banner">
+        <ul>
+            <li>
+                <div class="lfdiv">
+                    <img src="img/banner-logo.png" alt="">
+                    <a href="#">观看视频</a>
+                </div>
+            </li>
+            <li>
+                <video src="img/index-video1.mp4" autoplay muted loop>
+
+                </video>
+            </li>
+            <li>
+                <video src="img/index-video2.mp4" autoplay muted loop></video>
+            </li>
+            <li>
+                <video autoplay muted loop>
+                    <source src="img/index-video3.mp4" type="video/mp4">
+                </video>
+            </li>
+        </ul>
+    </div>
+    <!--myserver-->
+    <div class="myserver">
+        <div class="w">
+            <div class="sevrtop header1">
+                <h3 class="fw headercolor2">我们的服务</h3>
+                <p class="headercolor2">立足新零售和云计算,做更好的电子商务服务商</p>
+            </div>
+            <div class="sevrbottom">
+                <ul>
+                    <li>
+
+                        <div class="boxtop">
+                            <img src="img/index_03.jpg" alt="">
+                        </div>
+                        <div class="boxbottom">
+                            <h3>小程序定制</h3>
+                            <p>微信社交裂变式爆发，流量红利巨大，千亿级市场。可待科技为您量身定制最优质产品，已为300+企业提供个性化定制开发服务，快来定制您的小程序吧！</p>
+                            <a href="#">了解更多</a>
+                        </div>
+
+                    </li>
+                    <li>
+
+                        <div class="boxtop">
+                            <img src="img/index_05.jpg" alt="">
+                        </div>
+                        <div class="boxbottom">
+                            <h3>商城系统开发</h3>
+                            <p>入驻平台，各项收费高，平台限制越来越多，不如试试独立品牌商城，打造自己的在线销售平台，让更多代理商，分销商入驻自己的商城平台。</p>
+                            <a href="#">了解更多</a>
+                        </div>
+
+                    </li>
+                    <li>
+                        <div class="boxtop">
+                            <img src="img/index_07.jpg" alt="">
+                        </div>
+                        <div class="boxbottom">
+                            <h3>推广运营</h3>
+                            <p>再优秀的产品，如果没有好的推广和运营，那将是一种巨大的浪费，如果您擅长做做产品，对推广不太在行，那请交给我们团队帮您悉心打理。</p>
+                            <a href="#">了解更多</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 我们的使命 -->
+    <div class="mission clearFix">
+        <div class="w">
+            <div class="misstop header1">
+                <h3 class="fw headercolor1">我们的使命</h3>
+                <p class="headercolor1">为每一位选择可待科技的客户创造最大的价值！</p>
+            </div>
+            <div class="missbottom">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="img/index_14.png" alt="">
+                            <span>遵守职业道德</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/index_11.png" alt="">
+                            <span>团队协作</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/index_17.png" alt="">
+                            <span>真挚的服务心</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/index_14.png" alt="">
+                            <span>和客户保持联系</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 我们的历程 -->
+    <div class="myscourse">
+        <div class="w">
+            <div class="scourse header1">
+                <h3 class="fw headercolor2">我们的历程</h3>
+                <p class="headercolor2">KissNeck一路走来，上下求索，不忘初心！</p>
+            </div>
+            <div class="coursenav clearFix">
+                <img src="img/city_line.jpg" alt="">
+                <ul>
+                    <li>
+                        <a href="javascript:;" class="nowbj">
+                            <img src="" alt="">
+                            <span>5月5日</span><span>成立</span></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="img/city_disc.jpg" alt="">
+                            <span>10月1日</span><span>智能邦</span></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="img/city_disc.jpg" alt="">
+                            <span>12月1日</span><span>拖拖建站</span></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="img/city_disc.jpg" alt="">
+                            <span>3月1日</span><span>可待学院</span></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="img/city_disc.jpg" alt="">
+                            <span>9月1日</span><span>Keshop</span></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="img/city_disc.jpg" alt="">
+                            <span>12月10日</span><span>可以付</span></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="img/city_disc.jpg" alt="">
+                            <span>1月10日</span><span>小程序</span></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="img/city_disc.jpg" alt="">
+                            <span>9月24日</span><span>小餐吧</span></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="img/city_disc.jpg" alt="">
+                            <span>3月25日</span><span>新零售</span></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="setuptime">
+                <ul>
+                    <li class="show">
+                        <div class="setupl">
+                            成立日
+                        </div>
+                        <div class="setupr">
+                            <dl>
+                                <dt>主题 ：</dt>
+                                <dd>可待科技开发的一款拖拽式建站系统</dd>
+                                <dt>时间 : &nbsp;</dt>
+                                <dd>2015年12月1日</dd>
+                                <dt>地点 ：</dt>
+                                <dd>武汉岳家嘴，菩提金商务中心</dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li>
+
+                        <div class="setupl">
+                            智能邦主题
+                        </div>
+                        <div class="setupr">
+                            <dl>
+                                <dt>主题 ：</dt>
+                                <dd>可待科技创业的第一个项目</dd>
+                                <dt>时间 : &nbsp;</dt>
+                                <dd>2015年10月1日</dd>
+                                <dt>地点 ：</dt>
+                                <dd>武汉岳家嘴，菩提金商务中心</dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="setupl">
+                            拖拖建站
+                        </div>
+                        <div class="setupr">
+                            <dl>
+                                <dt>主题 ：</dt>
+                                <dd>可待科技开发的一款拖拽式建站系统</dd>
+                                <dt>时间 : &nbsp;</dt>
+                                <dd>2015年12月1日</dd>
+                                <dt>地点 ：</dt>
+                                <dd>武汉岳家嘴，菩提金商务中心</dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="setupl">
+                            可待学院
+                        </div>
+                        <div class="setupr">
+                            <dl>
+                                <dt>主题 ：</dt>
+                                <dd>可待科技创业的第二个项目</dd>
+                                <dt>时间 : &nbsp;</dt>
+                                <dd>2016年3月1日</dd>
+                                <dt>地点 ：</dt>
+                                <dd>武汉理工大学创业园</dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="setupl">
+                            Keshop
+                        </div>
+                        <div class="setupr">
+                            <dl>
+                                <dt>主题 ：</dt>
+                                <dd>可待科技开发的第一款B2C商城系统Keshop1.0正式上线</dd>
+                                <dt>时间 : &nbsp;</dt>
+                                <dd>2016年9月1日</dd>
+                                <dt>地点 ：</dt>
+                                <dd>武汉理工大学创业园</dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="setupl">
+                            可以付
+                        </div>
+                        <div class="setupr">
+                            <dl>
+                                <dt>主题 ：</dt>
+                                <dd>可待科技开发的一款集合支付宝和微信支付的第四方免备案支付系统</dd>
+                                <dt>时间 : &nbsp;</dt>
+                                <dd>2015年12月1日</dd>
+                                <dt>地点 ：</dt>
+                                <dd>武汉理工大学创业园</dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="setupl">
+                            小程序
+                        </div>
+                        <div class="setupr">
+                            <dl>
+                                <dt>主题 ：</dt>
+                                <dd>可待科技开始开发的第一套小程序正式上线</dd>
+                                <dt>时间 : &nbsp;</dt>
+                                <dd>2017年1月10日</dd>
+                                <dt>地点 ：</dt>
+                                <dd>武汉理工大学创业园</dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="setupl">
+                            小餐吧
+                        </div>
+                        <div class="setupr">
+                            <dl>
+                                <dt>主题 ：</dt>
+                                <dd>可待科技开发的餐饮行业多店版外卖点餐小程序</dd>
+                                <dt>时间 : &nbsp;</dt>
+                                <dd>9月24日 （周六）</dd>
+                                <dt>地点 ：</dt>
+                                <dd>武汉岳家嘴，菩提金商务中心</dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="setupl">
+                            新零售
+                        </div>
+                        <div class="setupr">
+                            <dl>
+                                <dt>主题 ：</dt>
+                                <dd>可待科技正在努力开拓的互联网新蓝海……</dd>
+                                <dt>时间 : &nbsp;</dt>
+                                <dd>3月25日</dd>
+                                <dt>地点 ：</dt>
+                                <dd>新办公室，南国大家装A栋1808</dd>
+                            </dl>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 服务场景 -->
+    <div class="scene">
+        <div class="w">
+            <div class="misstop header1">
+                <h3 class="fw headercolor2">服务场景</h3>
+                <p class="headercolor2">可待科技的每一项服务，都有具体的实用价值！</p>
+            </div>
+            <ul>
+                <li class="border"><a href="javascript:;">微信小程序 </a></li>
+                <li><a href="javascript:;">官方网站 </a></li>
+                <li><a href="javascript:;">商城平台</a></li>
+            </ul>
+            <div class="serlist clearFix">
+                <ul class="show">
+                    <li>
+                        <a href="#">
+                            <img src="img/index-sch-xcb.jpg" alt="">
+                            <p>预约类小程序</p>
+                            <p>所属行业：美容、培训、教育、水果、药店等</p>
+                            <p>代表案例：蓝火筑梦教育</p>
+                            <p>开发周期：10天</p>
+                            <p>售后服务：免费1年</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/index-sch-71sp.jpg" alt="">
+                            <p>商城类小程序</p>
+                            <p>所属行业：B2C独立商城、在线小商超等</p>
+                            <p>代表案例：71shop</p>
+                            <p>开发周期：10天</p>
+                            <p>售后服务：免费1年</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/index-sch-lhzm.jpg" alt="">
+                            <p>预约类小程序</p>
+                            <p>所属行业：美容、培训、教育、水果、药店等</p>
+                            <p>代表案例：蓝火筑梦教育</p>
+                            <p>开发周期：10天</p>
+                            <p>售后服务：免费1年</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="img/anli01.jpg" alt="">
+                            <p>家装平台官网</p>
+                            <p>所属行业：家装类营销型网站</p>
+                            <p>代表案例：巴迪斯官网</p>
+                            <p>开发周期：10天</p>
+                            <p>售后服务：免费1年</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/anli02.jpg" alt="">
+                            <p>活动庆典官网</p>
+                            <p>所属行业：大中型企业活动庆典类网站</p>
+                            <p>代表案例：通用汽车20周年庆官网</p>
+                            <p>开发周期：10天</p>
+                            <p>售后服务：免费1年</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/anli03.jpg" alt="">
+                            <p>教育机构官网</p>
+                            <p>所属行业：大中型国际教育机构多语言网站</p>
+                            <p>代表：UKSC教育机构官网</p>
+                            <p>开发周期：10天</p>
+                            <p>售后服务：免费1年</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="img/index-sch-ftyl.jpg" alt="">
+                            <p>企业B2C商城</p>
+                            <p>所属行业：医药类网站</p>
+                            <p>代表案例：峰田医疗官网</p>
+                            <p>开发周期：10天</p>
+                            <p>售后服务：免费1年</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/index-sch-ks.jpg" alt="">
+                            <p>入驻型B2B2C商城</p>
+                            <p>所属行业：电子产品、衣服类商城网站</p>
+                            <p>代表案例：Keshop高级版</p>
+                            <p>开发周期：10天</p>
+                            <p>售后服务：免费1年</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/index-sch-fr.jpg" alt="">
+                            <p>外贸出口类B2C商城</p>
+                            <p>所属行业：外贸出口类商城网站</p>
+                            <p>代表案例：kinzd钱包商城</p>
+                            <p>开发周期：10天</p>
+                            <p>售后服务：免费1年</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 提交需求 -->
+    <div class="demand">
+        <div class="w">
+            <h3 class="fw">需求评估、初步定价</h3>
+            <div class="demandtop">
+                <div class="serlis">
+                    <span>服务类型 : </span>
+                    <select name="" id="">
+                        <option value="">个人</option>
+                        <option value="">个人</option>
+                        <option value="">个人</option>
+                    </select>
+                </div>
+                <div class="serlis">
+                    <span>服务类型 : </span>
+                    <select name="" id="">
+                        <option value="">个人</option>
+                        <option value="">个人</option>
+                        <option value="">个人</option>
+                    </select>
+                </div>
+                <div class="serlis">
+                    <span>服务类型 : </span>
+                    <select name="" id="">
+                        <option value="">个人</option>
+                        <option value="">个人</option>
+                        <option value="">个人</option>
+                    </select>
+                </div>
+                <div class="serlis">
+                    <span>服务类型 : </span>
+                    <select name="" id="">
+                        <option value="">个人</option>
+                        <option value="">个人</option>
+                        <option value="">个人</option>
+                    </select>
+                </div>
+            </div>
+            <div class="demandbottom">
+                <span>完成时间 ： </span>
+                <label for="">
+                    <input type="radio" name="time" value>
+                    不限
+                </label>
+                <label for="">
+                    <input type="radio" name="time" value>
+                    不限
+                </label>
+                <label for="">
+                    <input type="radio" name="time" value>
+                    不限
+                </label>
+                <label for="">
+                    <input type="radio" name="time" value>
+                    不限
+                </label>
+                <label for="">
+                    <input type="radio" name="time" value>
+                    不限
+                </label>
+            </div>
+            <div class="demandbtn">
+                <a href="#">提交需求</a>
+            </div>
+        </div>
+    </div>
+    <!-- 我们的团队 -->
+    <div class="myteam">
+        <div class="s">
+            <div class="scourse header1">
+                <h3 class="fw headercolor2">我们的团队</h3>
+                <p class="headercolor2">合作是一种信任，客户的成功就是我们最大的回报！</p>
+            </div>
+            <ul>
+                <li class="b-r b-b">
+                    <div class="shade">
+                        <span class="shade-t">
+                            <p>项金荣</p>
+                            <p> 团队职位：Web前端工程师</p>
+                            <p> 擅长领域：H5、微信小程序、js</p>
+                        </span>
+                        <span class="shade-b">
+                            <p>主要负责公司的前端开发工作，做过的项目主要是企业官网和电商系统，PC端、web端以及微信小程序都有相....</p>
+                            <a href="#">[了解更多]</a>
+                        </span>
+                    </div>
+                    <a href="#">
+                        <img src="img/xjr-250x250.png" alt="">
+                        <p>项金荣</p>
+                        <p>团队职位：Web前端工程师</p>
+                        <p>擅长领域：H5、微信小程序、js</p>
+                    </a>
+                </li>
+                <li class="b-r b-b">
+                    <div class="shade">
+                        <span class="shade-t">
+                            <p>雷文</p>
+                            <p> 团队职位：业务经理</p>
+                            <p> 擅长领域：市场营销和运营</p>
+                        </span>
+                        <span class="shade-b">
+                            <p>主要负责公司的前端开发工作，做过的项目主要是企业官网和电商系统，PC端、web端以及微信小程序都有相....</p>
+                            <a href="#">[了解更多]</a>
+                        </span>
+                    </div>
+                    <a href="#">
+                        <img src="img/lw-250x250.png" alt="">
+                        <p>雷文</p>
+                        <p>团队职位：业务经理</p>
+                        <p>擅长领域：市场营销和运营</p>
+                    </a>
+                </li>
+                <li class="b-b">
+                    <div class="shade">
+                        <span class="shade-t">
+                            <p>胡杰</p>
+                            <p> 团队职位：PHP工程师</p>
+                            <p> 擅长领域：PHP、wordpress开发、小程序开发</p>
+                        </span>
+                        <span class="shade-b">
+                            <p>1、根据公司和部门销售目标制定相应的销售计划，开拓、维护目标市场和完成销售指标； 2、维护已有的渠道....</p>
+                            <a href="#">[了解更多]</a>
+                        </span>
+                    </div>
+                    <a href="#">
+                        <img src="img/hj-250x250.png" alt="">
+
+
+
+                        <p>胡杰</p>
+                        <p>团队职位：PHP工程师</p>
+                        <p>擅长领域：PHP、wordpress开发、小程序开发</p>
+                    </a>
+                </li>
+                <li class="b-r">
+                    <div class="shade">
+                        <span class="shade-t">
+                            <p>王鹏</p>
+                            <p> 团队职位：产品运营工程师</p>
+                            <p> 擅长领域：产品市场运营和推广、方案策划</p>
+                        </span>
+                        <span class="shade-b">
+                            <p>有3年以上电商APP及微信运营推广及分析策划经验； 精通iOS、Android平台的运营模式，有Ap....</p>
+                            <a href="#">[了解更多]</a>
+                        </span>
+                    </div>
+                    <a href="#">
+
+
+
+                        <img src="img/wp-250x250.png" alt="">
+                        <p>王鹏</p>
+                        <p>团队职位：产品运营工程师</p>
+                        <p>擅长领域：产品市场运营和推广、方案策划</p>
+                    </a>
+                </li>
+                <li class="b-r">
+                    <div class="shade">
+                        <span class="shade-t">
+                            <p>熊思敏</p>
+                            <p> 团队职位：UI设计师</p>
+                            <p> 擅长领域：UI设计、视频编辑、网页设计</p>
+                        </span>
+                        <span class="shade-b">
+                            <p>主要负责公司的网页设计，ui设计，能手绘与板绘， 熟悉各种设计软件，设计风格多样化。 设计项目涉及到....</p>
+                            <a href="#">[了解更多]</a>
+                        </span>
+                    </div>
+                    <a href="#">
+
+
+
+                        <img src="img/xsm-250x250.png" alt="">
+                        <p>熊思敏</p>
+                        <p>团队职位：UI设计师</p>
+                        <p>擅长领域：UI设计、视频编辑、网页设计</p>
+                    </a>
+                </li>
+                <li>
+                    <div class="shade">
+                        <span class="shade-t">
+                            <p>项金荣</p>
+                            <p> 团队职位：Web前端工程师</p>
+                            <p> 擅长领域：H5、微信小程序、js</p>
+                        </span>
+                        <span class="shade-b">
+                            <p>主要负责公司的前端开发工作，做过的项目主要是企业官网和电商系统，PC端、web端以及微信小程序都有相....</p>
+                            <a href="#">[了解更多]</a>
+                        </span>
+                    </div>
+                    <a href="#">
+                        <img src="img/yhw-250x250.png" alt="">
+                        <p>杨宏威</p>
+                        <p>团队职位 : 运营工程师</p>
+                        <p>擅长职位 : 微信公众号运营,活动策划</p>
+                    </a>
+                </li>
+            </ul>
+            <div class="myteams">
+                <a href="#">
+                    更多成员
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- 可待资讯 -->
+    <div class="kdmessage">
+        <div class="w">
+            <div class="scourse header1">
+                <h3 class="fw headercolor2">可待资讯</h3>
+                <p class="headercolor2">关注可待科技，从这里开始。</p>
+            </div>
+            <div class="message">
+                <div class="messagel">
+                    <div class="metite">
+                        <span>标题</span>
+                        <span>作者</span>
+                        <span>时间</span>
+                    </div>
+                    <h5>可待科技资讯</h5>
+                    <div class="messalist" id="messalisttop">
+                        <ul class="clearFix">
+                            <li>
+                                <span><a href="#">可待科技官网改版上线啦</a></span>
+                                <span>可待科技2017-09-04</span>
+                                <span>05:09:58</span>
+                            </li>
+                            <li>
+                                <span><a href="#">可待科技2017年第四季度产品布局</a></span>
+                                <span>可待科技2017-10-12</span>
+                                <span>10:10:58</span>
+                            </li>
+                            <li>
+                                <span><a href="#">如何找到靠谱的小程序开发公司</a></span>
+                                <span>可待科技2017-09-16</span>
+                                <span>10:09:51</span>
+                            </li>
+                            <li>
+                                <span><a href="#">可待科技官网改版上线啦</a></span>
+                                <span>可待科技2017-09-04</span>
+                                <span>05:09:58</span>
+                            </li>
+                            <li>
+                                <span><a href="#">可待科技2017年第四季度产品布局</a></span>
+                                <span>可待科技2017-10-12</span>
+                                <span>10:10:58</span>
+                            </li>
+                            <li>
+                                <span><a href="#">如何找到靠谱的小程序开发公司</a></span>
+                                <span>可待科技2017-09-16</span>
+                                <span>10:09:51</span>
+                            </li>
+                            <li>
+                                <span><a href="#">可待科技官网改版上线啦</a></span>
+                                <span>可待科技2017-09-04</span>
+                                <span>05:09:58</span>
+                            </li>
+                            <li>
+                                <span><a href="#">可待科技2017年第四季度产品布局</a></span>
+                                <span>可待科技2017-10-12</span>
+                                <span>10:10:58</span>
+                            </li>
+                            <li>
+                                <span><a href="#">如何找到靠谱的小程序开发公司</a></span>
+                                <span>可待科技2017-09-16</span>
+                                <span>10:09:51</span>
+                            </li>
+                            <li>
+                                <span><a href="#">可待科技官网改版上线啦</a></span>
+                                <span>可待科技2017-09-04</span>
+                                <span>05:09:58</span>
+                            </li>
+                            <li>
+                                <span><a href="#">可待科技2017年第四季度产品布局</a></span>
+                                <span>可待科技2017-10-12</span>
+                                <span>10:10:58</span>
+                            </li>
+                            <li>
+                                <span><a href="#">如何找到靠谱的小程序开发公司</a></span>
+                                <span>可待科技2017-09-16</span>
+                                <span>10:09:51</span>
+                            </li>
+                            <li>
+                                <span><a href="#">可待科技官网改版上线啦</a></span>
+                                <span>可待科技2017-09-04</span>
+                                <span>05:09:58</span>
+                            </li>
+                            <li>
+                                <span><a href="#">可待科技2017年第四季度产品布局</a></span>
+                                <span>可待科技2017-10-12</span>
+                                <span>10:10:58</span>
+                            </li>
+                            <li>
+                                <span><a href="#">如何找到靠谱的小程序开发公司</a></span>
+                                <span>可待科技2017-09-16</span>
+                                <span>10:09:51</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="messager">
+                    <div class="metite">
+                        <span>标题</span>
+                        <span>作者</span>
+                        <span>时间</span>
+                    </div>
+                    <h5>可待科技资讯</h5>
+                    <div class="messalist" id="messalistb">
+                        <ul class="clearFix">
+                            <li>
+                                <span><a href="#">可待科技官网改版上线啦</a></span>
+                                <span>可待科技2017-09-04</span>
+                                <span>05:09:58</span>
+                            </li>
+                            <li>
+                                <span><a href="#">可待科技2017年第四季度产品布局</a></span>
+                                <span>可待科技2017-10-12</span>
+                                <span>10:10:58</span>
+                            </li>
+                            <li>
+                                <span><a href="#">如何找到靠谱的小程序开发公司</a></span>
+                                <span>可待科技2017-09-16</span>
+                                <span>10:09:51</span>
+                            </li>
+                            <li>
+                                <span><a href="#">可待科技官网改版上线啦</a></span>
+                                <span>可待科技2017-09-04</span>
+                                <span>05:09:58</span>
+                            </li>
+                            <li>
+                                <span><a href="#">可待科技2017年第四季度产品布局</a></span>
+                                <span>可待科技2017-10-12</span>
+                                <span>10:10:58</span>
+                            </li>
+                            <li>
+                                <span><a href="#">如何找到靠谱的小程序开发公司</a></span>
+                                <span>可待科技2017-09-16</span>
+                                <span>10:09:51</span>
+                            </li>
+                            <li>
+                                <span><a href="#">可待科技官网改版上线啦</a></span>
+                                <span>可待科技2017-09-04</span>
+                                <span>05:09:58</span>
+                            </li>
+                            <li>
+                                <span><a href="#">可待科技2017年第四季度产品布局</a></span>
+                                <span>可待科技2017-10-12</span>
+                                <span>10:10:58</span>
+                            </li>
+                            <li>
+                                <span><a href="#">如何找到靠谱的小程序开发公司</a></span>
+                                <span>可待科技2017-09-16</span>
+                                <span>10:09:51</span>
+                            </li>
+                            <li>
+                                <span><a href="#">可待科技官网改版上线啦</a></span>
+                                <span>可待科技2017-09-04</span>
+                                <span>05:09:58</span>
+                            </li>
+                            <li>
+                                <span><a href="#">可待科技2017年第四季度产品布局</a></span>
+                                <span>可待科技2017-10-12</span>
+                                <span>10:10:58</span>
+                            </li>
+                            <li>
+                                <span><a href="#">如何找到靠谱的小程序开发公司</a></span>
+                                <span>可待科技2017-09-16</span>
+                                <span>10:09:51</span>
+                            </li>
+                            <li>
+                                <span><a href="#">可待科技官网改版上线啦</a></span>
+                                <span>可待科技2017-09-04</span>
+                                <span>05:09:58</span>
+                            </li>
+                            <li>
+                                <span><a href="#">可待科技2017年第四季度产品布局</a></span>
+                                <span>可待科技2017-10-12</span>
+                                <span>10:10:58</span>
+                            </li>
+                            <li>
+                                <span><a href="#">如何找到靠谱的小程序开发公司</a></span>
+                                <span>可待科技2017-09-16</span>
+                                <span>10:09:51</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="scourse header1">
+                <h3 class="fw headercolor2">我们的口碑</h3>
+                <p class="headercolor2">客户给予我们的肯定，是我们执着前进的动力！</p>
+            </div>
+        </div>
+    </div>
+    <!-- 我们的口碑 -->
+    <div class="bannerlb">
+        <ul>
+            <li>
+                <a href="#">
+                    <p>
+                        我们是大唐电力集团的工会组织，我们下属员工有两万多人，平时大家活动和培训都比较多，一直没有一个很好的方式把大家聚集起来，一起展现组织的风采。通过与可待科技的合作，了解到小程序非常适合我们，因为厂里的员工年纪都比较大，使用微信比较方便，小程序上线后，收到大家一致好评，大家在我们小程序上非常活跃，感谢可待科技给予我们的帮助！</p>
+                    <span>------大唐电力集团灞桥热电厂</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <p>我们跟可待科技合作已经两年多了，从第一次中标合作开始，到现在达成深度合作伙伴关系，可待科技的设计水平、开发能力都是值得认可的。可待科技每个技术人员专业负责，祝福可待科技越来越好。 </p>
+                    <span>------热电厂</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <p>
+                        我们是一家英国公司，做跨境留学教育的，今年成立中国分公司。对于中国公司的官网总部非常的重视，可待科技在网站定制方面非常专业，总部最终从10对家投标公司选择与可待合作。结果让我们非常吃惊，可待科技的设计和制作水平超出了我们的预期，可待科技的设计和项目开发效率让我们钦佩。</p>
+                    <span>------IOUIS</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <p>
+                        我们是大唐电力集团的工会组织，我们下属员工有两万多人，平时大家活动和培训都比较多，一直没有一个很好的方式把大家聚集起来，一起展现组织的风采。通过与可待科技的合作，了解到小程序非常适合我们，因为厂里的员工年纪都比较大，使用微信比较方便，小程序上线后，收到大家一致好评，大家在我们小程序上非常活跃，感谢可待科技给予我们的帮助！</p>
+                    <span>------大唐电力集团灞桥热电厂</span>
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li><span class="nowcolor"></span></li>
+            <li><span></span></li>
+            <li><span></span></li>
+        </ul>
+    </div>
+    <!-- 垂直行业解决方案 -->
+    <div class="scheme">
+        <div class="w">
+            <div class="scourse header1">
+                <h3 class="fw headercolor2">垂直行业解决方案</h3>
+                <p class="headercolor2">以行业服务为基点，面向不同行业，提供一站式产品服务支持</p>
+            </div>
+            <div class="boxTab">
+                <ul>
+                    <li class="show">
+                        <div class="tlis">
+                            <p>可待微商城</p>
+                            <p>全行业的移动电商解决方案完整的在线开店、客户管理、营销推广和经营分析工具</p>
+                            <a href="#">查看详情</a>
+                        </div>
+                        <a href="#"><img src="img/index_29.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <div class="tlis">
+                            <p>可待零售</p>
+                            <p>面向线下零售门店的经营软件 互联互通的新零售解决方案</p>
+                            <a href="#">查看详情</a>
+                        </div>
+                        <a href="#"><img src="img/linshou.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <div class="tlis">
+                            <p> 可待餐饮</p>
+                            <p> 面向线下餐饮门店，简单高效的门店经营和在线营销工具 助力餐饮商家</p>
+                            <a href="#">查看详情</a>
+                        </div>
+                        <a href="#"><img src="img/canyin.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <div class="tlis">
+                            <p>可待微商城</p>
+                            <p>全行业的移动电商解决方案完整的在线开店、客户管理、营销推广和经营分析工具</p>
+                            <a href="#">查看详情</a>
+                        </div>
+                        <a href="#"><img src="img/linshou.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <div class="tlis">
+                            <p>可待微商城</p>
+                            <p>全行业的移动电商解决方案完整的在线开店、客户管理、营销推广和经营分析工具</p>
+                            <a href="#">查看详情</a>
+                        </div>
+                        <a href="#"><img src="img/linshou.jpg" alt=""></a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="color"><a href="javascript:;">可待微商城</a></li>
+                    <li><a href="javascript:;">可待零售</a></li>
+                    <li><a href="javascript:;">可待餐饮</a></li>
+                    <li><a href="javascript:;">可待美业</a></li>
+                    <li><a href="javascript:;">可待水果</a></li>
+                    <li><a href="javascript:;">更多</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--合作伙伴 -->
+    <div class="partner">
+        <div class="w">
+            <div class="scourse header1">
+                <h3 class="fw headercolor2">合作伙伴</h3>
+                <p class="headercolor2">合作共赢，共创美好时代！</p>
+            </div>
+            <ul>
+                <li><a href="#"><img src="img/index-com2.jpg" alt=""></a></li>
+                <li><a href="#"><img src="img/index-com3.jpg" alt=""></a></li>
+                <li><a href="#"><img src="img/index-com4.jpg" alt=""></a></li>
+                <li><a href="#"><img src="img/index-com5.jpg" alt=""></a></li>
+            </ul>
+        </div>
+    </div>
+    <!--尾部-->
+    <div class="kdscience">
+        <div class="w">
+            <div class="kdkj clearFix">
+                <div class="kdkj_l">
+                    <img src="img/footer-logo.png" alt="">
+                    <dl>
+                        <dt>定制服务</dt>
+                        <dd><a href="#">微信小程序</a></dd>
+                        <dd><a href="#">B2C商城</a></dd>
+                        <dd><a href="#">外贸商城</a></dd>
+                        <dd><a href="#">电商平台</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>产品服务</dt>
+                        <dd><a href="#">新零售</a></dd>
+                        <dd><a href="#">可以购</a></dd>
+                        <dd><a href="#">可以付</a></dd>
+                        <dd><a href="#">API</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>可待学院</dt>
+                        <dd><a href="#">学院简介</a></dd>
+                        <dd><a href="#">学院播客</a></dd>
+                        <dd><a href="#">视频教程</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>关于我们</dt>
+                        <dd><a href="#">公司简介</a></dd>
+                        <dd><a href="#">公司新闻</a></dd>
+                        <dd><a href="#">相关问答</a></dd>
+                        <dd><a href="#">反馈留言</a></dd>
+                    </dl>
+                </div>
+                <div class="kfkj_r">
+                    <div class="footlnav">
+                        <ul>
+                            <li><a href="#">首页</a></li>
+                            <li><a href="#">定制服务</a></li>
+                            <li><a href="#">网站建设</a></li>
+                            <li><a href="#">推广运营</a></li>
+                            <li><a href="#">公司团队</a></li>
+                            <li><a href="#">站点地图</a></li>
+                        </ul>
+                        <span>联系我们</span>
+                        <div class="details_right">
+                            <img src="img/kissnecktech.jpg" alt="">
+                            <!-- 联系电话 -->
+                            <ul class="phone">
+                                <li><i class="iconfont icon-icon"></i></li>
+                                <li><i class="iconfont icon-qq"></i></li>
+                                <li><i class="iconfont icon-weibo"></i></li>
+                            </ul>
+                            <ul class="contact_way">
+                                <li>公司邮箱： kissneck@163.com</li>
+                                <li>业务客服： QQ 2786333917</li>
+                                <li>技术客服： QQ 1635806792</li>
+                                <li>客服电话： 027-87688212</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="site">
+                <span>售前电话：18171267166</span>
+                <span>售后电话：17786487182</span>
+                <span>技术支持：13971068050</span>
+                <span>公司地址：湖北省武汉市洪山区珞狮南路南国大家装A2栋1808室</span>
+            </div>
+
+        </div>
+        <div class="henxian"></div>
+        <div class="details_end">
+            Copyright ? 2010-2016 KISSNECK. All rights reserved |
+            <a href="#">备案：鄂ICP备 15008768号</a> |
+            <a href="#">免责声明</a> |
+            <a href="#">隐私政策</a> |
+            <a href="#">风险声明</a> |
+            <a href="#">服务器：腾讯云</a> |
+            <a href="#">旧版官网</a>
+        </div>
+        <!--底部联系我们-->
+    </div>
+    <!--底部联系我们-->
+    <div class="lxwm">
+        <a href="#"><img src="img/contact.png" alt=""></a>
+    </div>
+    <!--侧边导航-->
+    <div class="cathetnav">
+        <ul>
+            <li id="firlis">
+                <a href="javascript:;">
+                    <i class="iconfont icon-icon"></i>
+                </a>
+                <span>可待科技</span>
+                <img src="img/kissnecktech.jpg" alt="">
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <i class="iconfont icon-qq"></i>
+                </a>
+                <span>QQ客服</span>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <i class="iconfont icon-dianhua"></i>
+                </a>
+                <span>售前电话：18171267166</span>
+                <span>售后电话：17786487182</span>
+            </li>
+            <li class="cathetlist">
+                <a href="javascript:;">
+                    <i class="iconfont icon-lubiao"></i>
+                </a>
+                <dl>
+                    <dt>定制服务</dt>
+                    <dd><a href="#">微信小程序</a></dd>
+                    <dd><a href="#">B2C商城</a></dd>
+                    <dd><a href="#">电商平台</a></dd>
+                </dl>
+                <dl>
+                    <dt>定制服务</dt>
+                    <dd><a href="#">微信小程序</a></dd>
+                    <dd><a href="#">B2C商城</a></dd>
+                    <dd><a href="#">外贸商城</a></dd>
+                    <dd><a href="#">电商平台</a></dd>
+                </dl>
+                <dl>
+                    <dt>定制服务</dt>
+                    <dd><a href="#">微信小程序</a></dd>
+                    <dd><a href="#">B2C商城</a></dd>
+                    <dd><a href="#">电商平台</a></dd>
+                </dl>
+                <dl>
+                    <dt>定制服务</dt>
+                    <dd><a href="#">微信小程序</a></dd>
+                    <dd><a href="#">B2C商城</a></dd>
+                    <dd><a href="#">外贸商城</a></dd>
+                    <dd><a href="#">电商平台</a></dd>
+                </dl>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <i class="iconfont icon-xiangshang"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+
+
+
+
+</body>
+
+<script src="js/jquery-1.12.4.js"></script>
+<script src="js/zzhindex.js"></script>
+<script src="js/dlzc.js"></script>
+
+</html>

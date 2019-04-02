@@ -1,0 +1,106 @@
+body,div,h1,h2,h3,h4,h5,h6,ul,li,ol,dt,dl,dd,table,tr,td,th,a,input,textarea,select,button,span,strong {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+img{
+  display: block;
+}
+.w {
+  width: 1140px;
+  margin: 0 auto;
+}
+.s {
+  min-width: 900px;
+  width: 86%;
+  margin: 0 auto;
+}
+ul li {
+  list-style: none; 
+}
+a {
+  color: #624f48;
+  text-decoration: none; 
+}
+a:hover,a:focus {
+    color: #624f48;
+    text-decoration: none; 
+    outline: none;
+}
+i{
+  font-style: normal;
+}
+p{
+  margin-bottom: 0;
+}
+select, textarea, input {
+  padding-left: 0.3125em;
+  background-color: transparent;
+  border: 1px solid #ccc; 
+}
+
+body{
+  font-family: "MicrosoftYaHeiLight";
+}
+.fw {
+  font-weight: 400 !important;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+  font-family: "MicrosoftYaHeiLight";
+}
+.header{
+  clear: both;
+}
+.header,.footer,.header a{
+  color: #fff;
+}
+.header3,.header3 a{
+  color: #624f48;
+}
+.clearFix::before,
+.clearFix::after{
+    content: "";
+    display: block;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+    clear: both;
+}
+/* 标题 */
+.header1{
+  height: 150px;
+  width: 100%;
+  padding: 50px 0 30px 0;
+  text-align: center;
+  background: transparent;
+}
+.header1 h3{
+  font-size:28px;
+}
+.header1 p{
+  font-size:12px;
+}
+.headercolor1 {
+  color: #fff
+}
+.headercolor2 {
+  color: #794F48
+}
+.b-l {
+  border-left: 1px solid #CCCCCC;
+}
+.b-t {
+  border-top: 1px solid #CCCCCC;
+}
+.b-r {
+  border-right: 1px solid #CCCCCC;
+}
+.b-b {
+  border-bottom: 1px solid #CCCCCC;
+}
+.fl {
+  float: left;
+}
+.fr{
+  float: right;;
+}

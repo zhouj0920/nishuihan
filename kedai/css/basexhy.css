@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body,div,h1,h2,h3,h4,h5,h6,ul,li,ol,dt,dl,dd,table,tr,td,th,a,input,textarea,select,button,span,strong {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; 
+}
+img{
+  display: block;
+}
+.w {
+  width: 1146px;
+  margin:0 auto;
+}
+ul li {
+  list-style: none; 
+}
+a {
+  color: #624f48;
+  text-decoration: none; 
+}
+a:hover,a:focus {
+    color: #624f48;
+    text-decoration: none; 
+    outline: none;
+}
+i{
+  font-style: normal;
+}
+p{
+  margin-bottom: 0;
+}
+select, textarea, input {
+  padding-left: 0.3125em;
+  background-color: transparent;
+  border: 1px solid #ccc; 
+}
+select::-webkit-input-placeholder, textarea::-webkit-input-placeholder, input::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #fff; }
+select:-moz-placeholder, textarea:-moz-placeholder, input:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #fff; }
+select::-moz-placeholder, textarea::-moz-placeholder, input::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #fff; }
+select:-ms-input-placeholder, textarea:-ms-input-placeholder, input:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #fff; }
+select:focus, textarea:focus, input:focus {
+  outline: 0; }
+
+body{
+  font-family: "MicrosoftYaHeiLight",sans-serif;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+  font-family: "MicrosoftYaHeiLight";
+}
+.header{
+  clear: both;
+}
+.header,.footer,.header a{
+  color: #fff;
+}
+.header3,.header3 a{
+  color: #624f48;
+}
+@media (min-width: 1500px) {
+  .container1 {
+    width: 1470px;
+    margin:0 auto;
+  }
+}
+.container1 { 
+  padding-right: 15px; 
+  padding-left: 15px; 
+  margin-right: auto; 
+  margin-left: auto; 
+  padding-left: 10%; 
+}
+.clearfix:after {
+  visibility: hidden;
+  clear: both;
+  display: block;
+  content: ".";
+  height: 0
+}
+
+.clearfix {
+  *zoom: 1
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+@font-face {
+  font-family: 'iconfont';
+  src: url('../font/iconfont.eot');
+  src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+      url('../font/iconfont.woff2') format('woff2'),
+      url('../font/iconfont.woff') format('woff'),
+      url('../font/iconfont.ttf') format('truetype'),
+      url('../font/iconfont.svg#iconfont') format('svg');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #FEFEFE;
+}

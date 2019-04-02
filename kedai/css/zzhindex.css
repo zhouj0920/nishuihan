@@ -1,0 +1,1218 @@
+body {
+    /*height: 8000px;*/
+    text-align: center;
+    overflow:scroll;
+    overflow-x:hidden;
+
+}
+
+.topnav .w {
+    position: absolute;
+    left: 50%;
+    background: transparent;
+    margin-left: -570px;
+}
+
+.topnav ul {
+    width: 92%;
+    position: relative;
+    left: -27px;
+    top: 0;
+}
+
+.topnav li {
+    width: 12.5%;
+    float: left;
+    height: 63px;
+    position: relative;
+    z-index: 999999;
+}
+
+.topnav li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 28px;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    font-size: 14px;
+}
+
+.topnav .menu {
+    height: 100%;
+    width: 12.5%;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+}
+
+.topnav .menu > a {
+    height: 62px !important;
+}
+
+.topnav .menu a {
+    width: 100%;
+    height: 30px;
+    float: none;
+    border-bottom: none;
+}
+
+.topnav .menu .ul {
+    display: none;
+    background: #624F48;
+}
+
+.topnav .menu .ul a {
+    padding: 5px;
+}
+
+.topnav .menu .ul a:hover {
+    color: chocolate
+}
+
+/*登录*/
+.register {
+    z-index: 99999;
+    position: absolute;
+    right: -25px;
+    top: 33px;
+    float: right;
+    width: 140px;
+    height: 30px;
+}
+
+.register a {
+    float: left;
+    width: 58px;
+    height: 30px;
+    background: #625C5C;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+/*banner*/
+.banner {
+    height: 792px;
+    width: 100%;
+    background: #CCCCCC;
+}
+.banner li video {
+    height: 100%;
+    margin: 0;
+}
+.banner ul {
+    width: 100%;
+    height: 100%;
+}
+.banner li {
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+.banner li:first-child{
+    background: #6c3433;
+}
+.banner li:first-child .lfdiv{
+    width: 100%;
+    height: 33.33%;
+    margin-top: 250px;
+}
+.lfdiv img {
+    display: block;
+    margin: 0 auto;
+    transform: scale(.8);
+}
+.lfdiv a {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    background: #fff;
+    color: #624f48;
+    margin-top: 80px;
+}
+/*服务标题*/
+.sevrbottom ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sevrbottom li {
+
+    box-shadow: 2px 3px 20px 5px rgba(153,153,153,0.2);
+
+    position: relative;
+    /*float: left;*/
+}
+.sevrbottom li img{
+    transition: all .3s;
+}
+.sevrbottom li:hover img{
+    transform: scale(1.1);
+}
+.sevrbottom li:hover .boxbottom{
+    /*bottom: -90px;*/
+    height: 250px;
+}
+.sevrbottom li:nth-child(2){
+    margin: 0 30px;
+}
+.boxtop img {
+    display: block;
+    width: 360px;
+    height: 270px;
+    border-radius: 5px;
+}
+
+.boxbottom {
+    overflow: hidden;
+    transition: all .3s;
+    position: absolute;
+    left: 23px;
+    bottom: -135px;
+    width: 313px;
+    height: 180px;
+    box-shadow: 2px 3px 20px 5px rgba(204, 204, 204, 0.2);
+    padding: 30px 40px;
+    text-align: center;
+    background: #fff;
+    color: #4F4D4B;
+}
+
+.boxbottom h3 {
+    position: relative;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.boxbottom p {
+    font-size: 12px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+
+}
+
+.boxbottom h3::before {
+    position: absolute;
+    content: "";
+    width: 45px;
+    height: 3px;
+    background: #624F48;
+    top: -10px;
+    left: 95px;
+}
+.boxbottom>a {
+    display: block;
+    width: 120px;
+    height: 35px;
+    background: #4F4D4B;
+    color: white;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 7px;
+    font-size:14px;
+    margin:60px auto 0;
+}
+.myserver {
+    margin-bottom: 300px;
+}
+
+/* my mission */
+.mission {
+    width: 100%;
+    position: relative;
+    padding: 0;
+    background: url(../img/index_12.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 300px;
+    background-attachment: fixed;
+    /*background-color:  rgba(0,0,0,0.3);*/
+}
+.mission>.w {
+    /*background: rgba(0,0,0,0.3);*/
+}
+.missbottom {
+    width: 100%;
+    height: 265px;
+    padding-bottom: 55px;
+    text-align: center;
+}
+
+.missbottom li {
+    margin-top: -15px;
+    width: 25%;
+    float: left;
+}
+
+.missbottom li img {
+    display: block;
+    margin: 0 auto 35px;
+    transform: scale(.9);
+}
+
+.missbottom li span {
+    font-size: 14px;
+    color: #fff;
+    margin-top: -15px;
+    display: block;
+}
+
+/* 我们的历程 */
+.myscourse {
+    background: url(../img/near_term_bg.jpg) no-repeat center center;
+    height: 415px;
+}
+
+.coursenav {
+    padding: 0 170px 0 100px;
+    position: relative;
+}
+
+.coursenav > img {
+    position: absolute;
+    bottom: 4px;
+}
+
+.coursenav li {
+    float: left;
+    width: 11.111%;
+    text-align: center;
+    height: 75px;
+}
+
+.coursenav li a {
+    position: relative;
+    width: 73px;
+    height: 75px;
+    float: right;
+}
+
+.coursenav li a span {
+    display: block;
+    margin: 0 auto;
+}
+
+.coursenav li a span:first-child {
+    color: #AF98B2;
+}
+
+.coursenav li a img {
+    position: absolute;
+    left: 50%;
+    margin-left: -4px;
+    top: 65px;
+}
+
+.setuptime {
+    height: 91px;
+    width: 100%;
+    position: relative;
+    top: 30px;
+    left: 50px;
+}
+
+.setuptime ul {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 80px;
+    top: 15px;
+}
+
+.setuptime li {
+    display: none;
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.show {
+    display: block !important;
+}
+
+.setupl {
+    font-size: 40px;
+    color: #4F4D4B;
+    float: left;
+}
+
+.setupr {
+    position: relative;
+    float: left;
+    width: 70%;
+    font-size: 12px;
+    color: #625C5C;
+    margin-left: 40px
+}
+
+.setupr::before {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 50px;
+    background: #624F48;
+    top: 0;
+    left: -20px;
+}
+
+.setupr dl dt {
+    float: left;
+    font-weight: 900;
+}
+.setupr dl dd {
+    text-align: left;
+}
+
+.coursenav .nowbj {
+    background: url(../img/city_nav_up.png) no-repeat;
+    position: relative;
+    z-index: 9999;
+}
+
+.coursenav .nowbj span {
+    color: #fff;
+}
+
+/* 服务场景 */
+.border {
+    border-bottom: 3px solid #624F48;
+}
+
+.scene ul {
+    overflow: hidden;
+    width: 100%;
+}
+
+.scene ul li {
+    float: left;
+    height: 48px;
+    width: 164px;
+    text-align: center;
+    line-height: 48px;
+}
+
+.serlist {
+    margin-top: 20px;
+    height: 485px;
+    overflow: hidden;
+}
+
+.serlist > ul {
+    display: none;
+    width: 1200px;
+    height: 485px;
+}
+
+.serlist > ul > li {
+
+    margin-right: 30px;
+    width: 360px;
+    height: 460px;
+    box-shadow: 2px 10px 20px 5px rgba(204, 204, 204, 0.2);
+}
+
+.serlist > ul > li img {
+    display: block;
+    transform: scale(.95);
+    margin: 0 auto 45px;
+}
+
+.serlist > ul > li p {
+    font-size: 14px;
+    text-align: left;
+    line-height: 14px;
+    margin-left: 30px
+}
+
+/* 提交需求 */
+.demand {
+    height: 470px;
+    padding: 100px 0 150px 0;
+    background: url(../img/index-search-bg.jpg) no-repeat center center;
+}
+
+.demand h3 {
+    font-size: 18px;
+    color: #fff;
+    margin: 40px 0 20px 20px;
+
+}
+
+.demand .demandtop {
+    width: 100%;
+    color: #F6EFE1;
+    overflow: hidden;
+    margin-bottom: 20px
+}
+
+.demand .demandtop .serlis {
+    float: left;
+    margin-right: 20px;
+}
+
+.demand .demandtop .serlis select {
+    width: 135px;
+    height: 25px;
+    background: #fff;
+    color: #624F48;
+    border-radius: 5px;
+}
+
+.demandbottom {
+    color: #F6EFE1;
+    overflow: hidden;
+    margin-bottom: 40px;
+    float: left;
+}
+
+.demandbottom label {
+    margin-right: 20px
+}
+
+.demandbtn {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.demandbtn a {
+    display: block;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 125px;
+    font-size: 24px;
+    color: #718AA0;
+    background: #fff;
+    box-shadow: 2px 10px 20px 5px rgba(195, 195, 195, 0.6);
+    margin: 0 auto;
+}
+
+/* 我们的团队 */
+.myteam {
+    position: relative;
+    height: 1060px;
+    background: url(../img/teacher-bg.jpg) no-repeat;
+}
+
+.myteam li {
+    float: left;
+    width: 33.33%;
+    height: 406px;
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+}
+
+.myteam li .shade {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.myteam li:hover .shade {
+    display: block
+}
+
+.shade .shade-t {
+    display: block;
+    width: 100%;
+    height: 25%;
+    border-bottom: 1px solid rgb(230, 225, 225);
+    padding: 10px 0 0 35px;
+    color: rgb(231, 225, 225);
+    text-align: left;
+}
+
+.shade .shade-t p {
+    margin-top: 5px;
+
+}
+
+.shade .shade-t p:first-child {
+    font-size: 18px;
+}
+
+.shade .shade-b {
+    display: block;
+    height: 75%;
+    width: 100%;
+    padding: 10px 35px 0;
+    text-align: left;
+    color: rgb(231, 225, 225);
+}
+
+.shade .shade-b p {
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.shade .shade-b a {
+    color: rgb(231, 225, 225);
+
+}
+
+.myteam li a {
+    width: 100%;
+    height: 100%;
+}
+
+.myteam li a img {
+    display: block;
+    margin: 0 auto;
+}
+
+.myteam li a p:last-child {
+    margin-top: 0;
+}
+
+.myteams {
+    bottom: 30px;
+    left: 50%;
+    margin-left: -62.5px;
+    position: absolute;
+    height: 42px;
+    width: 125px;
+    line-height: 42px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+.myteams a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.myteams a:hover {
+    background: #625C5C;
+    color: #ffffff;
+}
+
+/* 可待资讯 */
+.kdmessage {
+    height: 750px;
+}
+
+.message {
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between
+}
+
+.messagel,
+.messager {
+    margin-left: 20px;
+    width: 540px;
+    height: 347px;
+    box-shadow: 2px 5px 15px 2px rgba(204, 204, 204, 0.3);
+}
+
+.metite {
+    width: 100%;
+    height: 42px;
+}
+
+.metite span {
+    display: block;
+    float: left;
+    width: 33.33%;
+    height: 100%;
+    background: #624F48;
+    color: white;
+    line-height: 42px;
+    text-align: center;
+}
+
+.message h5 {
+    display: block;
+    height: 40px;
+    background: #F4F5F9;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+}
+
+.messalist {
+    width: 100%;
+    height: 265px;
+    overflow: hidden;
+}
+
+.messalist ul {
+    position: relative;
+    width: 100%;
+}
+
+.messalist li {
+    width: 100%;
+    height: 38px;
+    line-height: 38px;
+}
+
+.messalist li span {
+    display: block;
+    float: left;
+    text-align: center;
+    height: 38px;
+    font-size: 14px;
+}
+
+.messalist li:nth-child(odd) {
+    background: #F4F5F9;
+}
+
+.messalist li span:nth-child(1) {
+    text-align: left;
+    width: 44%;
+    padding-left: 20px;
+}
+
+.messalist li span:nth-child(1) a:hover {
+    text-decoration: underline
+}
+
+.messalist li span:nth-child(2) {
+    width: 28%;
+    color: #624F48;
+}
+
+.messalist li span:nth-child(3) {
+    width: 28%;
+    color: #624F48;
+}
+
+/* 我们的口碑 */
+.bannerlb {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 460px;
+    background: url(../img/b2_06.jpg) no-repeat center center;
+}
+
+.bannerlb ul:first-child {
+    position: relative;
+    width: 400%;
+    height: 100%;
+}
+
+.bannerlb ul:first-child li {
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+
+.bannerlb ul:first-child li a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    text-align: left;
+    padding: 150px 200px 0;
+}
+
+.bannerlb ul:first-child li a span {
+    float: right
+}
+
+.bannerlb ul:last-child {
+    width: 54px;
+    height: 8px;
+    position: absolute;
+    left: 50%;
+    margin-left: -27px;
+    bottom: 50px;
+
+}
+
+.bannerlb ul:last-child li span {
+    margin-left: 10px;
+    float: left;
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    background: rgba(0, 0, 0, .2);
+}
+
+.nowcolor {
+    background: #fff !important;
+}
+
+/* 垂直行业解决方案 */
+.boxTab {
+    width: 100%;
+    height: 520px;
+}
+
+.boxTab ul:first-child {
+    width: 1025px;
+    height: 100%;
+    overflow: hidden;
+    float: left;
+}
+
+.boxTab ul:first-child li {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    float: left;
+    display: none;
+}
+
+.boxTab ul:first-child li>a img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.boxTab ul:last-child {
+    width: 115px;
+    height: 100%;
+    float: right;
+}
+
+.boxTab ul:last-child li {
+    width: 100%;
+    height: 16.66%;
+    background: #000;
+
+}
+.boxTab ul:last-child li:hover {
+    background:  #624F48;
+}
+.boxTab ul:last-child .color {
+    background:  #624F48;
+}
+
+.boxTab ul:last-child li a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+    line-height: 6em;
+    color: #fff
+}
+.tlis {
+    padding-top: 200px;
+    position: absolute;
+    background: transparent;
+    color: #fff;
+    font-size:18px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.tlis a {
+    display: block;
+    width: 100px;
+    height: 34px;
+    border: 1px solid #fff;
+    color: #fff;
+    text-align: center;
+    line-height: 34px;
+    margin: 10px auto;
+}
+
+    /* 合作伙伴 */
+.partner {
+    margin-top: 50px;
+    border-top: 1px dashed #ccc;
+    margin-bottom: 60px;
+}
+
+.partner ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.partner li {
+    float: left;
+}
+/*可待科技*/
+.kdscience {
+    /*overflow: hidden;*/
+    position: absolute;
+    width: 100%;
+    height: 450px;
+    background: url(../img/footer-bg.jpg) no-repeat;
+    background-position: center top;
+}
+.kdkj_l {
+    width: 472px;
+    height: 300px;
+    float: left;
+}
+.kfkj_r {
+    width: 476px;
+    height: 300px;
+    float: right;
+}
+.footlnav {
+    width: 100%;
+    height: 90px;
+    line-height: 90px;
+    border-bottom: 1px solid #7B7B7E;
+}
+.footlnav span {
+    height: 86px;
+    width: 100%;
+    line-height: 86px;
+    text-align: left;
+    display: block;
+    color: white;
+    font-size:14px;
+}
+.details_right {
+    height: 100px;
+    width: 100%;
+}
+.details_right img {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.details_right .phone {
+    width: 76px;
+    height: 100px;
+    float: left;
+    margin: 0 20px;
+    border-left: 1px dashed #fff;
+    border-right: 1px dashed #fff;
+    color: #f5d5f8;
+
+}
+.phone li {
+    width: 100%;
+    height: 33px;
+    line-height:33px;
+
+}
+.phone li i {
+    font-size:20px;
+}
+.footlnav  .contact_way {
+    float: right;
+    width: 260px;
+    height: 100%;
+}
+.contact_way li {
+    width: 260px;
+    height: 25%;
+    line-height: 25px;
+    text-align: left;
+    color: white;
+    font-size:14px;
+}
+.footlnav ul {
+    width: 100%;
+    height: 100%;
+}
+.footlnav>ul>li {
+    width: 16.66%;
+    height: 100%;
+    float: left;
+    text-align: left;
+    font-size:14px;
+}
+.footlnav ul li a {
+    color: white;
+}
+.kdkj_l img {
+    display: block;
+    margin: 40px 0;
+}
+.kdkj_l dl {
+    float: left;
+    margin-right: 45px;
+    text-align: left;
+    font-size:14px;
+}
+.kdkj_l dl dt {
+    color: #ffffff;
+    margin-bottom: 22px;
+}
+.kdkj_l dl dd {
+    margin-bottom: 14px;
+}
+.kdkj_l dl dd a{
+    color: #CDC8C5;
+}
+.kdkj_l dl dd a:hover{
+    color: #4F4D4B;
+}
+.site {
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+}
+.site span {
+    /*float: left;*/
+    font-size: 14px;
+    margin-right: 30px;
+    color: white;
+}
+.henxian {
+    width: 100%;
+    height: 1px;
+    background: #AF98B2;
+    position: absolute;
+    bottom: 75px;
+}
+.details_end {
+    font-size:12px;
+    margin-top: 20px;
+    color: #A6A8B5;
+}
+.details_end a {
+    color: #A6A8B5;
+}
+/*联系我们*/
+.lxwm {
+    transition: all .3s;
+   position: fixed;
+    left: -30px;
+    bottom: -350px;
+}
+.lxwm img {
+    transform: scale(.7);
+}
+/*侧边导航*/
+.cathetnav {
+    transition: all .4s;
+    position: fixed;
+    width: 500px;
+    right:-500px;
+    top: 50%;
+    margin-top: -125px;
+}
+.cathetnav li {
+    background: rgba(0,0,0,.8);
+    position: relative;
+    transition: all .4s;
+    width: 500px;
+    height: 50px;
+    left:0;
+    top: 0;
+}
+.cathetnav li:hover {
+    background: #99859c;
+}
+.cathetnav li:last-child a {
+    color: #625C5C;
+}
+.cathetnav li:last-child a:hover {
+    color: #e3e8f7;
+}
+.cathetnav li a{
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #e3e8f7;
+    float: left;
+}
+.cathetnav li a i {
+    font-size:24px;
+}
+.cathetnav li span {
+    color: #e3e8f7;
+    display: block;
+    line-height: 50px;
+    text-align: left;
+    float: left;
+    margin-right: 20px;
+}
+.cathetlist dl {
+    position: relative;
+    height: 50px;
+    font-size:14px;
+    width: 100px;
+    float: left;
+    background: #99859c;
+    color: #e3e8f7;
+}
+.cathetlist dl:hover dt{
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+}
+.cathetlist dl dt,
+.cathetlist dl dd {
+    position: relative;
+    background: #99859c;
+    color: #e3e8f7;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.cathetlist dl dd a {
+    color: #e3e8f7;
+    width: 100px;
+    height: 50px;
+    display: block;
+}
+.cathetlist dl dd {
+    display: none;
+}
+.cathetlist dl dd:hover {
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+}
+#firlis {
+    position: absolute;
+    overflow: hidden;
+    height: 50px;
+    top:-50px;
+}
+#firlis img {
+    display: block;
+    width: 110px;
+    height: 100px;
+    position: absolute;
+    left: 10px;
+    top: 60px;
+}
+
+
+
+
+
+#xbg{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0.5;
+    display: none;
+}
+#xlogin{
+    width: 600px;
+    height: 390px;
+    position: absolute;
+    top:100px;
+    left: 50%;
+    margin-left: -300px;
+    z-index: 9999;
+    background-color: #F8F9F9;
+    display: none;
+}
+.xl-tit {
+    width: 600px;
+    height: 52px;
+    background-color: #624F48;
+    color: #fff;
+    font-size: 20px;
+    line-height: 52px;
+    text-align: center;
+}
+.xl-tit em{
+    font-style: normal;
+    cursor: pointer;
+    float: right
+}
+.xpad {
+    padding-top:25px; 
+    padding-left: 22px;
+}
+.xdengluc li,
+.xregister li{
+    line-height: 60px;
+    width: 256px;
+    height: 41px;
+    border-bottom: 1px solid #ccc;
+}
+.xregister .xunborder-b {
+    border-bottom: 0px solid #ccc;
+}
+.xdengluc li input,
+.xregister li .xinputText{
+    width: 256px;
+    height: 20px;
+    border:none;
+    font-size: 16px;
+    color:#555555;
+}
+.xyanzhengma {
+    margin-top: 20px;
+    width: 256px;
+    height: 60px;
+}
+.xdengluc .xanniu,
+.xregister .xanniu{
+    width: 100px;
+    height: 35px;
+    background-color: #624F48;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    border:none;
+    border-radius: 7px;
+    margin-left: 70px;
+    margin-top: 18px;
+    vertical-align: bottom;
+}
+#xloginBtn,#xregisterBtn {
+    cursor: pointer;
+}
+.xwangji {
+    color: #A79011;
+    font-size: 12px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+#xregister {
+    background-color: #F8F9F9;
+    height:546px;
+    width: 600px;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    margin-left: -300px;
+    z-index: 9999;
+    display: none;
+}   
+.xregister {
+    overflow: hidden;
+}
+#xretrievePassword{
+    width: 600px !important;
+    height: 376px !important;
+    background-color: #F8F9F9 !important;
+    position: absolute !important;
+    top: 100px !important;
+    left: 50% !important;
+    margin-left: -300px !important;
+    z-index: 9999 !important;
+    display: none;
+}
+#xretrievePassword .xpad{
+    padding-top: 90px !important;
+}
+#xretrievePassword .xanniu{
+    margin-top: 30px !important;
+}

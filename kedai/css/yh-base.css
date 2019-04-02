@@ -1,0 +1,201 @@
+body,div,h1,h2,h3,h4,h5,h6,ul,li,ol,dt,dl,dd,table,tr,td,th,a,input,textarea,select,button,span,strong {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; 
+}
+img{
+  display: block;
+}
+ul li {
+  list-style: none; 
+}
+a {
+  color: #624f48;
+  text-decoration: none; 
+}
+a:hover,a:focus {
+    color: #624f48;
+    text-decoration: none; 
+    outline: none;
+}
+i{
+  font-style: normal;
+}
+p{
+  margin-bottom: 0;
+}
+select, textarea, input {
+  padding-left: 0.3125em;
+  background-color: transparent;
+  border: 1px solid #ccc; 
+}
+select::-webkit-input-placeholder, textarea::-webkit-input-placeholder, input::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #fff; }
+select:-moz-placeholder, textarea:-moz-placeholder, input:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #fff; }
+select::-moz-placeholder, textarea::-moz-placeholder, input::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #fff; }
+select:-ms-input-placeholder, textarea:-ms-input-placeholder, input:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #fff; }
+select:focus, textarea:focus, input:focus {
+  outline: 0; }
+
+body{
+  font-family: "MicrosoftYaHeiLight",sans-serif;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+  font-family: "MicrosoftYaHeiLight";
+}
+.header{
+  clear: both;
+}
+.header,.footer,.header a{
+  color: #fff;
+}
+.header3,.header3 a{
+  color: #624f48;
+}
+@media (min-width: 1500px) {
+  .container1 {
+    width: 1470px;
+    margin:0 auto;
+  }
+}
+.container1 { 
+  padding-right: 15px; 
+  padding-left: 15px; 
+  margin-right: auto; 
+  margin-left: auto; 
+  padding-left: 10%; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*联系我们*/
+.lxwm {
+  z-index: 999999;
+  transition: all .3s;
+  position: fixed;
+  left: -30px;
+  bottom: -350px;
+}
+.lxwm img {
+  transform: scale(.7);
+}
+/*侧边导航*/
+.cathetnav {
+  transition: all .4s;
+  position: fixed;
+  width: 500px;
+  right:-500px;
+  top: 50%;
+  margin-top: -125px;
+  z-index: 999999;
+}
+.cathetnav li {
+  background: rgba(0,0,0,.8);
+  position: relative;
+  transition: all .4s;
+  width: 500px;
+  height: 50px;
+  left:0;
+  top: 0;
+}
+.cathetnav li:hover {
+  background: #99859c;
+}
+.cathetnav li:last-child a {
+  color: #625C5C;
+}
+.cathetnav li:last-child a:hover {
+  color: #e3e8f7;
+}
+.cathetnav li a{
+  display: block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  color: #e3e8f7;
+  float: left;
+}
+.cathetnav li a i {
+  font-size:24px;
+}
+.cathetnav li span {
+  color: #e3e8f7;
+  display: block;
+  line-height: 50px;
+  text-align: left;
+  float: left;
+  margin-right: 20px;
+}
+.cathetlist dl {
+  position: relative;
+  height: 50px;
+  font-size:14px;
+  width: 100px;
+  float: left;
+  background: #99859c;
+  color: #e3e8f7;
+}
+.cathetlist dl:hover dt{
+  border-right: 1px solid #fff;
+  border-left: 1px solid #fff;
+}
+.cathetlist dl dt,
+.cathetlist dl dd {
+  position: relative;
+  background: #99859c;
+  color: #e3e8f7;
+  width: 100px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+.cathetlist dl dd a {
+  color: #e3e8f7;
+  width: 100px;
+  height: 50px;
+  display: block;
+}
+.cathetlist dl dd {
+  display: none;
+}
+.cathetlist dl dd:hover {
+  border-right: 1px solid #fff;
+  border-left: 1px solid #fff;
+}
+#firlis {
+  position: absolute;
+  overflow: hidden;
+  height: 50px;
+  top:-50px;
+}
+#firlis img {
+  display: block;
+  width: 110px;
+  height: 100px;
+  position: absolute;
+  left: 10px;
+  top: 60px;
+}

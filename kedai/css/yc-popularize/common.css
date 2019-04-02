@@ -1,0 +1,83 @@
+.header{
+    height: 96px;
+}
+.container_h {
+    width:1209px;
+    margin:0 auto;
+    padding-left: 12px;
+    box-sizing: border-box;
+}
+.container_h .logo{
+    width: 100px;
+    height: 50px;
+    margin-top: 30px;
+    background: url(../../img/yc-popularize/logo_03.png) no-repeat;   
+}
+.container_h .logo a{
+    display: block;
+    width: 100px;
+    height: 50px;
+}
+.container_h h1{
+    font-size: 0;
+}
+.container_h .nav {
+    margin: 30px 15px 0 125px;
+}
+.container_h .nav>ul>li {
+    float: left;
+    position: relative;
+    width: 101px;
+    height: 48px;
+    border-bottom: 1px solid #624f48;
+}
+.container_h .nav .school{
+    width: 131px;
+}
+.container_h .nav>ul>li>a{
+    display: block;
+    width: 101px;
+    height: 48px;
+    padding: 14px 0 14px 10px;
+    font-size: 14px;
+    color: #624f48;
+    box-sizing: border-box;
+}
+.container_h .nav_down a {
+    color: #fff;
+}
+.container_h .nav_down a:hover {
+    color: #bb8f79;
+}
+.container_h .nav>ul>li>a:hover{
+    color: #bb8f79;
+}
+.nav_down {
+    position: absolute;
+    top: 47px;
+    left: 0;
+    display: none;
+    width: 151px;
+    background-color: #624f48;
+    padding-top: 8px;
+    box-sizing: border-box;
+}
+.school .nav_down{
+    width: 190px;
+}
+.nav_down li {
+    width: 151px;
+    height: 35px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    line-height: 28px;
+}
+.container_h button {
+    width: 58px;
+    height: 31px;
+    margin-top: 44px;
+    background-color: #625c5c;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}

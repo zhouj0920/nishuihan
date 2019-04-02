@@ -1,0 +1,30 @@
+body,div,h1,h2,h3,h4,h5,h6,ul,li,ol,dt,dl,dd,table,tr,td,th,a,input,textarea,select,button,span,strong {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    line-height: 1.5;
+  }
+  
+  a {
+    text-decoration: none; 
+  }
+  i{
+    font-style: normal;
+  }
+
+  li {
+    list-style: none;
+  }
+ 
+  .clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+  }
+  
+  .clearfix:after {
+    clear: both;
+  }
+  
+  .clearfix {
+    *zoom: 1; /*IE/7/6*/
+  }

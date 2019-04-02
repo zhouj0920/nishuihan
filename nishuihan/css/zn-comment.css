@@ -1,0 +1,101 @@
+.logo{
+    position: absolute;
+    top: 25px;
+    left: 16px;
+    width: 130px;
+    height: 344px;
+    background: url(../images/logo_c5e2ff5.png) no-repeat;
+    background-size: cover;
+    z-index: 999;
+}
+
+
+.side-nav {
+    position: absolute;
+    background: url(../images/index_z_0074274.png);
+    top: 430px;
+    left: 58px;
+    width: 51px;
+    height: 348px;
+    z-index: 999;
+}
+.nav-ban {
+    display: block;
+    margin: 48px auto 0;
+    width: 20px;
+    height: 39px;
+    background: url(../images/index_z_0074274.png);
+}
+.nav-btn1 {
+    background-position: -478px -236px;
+}
+.nav-btn2 {
+    background-position: -478px -144px;
+}
+.nav-btn3 {
+    background-position: -478px -104px;
+}
+
+
+/* 右上 */
+.standard {
+    position: absolute;
+    top: 16px;
+    right: 15px;
+    width: 198px;
+    height: 59px;
+    z-index: 999;
+}
+.standard>a {
+    float: left;
+    width: 51px;
+    height: 59px;
+    cursor: pointer;
+    margin-right: 15px;
+    background: url(../images/index_z_0074274.png) -603px -92px;
+}
+.standard>:nth-child(1):hover {
+    background-position: -635px -382px;
+}
+.standard>:nth-child(2) {
+    background-position: -635px -242px;
+}
+.standard>:nth-child(2):hover {
+    background-position: -635px -171px;
+}
+.standard>:nth-child(3) {
+    background-position: -654px -92px;
+}
+.standard>:nth-child(3):hover {
+    background-position: -635px -312px;
+}
+
+
+
+.arrow-wrap {
+    position: absolute;
+    left: 50%;
+    bottom: -190px;
+    margin-left: -23px;
+    width: 45px;
+    cursor: pointer;
+    z-index: 100;
+    font-size: 14px;
+    color: #A0A3AA;
+}
+.arrow-wrap a {
+    position: relative;
+    left: 0;
+    display: block;
+    width: 45px;
+    height: 25px;
+    background: url(../images/arrow_88c2d4f.png);
+    transition: all .6s;
+}
+.cls {
+    transform: scale(.8);
+    /* top: -10px; */
+}
+.video-cls {
+    transform: scale(1.2);
+}

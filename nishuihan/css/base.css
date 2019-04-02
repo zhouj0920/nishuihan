@@ -1,0 +1,64 @@
+body,div,h1,h2,h3,h4,h5,h6,ul,li,ol,dt,dl,dd,table,tr,td,th,a,input,textarea,select,button,span,strong {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+img{
+  display: block;
+}
+.s {
+  min-width: 900px;
+  width: 86%;
+  margin: 0 auto;
+}
+ul li {
+  list-style: none; 
+}
+a {
+  text-decoration: none; 
+}
+.w {
+    width: 100%;
+    margin: 0 auto;
+}
+i{
+  font-style: normal;
+}
+p{
+  margin-bottom: 0;
+}
+select, textarea, input {
+  padding-left: 0.3125em;
+  background-color: transparent;
+  border: 1px solid #ccc; 
+}
+
+body{
+    font-family: "MicrosoftYaHeiLight";
+    text-align: center;
+    overflow:scroll;
+    overflow-x:hidden;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+  font-family: "MicrosoftYaHeiLight";
+}
+
+.clearFix::before,
+.clearFix::after{
+    content: "";
+    display: block;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+    clear: both;
+}
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}

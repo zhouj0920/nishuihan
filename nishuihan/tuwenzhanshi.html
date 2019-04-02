@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/base-luntan.css">
+    <link rel="stylesheet" href="css/common-luntan.css">
+    <link rel="stylesheet" href="css/tuwenzhanshi.css">
+
+</head>
+
+<body>
+    <script src="js/jquery-1.12.2.js"></script>
+    <script src="js/tuwen.js"></script>
+    <!-- <script src="js/jquery.js"></script> -->
+
+
+    <script>
+        $(function () {
+            var index = 0;
+            $('#box2_ul>li').mouseover(function () {
+
+                index = $(this).index();
+                $('.box2b_ul li').eq(index).addClass('xianshi').siblings().removeClass('xianshi');
+                // $('.box2b_ul li>div').removeClass('xianshi');
+                $('.box2b_ul li.xianshi>div').addClass('xianshi');
+            });
+        });
+    </script>
+    <div class="hader">
+        <a href="#">
+            <img src="images/gw.png" alt="">
+        </a>
+        <a href="#">
+            <img src="images/lt.png" alt="">
+        </a>
+    </div>
+    <div class="neirong w clearfix">
+        <div class="zhongjian">
+            <div class="churu">
+                <div class="title"></div>
+                <ul class="box1">
+                    <li>
+                        <a href="#"><img src="images/xs0.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/xs1.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/xs2.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/xs3.jpg" alt=""></a>
+                    </li>
+                    <li class="zuihou">
+                        <a href="#"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="liupai">
+                <div class="title"></div>
+                <div class="box2" id="box2">
+                    <ul id="box2_ul">
+                        <li>
+                            <div id="a">
+                                <p class="box2p">碎梦</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div id="b">
+                                <p class="box2p">血河</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div id="c">
+                                <p class="box2p">铁衣</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div id="d">
+                                <p class="box2p">素问</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div id="e">
+                                <p class="box2p">九灵</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div id="f">
+                                <p class="box2p active">神相</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="box2b">
+                    <ul class="box2b_ul">
+                        <li class="xianshi">
+                            <img src="images/sm_bck.png" alt="">
+                            <div class="box2b_li">
+                                <img src="images/smr_bck.png" alt="" class="fl sm_bck">
+                                <div class="zhong">
+                                    <div class="ck"></div>
+                                    <p class="pa">流派背景</p>
+                                    <p class="pba">宗门：谪仙岛</p>
+                                    <p class="pb">擅长近身作战，以长刀为武器，招式风流，一意求快，一刀命中，一刀又至，往复无穷，取人性命于电光火石之间。</p>
+                                    <p class="pa">流派攻略</p>
+                                    <div>
+                                        <a href="#">
+                                            <p>流派入门</p>
+                                        </a>
+                                        <a href="#">
+                                            <p>流派进阶</p>
+                                        </a>
+                                        <a href="#">
+                                            <p>高手论剑</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="you"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/xh_bck.png" alt="">
+                            <div class="box2b_li">
+                                <img src="images/xhr_bck.png" alt="" class="fl sm_bck">
+                                <div class="zhong">
+                                    <div class="zs"></div>
+                                    <p class="pa">流派背景</p>
+                                    <p class="pba">宗门：碧血营</p>
+                                    <p class="pb">擅长近身作战，以长枪为武器，刺、挑、扫配合，出招变幻无穷，可谓骁勇看管九州之土，一枪可挡百万雄师。</p>
+                                    <p class="pa">流派攻略</p>
+                                    <div>
+                                        <a href="#">
+                                            <p>流派入门</p>
+                                        </a>
+                                        <a href="#">
+                                            <p>流派进阶</p>
+                                        </a>
+                                        <a href="#">
+                                            <p>高手论剑</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/ty_bck.png" alt="">
+                            <div class="box2b_li">
+                                <img src="images/tyr_bck.png" alt="" class="fl tyr_bck">
+                                <div class="zhong">
+                                    <p class="pa">流派背景</p>
+                                    <p class="pba">宗门：碧血营</p>
+                                    <p class="pb">擅长近身作战，以铁拳套为武器，无坚不摧，攻守兼备。大丈夫不怒则已，一怒则群雄惧，天下惊。</p>
+                                    <p class="pa">流派攻略</p>
+                                    <div>
+                                        <a href="#">
+                                            <p>流派入门</p>
+                                        </a>
+                                        <a href="#">
+                                            <p>流派进阶</p>
+                                        </a>
+                                        <a href="#">
+                                            <p>高手论剑</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="ty"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/sw_bck.png" alt="">
+                            <div class="box2b_li">
+                                <img src="images/swr_bck.png" alt="" class="fl swr_bck">
+                                <div class="zhong">
+                                    <div class="zl"></div>
+                                    <p class="pa">流派背景</p>
+                                    <p class="pba">宗门：药王谷</p>
+                                    <p class="pb">擅长远程治疗，以绸带为武器，以柔克刚，出招时彩蝶环绕，草木回春，重伤之人，亦可痊愈如初。</p>
+                                    <p class="pa">流派攻略</p>
+                                    <div>
+                                        <a href="#">
+                                            <p>流派入门</p>
+                                        </a>
+                                        <a href="#">
+                                            <p>流派进阶</p>
+                                        </a>
+                                        <a href="#">
+                                            <p>高手论剑</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="sw"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/jl_bck.png" alt="">
+                            <div class="box2b_li">
+                                <img src="images/jlr_bck.png" alt="" class="fl jl_bck">
+                                <div class="zhong last">
+                                    <div class="zh"></div>
+                                    <p class="pa">流派背景</p>
+                                    <p class="pba">宗门：药王谷</p>
+                                    <p class="pb">擅长远程治疗，以绸带为武器，以柔克刚，出招时彩蝶环绕，草木回春，重伤之人，亦可痊愈如初。</p>
+                                    <p class="pa">流派攻略</p>
+                                    <div>
+                                        <a href="#">
+                                            <p>流派入门</p>
+                                        </a>
+                                        <a href="#">
+                                            <p>流派进阶</p>
+                                        </a>
+                                        <a href="#">
+                                            <p>高手论剑</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="jl"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/ss_bck.png" alt="">
+                            <div class="box2b_li">
+                                <img src="images/ssr_bck.png" alt="" class="fl ssr_bck">
+                                <div class="zhong">
+                                    <div class="ss"></div>
+                                    <p class="pa">流派背景</p>
+                                    <p class="pba">宗门：白帝城</p>
+                                    <p class="pb zongse">擅长远程作战，以七弦琴为武器，弹指间，是琴声悠扬，也是杀机暗藏，死生阴阳，存乎一念。</p>
+                                    <p class="pa">流派攻略</p>
+                                    <div>
+                                        <a href="#">
+                                            <p>流派入门</p>
+                                        </a>
+                                        <a href="#">
+                                            <p>流派进阶</p>
+                                        </a>
+                                        <a href="#">
+                                            <p>高手论剑</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="ssr"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="celiupai">
+                    <img src="images/celiup.png">
+                </div>
+            </div>
+            <div class="tese">
+                <div class="title"></div>
+                <ul>
+                    <li><a href="#" class="rn_a"><img src="images/pve1.png" alt=""></a></li>
+                    <li><a href="#" class="rn_a"><img src="images/pve2.png" alt=""></a></li>
+                    <li><a href="#" class="rn_a"><img src="images/pve3.png" alt=""></a></li>
+                    <li><a href="#" class="rn_a"><img src="images/pve4.png" alt=""></a></li>
+                    <li><a href="#" class="rn_a"><img src="images/pve5.png" alt=""></a></li>
+                    <li><a href="#" class="rn_a"><img src="images/pvp1.png" alt=""></a></li>
+                    <li><a href="#" class="rn_a"><img src="images/pvp2.png" alt=""></a></li>
+                    <li><a href="#" class="rn_a"><img src="images/pvp3.png" alt=""></a></li>
+                    <li><a href="#" class="rn_a"><img src="images/pvp4.png" alt=""></a></li>
+                    <li><a href="#" class="rn_a"><img src="images/pvp5.png" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="shili">
+                <div class="title"></div>
+                <div class="shili_nei">
+                    <div class="fl">
+                        <img src="images/shili1.jpg" alt="">
+                    </div>
+                    <div class="fr">
+                        <img src="images/shili2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="damei">
+                <div class="title"></div>
+                <a href="#" class="chakan"></a>
+                <ul>
+                    <li><a href="#"><img src="images/jh1.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="images/jh2.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="images/jh3.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="images/jh4.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="images/jh5.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="images/jh6.jpg" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

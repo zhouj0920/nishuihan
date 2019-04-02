@@ -1,0 +1,536 @@
+.show {
+    display: block;
+}
+.pabs {
+    position:absolute!important;
+}
+.zidx {
+    z-index: 99999;
+}
+.bj {
+    position:relative;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 1366px;
+}
+.bjt {
+    height: 2420px;
+    width: 100%;
+    background: url(../img/bj.webp) no-repeat top center;
+}
+.indexsp {
+    position: relative;
+    height: 650px;
+}
+.indexsp video {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    left: -260px;
+}
+.indexsp .l-logo{
+    left: 0;
+    top: 10px;
+}
+.indexsp .r-logo{
+    right: -35px;
+    top: 110px;
+}
+.indexsp .gw{
+    width: 175px;
+    height: 40px;
+    top: 0;
+    right: 0;
+    background: url(../img/index_v2.png) no-repeat -710px -951px;
+}
+.indexsp .gw:hover {
+    background: url(../img/index_v2.png) no-repeat -534px -951px;
+}
+.indexsp .music{
+    left: 35px;
+    top: 205px;
+    width:35px;
+    height:35px;
+    background: url(../img/btn-audio.png) no-repeat left bottom;
+}
+.datektsj {
+    top: 150px;
+    left: 310px;
+}
+/*ä¸»ä½“*/
+.bheader {
+    position: absolute;
+    width: 100%;
+    height: 2500px;
+    top: 800px;
+}
+/*æ³¨å†Œç‰ˆå—*/
+input::-webkit-input-placeholder {
+    color: white;
+}
+.zclist {
+    width: 1300px;
+    height: 390px;
+    float: left;
+    background: url(../img/bg-zc.webp) no-repeat top left;
+    background-size: contain;
+    position:relative;
+}
+.speedzc,
+.speedxz,
+.speedlb{
+    position: absolute;
+    width: 210px;
+    height: 206px;
+    top: 65px;
+}
+.reg-box .speedzc {
+    width: 170px;
+    left: 10px;
+    top: 80px;
+}
+.reg-box #lijizc {
+    width: 210px;
+    margin-left: -20px;
+    transform: scale(.8);
+}
+.zclist .speedzc {
+    text-align: left!important;
+    left: 296px;
+}
+.zclist .speedxz {
+    left: 599px;
+}
+.speedxz .han {
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    margin-left: -36px;
+    width: 72px;
+    height: 72px;
+    background: url(../img/han.png) no-repeat;
+    background-size: 72px;
+}
+.zclist .speedlb {
+    left: 965px;
+}
+
+
+.speedzc input {
+    width: 100%;
+    height: 35px;
+    background: #9BA0AD;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+#lijizc {
+    width: 100%;
+    height: 39px;
+    background: url(../img/lijizc.png) no-repeat left top;
+    background-size: 210px;
+}
+#lijizc:hover {
+    background: url(../img/lijizc.png) no-repeat left bottom;
+    background-size: 210px;
+}
+.speedxz .btnxz{
+    margin-top: 120px;
+    width: 100%;
+    height: 39px;
+    background: url(../img/jisuxz1.png);
+    background-size: 210px;
+}
+.speedxz .btnxz:hover{
+    background: url(../img/jisuxz2.png);
+    background-size: 210px;
+}
+.speedlb .btnlb {
+    margin-top: 120px;
+    width: 100%;
+    height: 39px;
+    background: url(../img/czlb1.png);
+    background-size: 210px;
+}
+.speedlb .btnlb:hover {
+    background: url(../img/czlb2.png);
+    background-size: 210px;
+}
+.speedzc span {
+    color: #fff;
+    font-size: 12px;
+}
+.speedzc span a{
+    color: #fff;
+    font-size: 12px;
+}
+.speedzc span a:hover {
+    color: #383838;
+    text-decoration: underline;
+}
+.cbox {
+    width: 16px!important;
+    height: 16px!important;
+    display: inline-block;
+    margin: -3px 5px 0 0!important;
+    cursor: pointer;
+    vertical-align: middle;
+    background:transparent;
+}
+.tablan {
+    margin-top: 500px;
+    position: relative;
+    width: 100%;
+    height: 615px;
+    background: url(../img/feature-bg.png) no-repeat;
+    background-size: 1366px;
+}
+.tablan ul {
+    position:relative;
+    width: 1300px;
+    height: 560px;
+    float: right;
+    margin-top: -60px;
+}
+.tablan ul li {
+    position: absolute !important;
+    width: 100%;
+    height: 560px;
+    display: none;
+}
+.show {
+    display: block !important;
+}
+.tablan ul li img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.tabnav {
+    position:absolute;
+    width: 210px;
+    height: 440px;
+    top: -100px;
+    right: 150px;
+    background:url(../img/bg-nav.png) no-repeat;
+    background-size: 210px
+}
+.tabnav a {
+    display:block;
+    width: 35px;
+    height:187px;
+    float: left;
+    margin: 135px -14px 0 23px;
+}
+.tabbg{
+    background: url(../img/feature-nav.png) no-repeat 0 0 !important;
+}
+/* 轮播图 */
+.lbt {
+    position:relative;
+    width: 1300px;
+    height: 620px;
+    /* background: red; */
+    background: url(../img/box-line.png) no-repeat right bottom;
+    background-size: 1120px;
+}
+.lbt .lbtnav {
+    position: absolute !important;
+    width: 110px;
+    height: 210px;
+    top: 90px;
+    right: 100px;
+    z-index: 99999999;
+}
+.lbt .lbtnav a{
+    display:block;
+    width: 110px;
+    height: 25px;
+    margin: 5px 0;
+}
+.lbt .lbtnav .afirst {
+    width: 132px;
+    background:url(../img/icon-ly2.png) no-repeat 0 0;
+}
+.content ul{
+    position: relative;
+    width: 1300px;
+    height: 620px;
+}
+.content ul li{
+    position: absolute;
+    width: 1300px;
+    height: 620px;
+    display: none;
+}
+.content ul li .bjvideo {
+    position: absolute;
+    top: 71px;
+    width: 730px;
+    height: 470px;
+    overflow: hidden;
+}
+.lbbjt {
+    position: relative;
+    z-index: 999;
+    left: -80px;
+    width: 1366px;
+    height: 620px;
+    background-size: cover !important; 
+}
+.ly {
+    background: url(../img/role-ly.png) no-repeat;
+}
+.xh {
+    background: url(../img/role-xh.png) no-repeat;
+}
+.sw {
+    background: url(../img/role-sw.png) no-repeat;
+}
+.jl {
+    background: url(../img/role-jl.png) no-repeat;
+}
+.sm {
+    background: url(../img/role-sm.png) no-repeat;
+}
+.sx {
+    background: url(../img/role-sx.png) no-repeat;
+}
+.ty {
+    background: url(../img/role-ty.png) no-repeat;
+}
+.rwxq {
+    z-index: 998;
+    position: absolute;
+    width: 209px;
+    height: 505px;
+    background: #383838;
+    left: 297px;
+    top: 36px;
+    background: url(../img/bg-content.png) no-repeat;
+    background-size: cover;
+}
+.rwxq .sss {
+    margin: -12px auto 0;
+    width: 150px;
+    height: 82px;
+   
+    transform: scale(.7)
+}
+.rwxq .zzz {
+    width: 114px;
+    height: 82px;
+    margin: 20px auto 0;
+    background: url(../img/index_v2.png) no-repeat -177px -766px;
+}
+.rwxq .xxx {
+    width: 200px;
+    height: 190px;
+    margin: 20px auto 0;
+    background: url(../img/index_v2.png) no-repeat -703px -280px;
+    transform: scale(.8)
+}
+.sly {
+    background: url(../img/index_v2.png) no-repeat -470px -767px;
+}
+.sxh {
+    background: url(../img/index_v2.png) no-repeat -470px -767px;
+}
+.ssw {
+    background: url(../img/index_v2.png) no-repeat -470px -767px;
+}
+.sjl {
+    background: url(../img/index_v2.png) no-repeat -626px -767px;
+}
+.ssm {
+    background: url(../img/index_v2.png) no-repeat -773px -767px;
+}
+.ssx {
+    background: url(../img/index_v2.png) no-repeat -919px -767px;
+}
+.sty {
+    background: url(../img/index_v2.png) no-repeat -470px -767px;
+}
+.influence {
+    position: absolute;
+    top: 0;
+    right: 250px;
+    width: 235px;
+    height: 291px;
+    transform: scale(.8)
+}
+.lyence {
+    background: url(../img/index_v2.png) no-repeat 0 -290px;
+}
+.xhence {
+    background: url(../img/index_v2.png) no-repeat -703px 0;
+    height: 282px;
+}
+.swence {
+    background: url(../img/index_v2.png) no-repeat -466px -291px;
+    height: 285px;
+}
+.jlence {
+    background: url(../img/index_v2.png) no-repeat -230px -290px;
+}
+.smence {
+    background: url(../img/index_v2.png) no-repeat -233px 0;
+}
+.sxence {
+    background: url(../img/index_v2.png) no-repeat -473px 0;
+}
+.tyence {
+    background: url(../img/index_v2.png) no-repeat 0 0;
+}
+/*尾部*/
+.foot {
+    width: 790px;
+    margin: 120px auto 0;
+    height: 165px;
+}
+.foot-t {
+    width: 185px;
+    height: 34px;
+    /*line-height: 34px;*/
+    margin: 0 auto;
+    font-size: 14px;
+    color: #7E869B;
+}
+.foot-h {
+    position: relative;
+    margin: 30px 0 15px 0;
+    height: 35px;
+}
+.foot-h>a {
+    float: left;
+    margin-right: 4px;
+    transform: scale(.8);
+}
+.foot-h .fh-2 {
+    margin-left: -25px;
+}
+.foot-h span a {
+    font-size:12px;
+    color: black;
+}
+.foot-h span {
+    font-size: 12px;
+    
+}
+.foot-h .sp2 {
+    float: left;
+    margin-left: 14px;
+}
+.ft-lasta {
+    width: 138px;
+    line-height: 20px;
+    text-align: center;
+    height: 20px;
+    font-size: 12px;
+    color: white;
+    background: #610000;
+    position: absolute;
+    right: 0;
+    bottom: -5px;
+    transform: scale(1) !important;
+}
+.foot-b {
+    text-align: left;
+}
+.foot-b span {
+    font-size:12px;
+    display: block;
+}
+.foot-t svg {
+    margin-top: 10px;
+    font-size:30px;
+}
+
+.foot-t svg:hover {
+    color: #ff4313;
+}
+.foot-t span {
+    display: block;
+    float: left;
+    margin-top: 15px;
+}
+.register {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+    /*background-image: url(../img/bg_b29559a.png);*/
+    z-index: 9999999999;
+}
+.register .bg-b2 {
+    width: 100%;
+    height: 650px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 30px;
+}
+.libao_10 {
+    position: absolute;
+    left: 418px;
+    top: 220px;
+    width: 400px;
+    height: 300px;
+    z-index: 99;
+}
+.easy {
+    width: 329px;
+    height: 66px;
+    background: url(../img/libao_z_1237783.png) no-repeat -329px -142px;
+    position: absolute;
+    left: 458px;
+    bottom:130px;
+    transform: scale(.7);
+    z-index: 99999999999999;
+}
+.easy:hover {
+    opacity: .8;
+}
+.close {
+    position: absolute;
+    right: 238px;
+    top: 104px;
+    transform: scale(.7) rotate(0deg);
+    transition: all .3s;
+
+}
+.close:hover {
+    transform: scale(.7) rotate(360deg);
+}
+.reg-box {
+    width: 196px;
+    height: 435px;
+    position: absolute;
+    left: 847px;
+    top: 134px;
+}
+.kszc-1 ,
+.jsxz-2{
+    width: 200px;
+    height: 40px;
+    background: url(../img/libao_z_1237783.png) no-repeat 0 -208px;
+    margin: 30px auto 0;
+    transform: scale(.7);
+}
+.jsxz-2 {
+    margin-top: 200px;
+    background: url(../img/libao_z_1237783.png) no-repeat -463px -208px;
+}
+.jsxz-bg {
+    width: 227px;
+    height: 69px;
+    background: url(../img/libao_z_1237783.png) no-repeat -37px 0;
+    transform: scale(.7);
+    margin-left: -13px;
+}
+.jsxz-bg:hover {
+    background: url(../img/libao_z_1237783.png) no-repeat -37px -69px;
+}

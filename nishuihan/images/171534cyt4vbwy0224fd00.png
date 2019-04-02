@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+
+
+<!--This is Git Project-->
+    <title>《西楚霸王》网易官方版本游戏停运公告 - 网易游戏官网_游戏热爱者</title>
+    <meta name="keywords" content="网易游戏,网易,网游,网络游戏,在线游戏,游戏,回合制,大型角色扮演,回合制,2D,3D,梦幻西游2,大话西游Ⅱ,大话西游,梦幻,大话,魔兽世界,魔兽,wow,天下3,大唐无双2,游戏热爱者,热爱才懂,指尖的热爱" />
+    <meta name="description" content="我和你一样，我们都是游戏热爱者。网易在线游戏自主研发运营多款在线游戏，包括《大话西游Ⅱ》、《梦幻西游2》、《新大话西游3 》、《武魂》、《天下3》、《大唐无双2》、《倩女幽魂2》、《新飞飞》等。此外，网易还具有《魔兽世界》、《星际争霸Ⅱ》、《魔兽争霸Ⅲ:混乱之治》、《魔兽争霸Ⅲ:冰封王座》在中国大陆的独家运营权。网易游戏 在中国MMORPG游戏市场保持领先地位。" />
+    <meta charset="gb2312">
+    <!--项目meta信息，请编辑提供 start-->
+    <meta name="author" content="网易，NetEase Inc." />
+    <meta name="copyright" content="网易，NetEase Inc." />
+    <meta name="pmid" content="2710409" />
+    <meta name="designer" content="once" />
+    <meta name="front-end technicist" content="zhongxiaoxia" />
+    <base target="_blank" />
+    <!--项目meta信息，请编辑提供 end-->
+    <link rel="dns-prefetch" href="https://nie.res.netease.com">
+    <link rel="stylesheet" type="text/css" href="https://nie.res.netease.com/comm/css/art.com.css">
+    <!--[if lt IE 9]>
+    <script src="https://nie.res.netease.com/comm/html5/html5shiv.js"></script>
+    <![endif]-->
+
+<link type="text/css" rel="stylesheet" href="https://nie.res.netease.com/nie/gw/15v1/pkg/auto_combine_7da31_c7994b9.css?v=1">
+<style>
+.main aside .side-list li{
+    width: 400px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.near-notice,.interact,.game-help{
+	display:none;
+}
+.topBar {position:relative !important;background:#fff !important;}
+.artText a{ color:#6795B5;}
+.artText a:hover{ text-decoration:underline;}
+#NIE-art .artText p {
+    margin: 0 0 10px;
+}
+</style>
+<!--cms自动跳转代码 start -->
+<script type="text/javascript">
+!function(){
+var PCUrl = '//game.163.com/2018/03/15/25513_734454.html';var MobileUrl = '//game.163.com/m/2018/03/15/25513_734454.html';var isMobile = /iphone|android|ipod/i.test(navigator.userAgent.toLowerCase()) == true ;var Url =  '//' + window.location.hostname + (window.location.port ? ':'+window.location.port : '') + window.location.pathname;if(isMobile && Url == MobileUrl)return false;else if(isMobile && MobileUrl){window.location.href = MobileUrl + window.location.search;}if(!isMobile && Url == PCUrl)return false;else if(!isMobile && PCUrl){window.location.href = PCUrl + window.location.search;}}();
+</script>
+<!--cms自动跳转代码 end --></head>
+<body>
+<!--SEO start-->
+<h1 class="hidden"></h1>
+<h2 class="hide"></h2>
+
+<!--SEO start-->
+<div style="display:none"><link rel="stylesheet" type="text/css" data-fixed="true" href="https://nie.res.netease.com/comm/nie.topBar/css/topBar.v2.last_ca24f98.css">
+<div id="NIE-topBar-include">
+	<div class="NIE-topBar-main" id="NIE-topBar-main">
+
+    <a href="javascript:;" class="NIE-topBar-menu-btn" id="NIE-topBar-menu-btn"><i></i>游戏全目录</a>
+
+    <div id="NIE-topBar-news">
+        <span>
+            <img class="NIE-topBar-abc-s" id="NIE-topBar-abc-s">
+            <a href="#" target="_blank" id="NIE-topBar-news-link"><img id="NIE-topBar-abc-b"></a>
+            <span id="NIE-topBar-news-close">关闭</span>
+        </span>
+    </div>
+
+    <a class="NIE-topBar-logo" href="http://game.163.com/" target="_blank" onclick="window.nie.config.stats.url.add('nietopbar.html?click=top-logo','顶部图标点击')"></a>
+
+    <div class="NIE-topBar-right normal" id="NIE-topBar-right"><a target="_blank">&nbsp;</a></div>
+
+    <div class="NIE-topBar-recommend" id="NIE-topBar-recommend" style="display: none;">
+        <a href="javascript:;"><i></i>热点推荐</a>
+    </div>
+
+    <!--编辑推荐内容-->
+<div class="NIE-topBar-recommend-ctn" id="NIE-topBar-recommend-ctn">
+
+    <ul class="NIE-game-list" id="NIE-topBar-recommend-list">
+        <li>
+            <a href="http://game.163.com" target="_blank">
+                <img src="https://nie.res.netease.com/comm/nie.topBar/images/normal_6eb4d48.jpg" alt="推荐图">
+                <div class="NIE-game-name">
+                    <span class="game-title">网易游戏</span>
+                    <span class="game-title">游戏爱好者</span>
+                </div>
+            </a>
+        </li>
+    </ul>
+
+    <div class="NIE-game-foot" id="global_foot" style="display: none;">
+        <span class="prefix">我的足迹：</span>&nbsp;&nbsp;
+    </div>
+
+    <div class="NIE-game-btn" id="global_gp_mid">
+        <a id="global_gp_reg" href="$regPage$" target="_blank"><i class="icon-zc"></i>注册帐号</a>
+        <a id="global_gp_card" href="$ecardLink$" target="_blank"><i class="icon-cz"></i>购卡充值</a>
+        <a href="http://gm.163.com?from=nietop" target="_blank"><i class="icon-kf"></i>客服中心</a>
+        
+        <a href="$zsLink$" target="_blank" id="global_gp_zs" style="display:none;">$zsName$</a>
+
+    </div>
+
+</div>
+
+    <div id="NIE-topBar-menu">
+        <span style="display: none;">网易游戏全目录 <em class="NIE-topBar-arrIcon"><i></i></em></span>
+        <div class="NIE-table" id="NIE-table">
+            <ul class="NIE-nav">
+                <li style="width:299px;"><b>客户端游戏</b></li>
+                <li class="mobi" style="width:828px;"><b>手机游戏</b></li>
+                <li style="width:131px;float:right;" class="last_th"><b>游戏辅助</b></li>
+            </ul>
+
+            <ul class="NIE-list">
+                <li style="width:121px;border-right:0;">
+                    <p>角色扮演</p>
+                    
+                        <a href="http://xyq.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-1st">梦幻西游电脑版</em></a><a href="http://xy2.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">大话2经典版</em></a><a href="http://tx3.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">天下3</em></a><a href="http://xqn.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">新倩女幽魂</em></a><a href="http://n.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">逆水寒</em></a><a href="http://ty.163.com/?from=nietop" target="_blank"><em class="">天谕</em></a><a href="http://fight.163.com/?from=nietop" target="_blank"><em class="">超激斗梦境</em></a><a href="http://long.163.com/?from=nietop" target="_blank"><em class="">龙魂时刻</em></a><a href="http://tia.163.com/?from=nietop" target="_blank"><em class="">泰亚史诗</em></a><a href="http://dh2.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">大话2免费版</em></a><a href="http://xy3.163.com/?from=nietop" target="_blank"><em class="">新大话3经典版</em></a><a href="http://x3.163.com/?from=nietop" target="_blank"><em class="">新大话3免费版</em></a><a href="http://zmq.163.com/?from=nietop" target="_blank"><em class="">镇魔曲</em></a><a href="http://zw.163.com/?from=nietop" target="_blank"><em class="">镇魔曲页游</em></a><a href="http://dtws2.163.com/?from=nietop" target="_blank"><em class="">大唐无双</em></a><a href="http://wh2.163.com/?from=nietop" target="_blank"><em class="">武魂2</em></a><a href="http://www.warcraftchina.com/?from=nietop" target="_blank"><em class="">魔兽世界</em></a>
+                    
+                </li>
+                <li style="width: 121px;border-right:0;margin-left:20px;">
+                    <p>&nbsp;</p>
+                    
+                        <a href="http://www.diablo3.com.cn/?from=nietop" target="_blank"><em class="">暗黑破坏神3</em></a><a href="http://ff.163.com/?from=nietop" target="_blank"><em class="">新飞飞</em></a><a href="http://jl.163.com/?from=nietop" target="_blank"><em class="">精灵传说</em></a>
+                    
+                </li>
+                <li class="short" id="js_NIE_topbar_xiu" style="width:150px;position: absolute;left: 135px;background-color: #fdfefe;z-index:3;">
+                    <p>竞技/休闲</p>
+                    
+                        <a href="http://mc.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">我的世界</em></a><a href="http://ow.blizzard.cn/home/?from=nietop" target="_blank"><em class="NIE-topBar-new">守望先锋</em></a><a href="http://hyp.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">荒野行动Plus</em></a><a href="http://evepc.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">EVE Online</em></a><a href="http://tuji.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">突击英雄</em></a><a href="http://wf.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">无尽战区</em></a><a href="http://z.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">战意</em></a><a href="http://mjdj.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">秘境对决</em></a><a href="http://www.heroesofthestorm.com.cn/landing/?from=nietop" target="_blank"><em class="">风暴英雄</em></a><a href="http://sc2.163.com/home/?from=nietop" target="_blank"><em class="">星际争霸Ⅱ</em></a><a href="http://y3.163.com/?from=nietop" target="_blank"><em class="">英雄三国</em></a><a href="http://www.hearthstone.com.cn/?from=nietop" target="_blank"><em class="">炉石传说</em></a>
+                    
+                    <a href="javascript:void(0)" hidefocus="true" class="NIE-topBar-more" id="NIE-topBar-more-pc">更多热门端游</a>
+                </li>
+
+                <li class="hot" style="width:133px;">
+                    <p>热门推荐</p>
+                    
+                        <a href="http://my.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">梦幻西游手游</em></a><a href="http://dhxy.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">大话西游手游</em></a><a href="http://qnm.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">倩女幽魂手游</em></a><a href="http://yys.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">阴阳师</em></a><a href="http://stzb.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">率土之滨</em></a><a href="http://tx.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">天下手游</em></a><a href="http://zm.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">镇魔曲手游</em></a><a href="https://moba.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">决战！平安京</em></a><a href="http://mrzh.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">明日之后</em></a><a href="http://hy.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">荒野行动</em></a><a href="http://id5.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">第五人格</em></a><a href="http://sd.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">神都夜行录</em></a><a href="http://clx.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">楚留香</em></a><a href="http://t2.163.com/?from=nietop" target="_blank"><em class="">终结者2官方手游</em></a><a href="http://mc.163.com/?from=nietop" target="_blank"><em class="">我的世界Minecraft</em></a><a href="http://dt.163.com/?from=nietop" target="_blank"><em class="">大唐无双唯美篇</em></a><a href="http://land.163.com/?from=nietop" target="_blank"><em class="">光明大陆</em></a>
+                    
+                </li>
+                <li class="news" style="width:668px;">
+                    <p>新品推荐</p>
+                    <div id="NIE-list-news">
+                        <div class="long-news">
+                            
+                                <a href="http://xy3d.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">梦幻西游3D</em></a><a href="http://hyj.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">花与剑</em></a><a href="http://di.blizzard.cn/?from=nietop" target="_blank"><em class="NIE-topBar-new">暗黑破坏神：不朽</em></a><a href="http://hz.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">绘真·妙笔千山</em></a><a href="http://sky.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">Sky光遇</em></a><a href="http://lx.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">流星蝴蝶剑</em></a><a href="http://pes.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">实况足球</em></a><a href="http://wxzc.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">无限战车</em></a><a href="http://uno.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">一起优诺</em></a><a href="http://gd.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">孤岛先锋</em></a><a href="https://doudou.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">逗斗火柴人</em></a><a href="http://sword.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">轩辕剑龙舞云山</em></a><a href="http://ygo.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">游戏王：决斗链接</em></a><a href="http://room.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">迷室The Room</em></a><a href="http://hd.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">海岛纪元</em></a><a href="http://f7.163.com/?from=nietop" target="_blank"><em class="">永远的7日之都</em></a>
+                            
+                        </div>
+                        <div class="long-news">
+                            
+                                <a href="http://jwxf.163.com/?from=nietop" target="_blank"><em class="">舰无虚发：暗星</em></a><a href="http://pescc.163.com/?from=nietop" target="_blank"><em class="">实况：王者集结</em></a><a href="http://ws.163.com/?from=nietop" target="_blank"><em class="">战舰世界闪击战</em></a><a href="http://fyd.163.com/?from=nietop" target="_blank"><em class="">风云岛行动</em></a><a href="http://wotb.163.com/?from=nietop" target="_blank"><em class="">坦克世界闪击战</em></a><a href="http://3v3.163.com/?from=nietop" target="_blank"><em class="">战争怒吼</em></a><a href="http://codecombat.163.com/?from=nietop" target="_blank"><em class="">极客战记</em></a><a href="http://tqlm.163.com/?from=nietop" target="_blank"><em class="">天启联盟</em></a><a href="https://qlyfz.163.com/?from=nietop" target="_blank"><em class="">权力与纷争</em></a><a href="http://koh.163.com/?from=nietop" target="_blank"><em class="">猎手之王</em></a><a href="http://dot.163.com/?from=nietop" target="_blank"><em class="">泰坦黎明</em></a><a href="http://qwq.163.com/?from=nietop" target="_blank"><em class="">非人学园</em></a><a href="http://zgz.163.com/?from=nietop" target="_blank"><em class="">战国志</em></a><a href="http://evem.163.com/?from=nietop" target="_blank"><em class="">星战前夜：无烬星河</em></a><a href="http://sg.163.com/?from=nietop" target="_blank"><em class="">三国如龙传</em></a><a href="http://mytrip.163.com/?from=nietop" target="_blank"><em class="">边境之旅</em></a>
+                            
+                        </div>
+                        <div class="short-news">
+                            
+                                <a href="http://qp.163.com/?from=nietop" target="_blank"><em class="">网易棋牌</em></a><a href="http://sywm.163.com/?from=nietop" target="_blank"><em class="">神谕文明</em></a><a href="http://yume.163.com/?from=nietop" target="_blank"><em class="">悠梦YuME</em></a><a href="http://fdhz.163.com/?from=nietop" target="_blank"><em class="">风暴对决</em></a><a href="http://lh.163.com/?from=nietop" target="_blank"><em class="">猎魂觉醒</em></a><a href="http://tym.163.com/?from=nietop" target="_blank"><em class="">天谕手游</em></a><a href="http://lyzd.163.com/?from=nietop" target="_blank"><em class="">绿茵之巅</em></a><a href="http://fz.163.com/?from=nietop" target="_blank"><em class="">汉王纷争</em></a><a href="http://popa.163.com/?from=nietop" target="_blank"><em class="">泡泡趴</em></a><a href="http://ma3.163.com/?from=nietop" target="_blank"><em class="">叛逆性百万亚瑟王</em></a><a href="http://langrensha.163.com/?from=nietop" target="_blank"><em class="">狼人杀</em></a><a href="http://bilibili.163.com/?from=nietop" target="_blank"><em class="">魔法禁书目录</em></a><a href="http://mhws.163.com/?from=nietop" target="_blank"><em class="">梦幻西游无双</em></a><a href="http://mjdj.163.com/?from=nietop" target="_blank"><em class="">秘境对决</em></a><a href="http://sv.163.com/?from=nietop" target="_blank"><em class="">影之诗</em></a><a href="http://myj.163.com/?from=nietop" target="_blank"><em class="">九州海上牧云记</em></a>
+                            
+                        </div>
+                        <div class="short-news">
+                            
+                                <a href="http://xfj.163.com/?from=nietop" target="_blank"><em class="">暴走小飞机</em></a><a href="http://dui.163.com/?from=nietop" target="_blank"><em class="">猪场怼怼乐</em></a><a href="http://chao.163.com/?from=nietop" target="_blank"><em class="">潮人篮球</em></a><a href="http://wpls.163.com/?from=nietop" target="_blank"><em class="">秘宝猎人:王牌猎手</em></a><a href="http://sgblade.163.com/?from=nietop" target="_blank"><em class="">三国诛将录</em></a><a href="http://zztj.163.com/?from=nietop" target="_blank"><em class="">重装突击</em></a><a href="http://dance.163.com/?from=nietop" target="_blank"><em class="">劲舞团</em></a><a href="http://tank.163.com/?from=nietop" target="_blank"><em class="">坦克连</em></a><a href="http://dhrx.163.com/?from=nietop" target="_blank"><em class="">大话西游热血版</em></a><a href="http://dhh.163.com/?from=nietop" target="_blank"><em class="">大航海之路</em></a><a href="http://spp.163.com/?from=nietop" target="_blank"><em class="">超物理基斗</em></a><a href="http://ssydj.163.com/?from=nietop" target="_blank"><em class="">三少爷的剑</em></a><a href="http://mwsj.163.com/?from=nietop" target="_blank"><em class="">迷雾世界</em></a><a href="http://moe.163.com/?from=nietop" target="_blank"><em class="">萌王EX</em></a><a href="http://mblr.163.com/?from=nietop" target="_blank"><em class="">秘宝猎人</em></a><a href="http://dao.163.com/?from=nietop" target="_blank"><em class="">飞刀又见飞刀</em></a>
+                            
+                        </div>
+                        <div class="short-news">
+                            
+                                <a href="http://fmz.163.com/?from=nietop" target="_blank"><em class="">伏魔咒</em></a><a href="http://txx.163.com/?from=nietop" target="_blank"><em class="">天下X天下</em></a><a href="http://zj.163.com/?from=nietop" target="_blank"><em class="">异次元战姬</em></a><a href="http://yhbj.163.com/?from=nietop" target="_blank"><em class="">永恒边境</em></a><a href="http://wjsy.163.com/?from=nietop" target="_blank"><em class="">无尽神域</em></a><a href="http://zh.163.com/boot.html?from=nietop" target="_blank"><em class="">斩魂手游版</em></a><a href="http://glory.163.com/?from=nietop" target="_blank"><em class="">格罗亚传奇</em></a><a href="http://yzr.163.com/?from=nietop" target="_blank"><em class="">雨血：影之刃</em></a><a href="http://hyy.163.com/?from=nietop" target="_blank"><em class="">花语月</em></a><a href="http://ldxy.163.com/?from=nietop" target="_blank"><em class="">乱斗西游2</em></a><a href="http://jm.163.com/?from=nietop" target="_blank"><em class="">惊梦</em></a><a href="http://mmx.163.com/?from=nietop" target="_blank"><em class="">火拼萌萌消</em></a><a href="http://dwlm.163.com/?from=nietop" target="_blank"><em class="">超能动物联盟</em></a><a href="http://zlj.163.com/?from=nietop" target="_blank"><em class="">口袋侏罗纪</em></a><a href="http://zgmh.163.com/?from=nietop" target="_blank"><em class="">主公莫慌</em></a><a href="http://xym.163.com/?from=nietop" target="_blank"><em class="">迷你西游</em></a>
+                            
+                        </div>
+                        <div class="short-news">
+                            
+                                <a href="http://wscs.163.com/?from=nietop" target="_blank"><em class="">实况俱乐部</em></a><a href="http://kf.163.com/?from=nietop" target="_blank"><em class="">功夫熊猫3手游</em></a><a href="http://yhl.163.com/?from=nietop" target="_blank"><em class="">倩女幽魂录</em></a><a href="http://hzhy.163.com/?from=nietop" target="_blank"><em class="">魂之幻影</em></a><a href="http://dtyxj.163.com/?from=nietop" target="_blank"><em class="">大唐游仙记</em></a><a href="http://txhd.163.com/?from=nietop" target="_blank"><em class="">天下HD</em></a><a href="http://jx.163.com/?from=nietop" target="_blank"><em class="">无尽战区·觉醒</em></a><a href="http://jjwz.163.com/?from=nietop" target="_blank"><em class="">荆棘王座</em></a><a href="http://sm.163.com/?from=nietop" target="_blank"><em class="">西游神魔决</em></a><a href="http://sq.163.com/?from=nietop" target="_blank"><em class="">有杀气童话</em></a><a href="http://puppy.163.com/?from=nietop" target="_blank"><em class="">小汪汪</em></a><a href="http://xsd.163.com/?from=nietop" target="_blank"><em class="">小时代官方游戏</em></a><a href="http://ywl.163.com/?from=nietop" target="_blank"><em class="">妖刀少女异闻录</em></a><a href="http://tnj.163.com/?from=nietop" target="_blank"><em class="">猫和老鼠官方手游</em></a><a href="http://gfxm.163.com/?from=nietop" target="_blank"><em class="">功夫熊猫官方手游</em></a><a href="http://miku.163.com/?from=nietop" target="_blank"><em class="">初音速</em></a>
+                            
+                        </div>
+                    </div>
+
+                    <a href="javascript:void(0)" hidefocus="true" class="NIE-topBar-more" id="NIE-topBar-more-mobi">更多热门手游</a>
+                </li>
+                <li class="short" style="width:117px;border-right:0;float:right;">
+                    <a href="http://ypw.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">游品位</em></a>
+                    <a href="http://mumu.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">网易MuMu</em></a>
+                    <a href="http://qiyu.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">会员俱乐部</em></a>
+                    <a href="http://ds.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">网易大神</em></a>
+                    <a href="https://buff.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">网易BUFF</em></a> 
+                    <a href="http://gift.163.com/?from=nietop" target="_blank">网易游戏印象</a>
+                    <a href="http://pt.163.com/?from=nietop" target="_blank">网易游戏平台</a>
+                    <a href="http://yxzs.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">网易游戏助手</em></a> 
+                    <a href="http://avg.163.com/home" target="_blank"><em class="NIE-topBar-hot">易次元</em></a>
+                    <a href="http://mkey.163.com?from=nietop" target="_blank">手机将军令</a>
+                    <a href="http://ekey.163.com?from=nietop" target="_blank">将军令</a>
+                    <a href="http://cbg.163.com?from=nietop" target="_blank">藏宝阁</a>
+                    <a href="http://cc.163.com?from=nietop" target="_blank">网易CC</a>
+                    <a href="http://box.gm.163.com/?fromnietop" target="_blank">自助百宝箱</a>
+                    <a href="http://uu.163.com?from=nietop" target="_blank">网易UU加速器</a>
+                    <a href="https://bjk.163.com/hongka/?cmpid=jt-wyk-n&shopid=lmk.cps.jtwykn?from=nietop" target="_blank">网易白金卡</a>
+                    <a href="http://gm.163.com?from=nietop" target="_blank">客服中心</a>
+                    <a class="NIE-topBar-btn" href="http://game.163.com/?from=nietop" target="_blank">网易游戏</a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</div>
+<div class="NIE-topBar-bottom"></div>
+</div>
+<script type="text/javascript">
+    ~function(){
+    	var cdn = 'https://nie.res.netease.com/comm/nie.topBar/js/v3/topBar.last.source.js';
+    	cdn = cdn.replace('js/v3/topBar.last.source.js','');
+    	var __script = document.createElement("script");
+    	__script.charset = "utf-8";
+    	__script.src = cdn+'js/topBar.v3.last.js';
+    	document.body.appendChild(__script);
+    }();
+</script>
+<!--This is Git Project From NIE-COMM-A/nie-top-bar(21)--></div>
+<link rel="stylesheet" href="https://nie.res.netease.com/nie/gw/15v1/css/topBar_eb857d2.css" data-fixed="true">
+<div class="topBar">
+	<div class="topBox f-cb">
+		<a href="/" class="topLogo title-hide-a">网易游戏</a>
+		<p class="topBoxlist">
+			<a href="http://qiyu.163.com" target="_blank" hidefocus="true"><i></i>网易游戏会员俱乐部</a><span>&middot;</span>
+			<a href="/about/" target="_blank" hidefocus="true"><i></i>关于网易游戏</a><span>&middot;</span>
+			<a href="http://play.163.com" target="_blank" hidefocus="true"><i></i>爱玩网</a>
+			<span>&middot;</span>
+			<a href="/love/" target="_blank" hidefocus="true"><i></i>游戏热爱者</a><span>&middot;</span>
+			<a href="http://ds.163.com/" target="_blank" hidefocus="true"><i></i>网易大神</a><span>&middot;</span>
+			<a class="openSel" href="http://hr.game.163.com/" target="_blank" hidefocus="true"><i></i>人才招聘</a><span>&middot;</span>
+			<a href="http://gm.163.com/" target="_blank" hidefocus="true"><i></i>客服中心</a>
+			
+		</p>
+		<a id="topOpen" class="topOpen f-turn" href="javascript:;"><i></i><span>游戏列表</span></a>
+		<div id="topNav" class="topNav">
+			<p>游戏列表
+				<span><i class="icon-H"></i>热门游戏</span>
+				<span><i class="icon-N"></i>最新游戏</span>
+			</p>
+			<!--2015版本游戏列表 Start 2015-04-28-->
+<div class="nav-box-con nav-box-con1 f-cb">
+    <h2 class="nav-box-title"><em>客户端游戏</em></h2>
+    <div class="nav-li-box nav-li-box1 f-cb">
+        <h2>角色扮演</h2>
+        <ul></ul>
+    </div>
+    <div class="nav-li-box nav-li-box2 f-cb">
+        <h2>竞技/休闲</h2>
+        <ul></ul>
+    </div>
+</div>
+<div class="nav-box-con nav-box-con2 f-cb">
+    <h2 class="nav-box-title"><em>手机游戏</em></h2>
+    <div class="nav-li-box nav-li-box3 f-cb">
+        <h2>热门推荐</h2>
+        <ul></ul>
+    </div>
+    <div class="nav-li-box nav-li-box4 f-cb">
+        <h2>新品推荐</h2>
+            
+        <ul style="width:592px;" class="clr"></ul>
+    </div>
+    
+</div>
+<!--2015版本游戏列表 End 2015-04-28-->
+			<a id="topClose" class="closeNav"><i></i></a>
+		</div>
+	</div>
+	<!-- <div id="selNav" class="selNav openSel">
+		<div class="sel-nav-box">
+			<em></em>
+			<a href="http://game.campus.163.com/" target="_blank">校园招聘</a>
+			<a href="http://hr.game.163.com/tech/" target="_blank">社会招聘（技术类）</a>
+		</div>
+	</div> -->
+</div>
+<script charset="gb2312" type="text/javascript" data-fixed="true">function topNav(){{var s=$("#topNav");$("#selNav")}$("#topOpen").click(function(){$(this).hasClass("open")?($(this).removeClass("open"),s.slideUp(300)):($(this).addClass("open"),s.slideDown(300))}),$("#topClose").click(function(){$("#topOpen").removeClass("open"),s.slideUp(300)})}</script>
+<!--This is Git Project From NIE/nie-gw-pc-20150413(483)-->
+<!--顶部导航-->
+<section class="wrap">
+    <section class="wrap1">
+        
+        <section class="main">
+            <div class="header">
+                <p class="tit"><span></span></p>
+            </div>
+            <div class="content">
+                <div id="NIE-art">
+                     <h1 class="artTitle">《西楚霸王》网易官方版本游戏停运公告</h1>
+                    <p class="artInfo"><span class="artDate">2018-01-11</span></p>
+                    <div class="artText">
+                        <!--正文--> 
+                        <p>各位亲爱的《西楚霸王》网络游戏玩家：</p>
+
+<p>　　感谢您一直以来给予《西楚霸王》网络游戏的支持与厚爱！由于业务发展上的调整，《西楚霸王》网络游戏将于<span class="redb">2018年3月15日10时</span>终止运营。</p>
+
+<p>　　为此，我们将于<span class="redb">2018年3月15日10时</span>关闭《西楚霸王》网络游戏的服务器，届时起《西楚霸王》网络游戏将不能登录、显示或运行。与此同时我们也将关闭《西楚霸王》网络游戏的官方网站(<a href="http://bw.163.com/" target="_blank">http://bw.163.com/</a>)及官方游戏论坛(<a href="http://bw.netease.com/" target="_blank">http://bw.netease.com/</a>)，届时起上述网站将不能访问。</p>
+
+<p>　　<span class="redb">2018年1月11日维护后</span>，<strong>《西楚霸王》将不再对新玩家开放登录（老玩家依然可以正常登陆），且游戏内会停止《西楚霸王》游戏内藏宝阁的寄售和上架功能，</strong>现有玩家可在<span class="redb">2018年1月11日维护后起至2018年3月15日10时</span>期间继续登录《西楚霸王》游戏，该期间《西楚霸王》将停止收费，（即：停止《西楚霸王》游戏内通用点兑换金子功能）。<span class="redb">2018年3月1日10时</span><strong>我们将关闭《西楚霸王》藏宝阁网站（<a href="http://bw.cbg.163.com/" target="_blank">http://bw.cbg.163.com/</a>），届时该网站将不能访问。</strong></p>
+
+<p>　　为答谢多年来一直支持《西楚霸王》游戏的广大玩家，我们还推出了相应的福利方案（见附件），希望各位能继续在网易的大家庭中欢享快乐生活。以上所述，还请您周知并相互转告，如有任何疑义，请随时与我们的客服联系。(客服专区地址：<a href="http://bw.gm.163.com/" target="_blank">http://bw.gm.163.com/</a>)</p>
+
+<p>　　我们跟您一样对于《西楚霸王》网络游戏有着难以割舍的情感，同时也对此次终止运营给您造成的不便深表歉意！我们十分感谢您的理解和原谅，也衷心期待您继续支持和关注网易旗下更多优秀产品！</p>
+
+<p style="text-align: right;">　　网易公司</p>
+
+<p style="text-align: right;">　　2018.1.11</p>
+
+<h2>附：《西楚霸王》网易官方版本游戏停运玩家福利方案</h2>
+
+<h3>福利一：</h3>
+
+<p>　　截止至<span class="redb">2018年1月11日维护时</span>，《西楚霸王》现有玩家网易通行证帐号中尚未使用的游戏的金子可继续使用，且对于截止至<span class="redb">2018年1月11日维护时</span>《西楚霸王》玩家的网易通行证帐号中尚未使用的收费金子（由通用点兑换的金子，不包括二测返还的金子以及其他途径赠送的金子），玩家将可以于<span class="redb">2018年1月18日之后</span>使用同一帐号到网易公司《新倩女幽魂》游戏中领取等额的绑定元宝并在游戏中使用（元宝的领取方式与下述福利二礼包相同）。</p>
+
+<h3>福利二：</h3>
+
+<p>　　为《西楚霸王》玩家更好的体验网易游戏，网易公司针对《西楚霸王》玩家推出以下福利活动，玩家可在《新倩女幽魂》游戏中获得“破界乘龙礼包”，内含海量游戏道具。这也是网易公司对《西楚霸王》忠实玩家制定的专属福利政策。</p>
+
+<h3>游戏介绍：</h3>
+
+<p>　　《新倩女幽魂》是网易游戏旗下雷火工作室出品的一款角色扮演类玄幻网游，现有五大门派、十二职业，战斗体验酷爽精彩，装备法宝随心打造，2.5D/3D视角无缝切换，最新资料片“一醉青丘”再现狐族圣地，画面古风唯美，剧情深刻动人，更有师徒、帮会、结拜、结婚等丰富社交玩法，可与好友结伴同行，共游三界！</p>
+
+<h3>具体福利内容：</h3>
+
+<p>　　<span class="red">截止至2018年1月11日</span>，所有曾经登录过《西楚霸王》的网易通行证帐号，玩家将可以使用该帐号到网易公司《新倩女幽魂》游戏中获得如下福利：</p>
+
+<p>　　<strong>登录就送专属礼包，助你升级再无压力</strong></p>
+
+<p>　　登录游戏后，可在游戏内前往蒲家村(289,253)的心易大使处选择“领取尊享关怀礼物”，即可领取“破界乘龙礼包”一份，随着玩家等级的提升，可从礼包中领取大量游戏道具：</p>
+
+<table align="center" class="table3" width="600">
+	<tbody>
+		<tr>
+			<td>1级</td>
+			<td>紫冥剑(7天)</td>
+			<td>专属称号</td>
+			<td>5万银票</td>
+			<td>药品*50</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>10级</td>
+			<td>二益双补膏*2</td>
+			<td>磨锋的牛角*2</td>
+			<td>5万银票</td>
+			<td>药品*50</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>20级</td>
+			<td>半天雷</td>
+			<td>5万修为专用经验</td>
+			<td>10万修为专用银票</td>
+			<td>灵兽小倩</td>
+			<td>药品*50</td>
+		</tr>
+		<tr>
+			<td>30级</td>
+			<td>黑狐·锦袍(7天)</td>
+			<td>点歌台·帮会</td>
+			<td>隆庆通宝(120W帮会资金)</td>
+			<td>药品*50</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>40级</td>
+			<td>一条龙经验增益丹</td>
+			<td>1级吴山石*5</td>
+			<td>10万修为专用经验</td>
+			<td>药品*50</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>50级</td>
+			<td>一捆入定红净瓶</td>
+			<td>一捆入定红念珠</td>
+			<td>10万修为专用银票</td>
+			<td>药品*50</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>60级</td>
+			<td>一捆入定紫净瓶</td>
+			<td>一捆入定紫念珠</td>
+			<td>15万修为专用经验</td>
+			<td>药品*50</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>69级</td>
+			<td>置地官文书</td>
+			<td>十片琉璃瓦</td>
+			<td>1级传世金玉宝鉴</td>
+			<td>五石仓</td>
+			<td>15万修为专用银票</td>
+		</tr>
+	</tbody>
+</table>
+
+<h3>温馨提示：</h3>
+
+<p>　　1、就上述福利仅限于“《西楚霸王》网易官方版本”玩家及“《西楚霸王》易游、顺网渠道版本<span style="line-height: 20.8px;">”</span>玩家享有。《西楚霸王》每个游戏帐号只能领取一次，不可重复领取；</p>
+
+<p>　　2、以上所有福利内容只允许“《西楚霸王》网易官方版本”玩家及“《西楚霸王》易游、顺网渠道版本<span style="line-height: 20.8px;">”</span>玩家于<strong>2018年12月31日（含当天）</strong>之前在网易《新倩女幽魂》游戏中领取，在此之后玩家将无法领取上述福利内容；</p>
+
+<p>　　3、截止至<strong>2018年3月15日10时</strong>，如您领取了上述福利，或逾期未领取且未就上述福利方案提出异议的，视为您已同意网易公司的停运方案；</p>
+
+<p>　　4、如无法成功领取上述福利的，请联系网易客服人员，联系方式：<a href="http://bw.gm.163.com/" target="_blank">http://bw.gm.163.com/</a>。</p>
+                    </div>
+                </div>
+                <div class="share" id="share"></div>
+                <div class="pic-txt">
+    
+       <div class="col-a">
+           <p class="tit"><span class="mark">游戏视频</span></p>
+           <div class="pic">
+                <a href="http://v.163.com/game/VAK57ANQ9/VCAHDHDU5.html" target="_blank" title="《坦克世界闪击战》开发商新春祝福"><img src="https://nie.res.netease.com/r/pic/20170124/565d6f6e-9370-4a9e-8e6c-dfeac13c5534" alt="《坦克世界闪击战》开发商新春祝福" width="194" height="84"><p><span></span><em>《坦克世界闪击战》开发商新春祝福</em></p></a>
+<a href="http://v.163.com/game/VAK57ANQ9/VCAHD3FAI.html" target="_blank" title="六福齐来大富翁"><img src="https://nie.res.netease.com/r/pic/20170124/fcb57136-ad9e-4bf2-b664-732dd1688623" alt="六福齐来大富翁" width="194" height="84"><p><span></span><em>六福齐来大富翁</em></p></a>
+
+           </div>
+          
+       </div>
+       <div class="col-b">
+            <p class="tit"><span class="mark">精彩图片</span></p>
+            <div class="pic">
+                <a href="http://tuku.xy2.163.com/nbpics" target="_blank" title="新大话西游2牛图"><img src="https://nie.res.netease.com/nie/nieimg/images/2015/4/17/2015-04-17_571171.jpg" alt="新大话西游2牛图" width="194" height="84"><p><span></span><em>新大话西游2牛图</em></p></a>
+<a href="http://tuku.xyq.163.com/live" target="_blank" title="梦幻西游2直播秀"><img src="https://nie.res.netease.com/nie/nieimg/images/2015/4/17/2015-04-17_571163.jpg" alt="梦幻西游2直播秀" width="194" height="84"><p><span></span><em>梦幻西游2直播秀</em></p></a>
+
+            </div>
+       </div>
+</div>
+</div>
+<!-- 侧边栏 -->
+<aside>
+
+    <!-- 近期热点 -->
+    <div class="box near-hot">
+        <p class="tit"><span class="mark">近期热点</span></p>
+        <div class="switch" id="switch">
+            <div class="pic">
+                <a href="http://gad.netease.com/mmad/click?s=xR%2Fb3vr2AwiVk%2FgJ9969aoR9Zvc%3D&project_id=13169153&monitor_type=4" title="新角色登场，捏脸开启" target="_blank"><img src="https://nie.res.netease.com/r/pic/20190116/e20f2277-8029-4724-9890-215635c94931.jpg" height="176" width="400" alt="新角色登场，捏脸开启"></a>
+<a href="http://mytrip.163.com/" title="一路相伴 感谢同行" target="_blank"><img src="https://nie.res.netease.com/r/pic/20190117/f82241b4-1308-491c-83b2-76d162e8bf3c.jpg" height="176" width="400" alt="一路相伴 感谢同行"></a>
+<a href="http://gad.netease.com/mmad/click?s=VnCnCE0kKeWExsw7w2LhCzsGUTU%3D&project_id=15800760&monitor_type=4" title="公测以来最强福利" target="_blank"><img src="https://nie.res.netease.com/r/pic/20190116/8f205cb8-7018-4f80-9aee-853f31578e96.jpg" height="176" width="400" alt="公测以来最强福利"></a>
+
+                
+            </div>
+            <div class="switch-nav">
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- 热门手游 -->
+    <div class="box hot-game">
+        <p class="tit"><span class="mark">热门资讯</span><a class="remark" href="/news/" target="_blank">/更多</a></p>
+        <ul class="side-list">
+            <li><span class="kind">资讯</span><a href="//game.163.com/news/2019/01/18/18455_796200.html" target="_blank" title="两周年庆典狂欢 《镇魔曲》全新版本“治愈系·邂逅”今日公测">两周年庆典狂欢 《镇魔曲》全新版本“治愈系·邂逅”今日公测</a></li>
+<li><span class="kind">资讯</span><a href="//game.163.com/news/2019/01/18/18455_796199.html" target="_blank" title="江湖有你 《楚留香》一周年庆多重福利活动全面开启">江湖有你 《楚留香》一周年庆多重福利活动全面开启</a></li>
+<li><span class="kind">资讯</span><a href="//game.163.com/news/2019/01/17/18455_796051.html" target="_blank" title="网易电竞NeXT2018冬季赛线下总决赛启幕，精英齐聚战意激燃">网易电竞NeXT2018冬季赛线下总决赛启幕，精英齐聚战意激燃</a></li>
+<li><span class="kind">资讯</span><a href="//game.163.com/news/2019/01/15/18455_795545.html" target="_blank" title="98元升级网易VIP全家桶，享游戏、音乐、购物、办公等5大VIP">98元升级网易VIP全家桶，享游戏、音乐、购物、办公等5大VIP</a></li>
+
+            
+        </ul>
+    </div>
+
+    <!-- 游戏动态 -->
+    <div class="box near-act">
+        <p class="tit"><span class="mark">游戏动态</span></p>
+        <div>
+            <a href="http://ssydj.163.com/?from=game163dt" target="_blank" title="《三少爷的剑》手游预约震撼开启"><img src="http://res.nie.netease.com/r/pic/20170310/895dbc80-9ff0-4c77-9118-10c40e78af5d" height="84" width="194" alt="《三少爷的剑》手游预约震撼开启"><p>《三少爷的剑》手游预约震撼开启</p></a>
+<a href="http://tank.163.com/" target="_blank" title="《坦克连》3月24日热血首发"><img src="http://res.nie.netease.com/r/pic/20170310/33505d4c-5846-45bb-af5c-cc2f3ac09e91" height="84" width="194" alt="《坦克连》3月24日热血首发"><p>《坦克连》3月24日热血首发</p></a>
+
+            
+        </div>
+    </div>
+
+    <!-- 新游预告 -->
+    <div class="box near-notice">
+        <p class="tit"><span class="mark">新游预告</span></p>
+        <div class="switch" id="switch2">
+            <div class="pic">
+                <a href="http://sq.163.com/" target="_blank" title="《有杀气童话》"><img src="https://nie.res.netease.com/nie/nieimg/images/2015/6/5/2015-06-05_596527.jpg" height="194" width="194" alt="《有杀气童话》"></a>
+<a href="http://jianglin.163.com/" target="_blank" title="《将临天下》"><img src="https://nie.res.netease.com/nie/nieimg/images/2015/5/13/2015-05-13_585387.jpg" height="194" width="194" alt="《将临天下》"></a>
+<a href="http://fd.163.com/" target="_blank" title="《小李飞刀》"><img src="https://nie.res.netease.com/nie/nieimg/images/2015/6/3/2015-06-03_595053.jpg" height="194" width="194" alt="《小李飞刀》"></a>
+
+                
+            </div>
+            <div class="switch-nav">
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- 互动吧 -->
+    <div class="box interact">
+        <p class="tit"><span class="mark">互动吧</span><a class="remark" href="/news/interact/" target="_blank">/更多</a></p>
+        <ul class="side-list">
+            <li><span class="kind">热议</span><a href="http://tool.netease.com/hdbar/danmu/nie-ndmhhdxhmldddl-1709.html" target="_blank">【脑洞漫画】吓得小红帽镰刀都掉了</a></li>
+<li><span class="kind">热议</span><a href="http://tool.netease.com/hdbar/danmu/nie-wyyxrazrjcbyz-1319.html" target="_blank">网易游戏热爱者日记：财报一则</a></li>
+<li><span class="kind">热议</span><a href="http://tool.netease.com/hdbar/danmu/nie-wyyxrazrjgyp-29.html" target="_blank">网易游戏热爱者日记：公益篇</a></li>
+<li><span class="kind">热议</span><a href="http://tool.netease.com/hdbar/danmu/nie-wyyxrazrjmqj-9117.html" target="_blank">网易游戏热爱者日记：母亲节</a></li>
+
+        </ul>
+    </div>
+
+    <!-- 游戏助手 -->
+    <div class="box game-help">
+        <p class="tit"><span class="mark">游戏助手</span></p>
+        <div class="help">
+            <a href="http://baike.163.com/" target="_blank">游戏百科</a>
+<a href="http://v.163.com/game/" target="_blank">网易游戏视频</a>
+<a href="http://game.163.com/chinajoy/menpiao/" target="_blank">Chinajoy</a>
+
+        </div>
+    </div>
+</aside>
+<!--stamp:5a187980-4885-4f22-b3ca-802ef4c4fd42,tplId:12671,pageId:15703,tplName:15v1内页右侧内容-->
+        </section>
+        
+        <footer>
+        <!-- NIE 底部版权 Start -->
+        <div id="NIE-copyRight"></div>
+        </footer>
+    </section>
+</section>
+<a class="back_top" href="javascript:window.scrollTo(0,0);" id="back_top" target="_self"></a>
+    
+
+<script charset="gb2312" src="https://nie.res.netease.com/comm/js/jquery(mixNIE).last.js"></script>
+<script type="text/javascript" src="https://nie.res.netease.com/comm/js/nie/ref/baidutemplate.js"></script>
+<script type="text/javascript">
+nie.config.copyRight.setWhite();
+topNav();
+
+var txt ="我刚看了来自#网易游戏#的" + $(".artTitle").text() + "，推荐你也看看。";
+    var shareTxt = {
+        title:txt
+    }
+    $(function(){
+        if ($("#switch .pic a").length > 1) {
+            for(var i=0;i<$("#switch .pic a").length;i++){
+                $("#switch .switch-nav").append("<a></a>")
+            }
+        }
+        if ($("#switch2 .pic a").length > 1) {
+            for(var i=0;i<$("#switch2 .pic a").length;i++){
+                $("#switch2 .switch-nav").append("<a></a>")
+            }
+        }
+        
+        nie.use(['ui.Switch','ui.tab'], function () {            
+            $.Switch("#switch .switch-nav a", "#switch .pic a");
+            $.Switch("#switch2 .switch-nav a", "#switch2 .pic a");
+        })
+        nie.use(["nie.util.shareV3"], function() {
+            var share = nie.util.share({
+            defShow:[22,2,1,4,8],//分享按钮
+                fat: "#share", //分享组件插入父级（dom或选择器），默认："#NIE-share"
+                type: 1, //分享组件类别，默认:1（1：小icon，2：大icon，3：右侧滚动条分享，4：图片分享，5：文本分享）        
+                title: shareTxt.title, //分享的标题,默认：当前页面的title
+                url: shareTxt.url, //分享的链接，默认：当前页面的url
+                img: shareTxt.img  //分享的图片，默认：null
+                
+            });
+        });
+    })
+if ($(".wrap1").height() > 1200) {
+        $(window).scroll(function(){
+            if ($(window).scrollTop() > 400){
+                $("#back_top").show();
+            }else{
+                $("#back_top").hide();
+            }
+        });
+    }
+nie.define('TOPBAR',function(){
+        var barlist = {
+            'topbar' : [function(_template_object
+                                 /**/) {
+                var _template_fun_array=[];
+                var fn=(function(__data__){
+                    var _template_varName='';
+                    for(var name in __data__){
+                        _template_varName+=('var '+name+'=__data__["'+name+'"];');
+                    };
+                    eval(_template_varName);
+                    _template_fun_array.push(''); if (ranks.length > 0) { _template_fun_array.push('    '); for(var a =0,len = ranks.length;a< len;a++){_template_fun_array.push('        <li><a target="_blank" href="',typeof( ranks[a][0]) === 'undefined'?'':baidu.template._encodeHTML( ranks[a][0]),'">',typeof( ranks[a][1]) === 'undefined'?'':baidu.template._encodeHTML( ranks[a][1]),'</a><em class="',typeof( ranks[a][2]) === 'undefined'?'':baidu.template._encodeHTML( ranks[a][2]),'"></em></li>    '); } _template_fun_array.push(''); } else{ _template_fun_array.push('    '); } _template_fun_array.push('');
+                    _template_varName=null;
+                })(_template_object);
+                fn = null;
+                return _template_fun_array.join('');
+
+            }][0]
+        };
+        var init = function(){
+                    $('.nav-li-box1 ul').html(getTopbarCon($('#NIE-topBar-menu .NIE-list li:lt(2) a')));
+                    $('.nav-li-box2 ul').html(getTopbarCon($('#NIE-topBar-menu .NIE-list li:eq(2) a[class!="NIE-topBar-more"]')));
+                    $('.nav-li-box3 ul').html(getTopbarCon($('#NIE-topBar-menu .NIE-list .hot a')));
+                    $('.nav-li-box4 ul').html(getTopbarCon($('#NIE-list-news a')));
+                    // getTopbarCon($('#NIE-topBar-menu .NIE-list li:first a'));
+                },
+                getTopbarCon =  function($obj){
+                    var gameurl = [],gamename = [],gameclass = [],roleplay = [],temp;
+                    $obj.each(function(ind,ele){
+                        var $this = $(this),
+                                _gameclass = '';
+
+                        gameurl[ind] = $this.attr('href');
+                        if($this.children('em').length == 0){
+                            gamename[ind] = $this.html();
+                            gameclass[ind] = '';
+                        }else{
+                            gamename[ind] = $this.children('em').html();
+                            _gameclass = $this.children('em').attr('class');
+                            gameclass[ind] = _gameclass == 'NIE-topBar-new' ? 'icon-N' : 'icon-H';
+
+                        }
+                        roleplay[ind] = [gameurl[ind],gamename[ind],gameclass[ind]];
+                    })
+                    for(var i =0,ilen = roleplay.length - 1;i<ilen;i++){
+                        for(var j = 0,jlen = roleplay.length - i -1;j<jlen;j++){
+                            if(roleplay[j][2] < roleplay[j+1][2] && roleplay[j][2] != 'icon-H'){
+                                temp = roleplay[j];
+                                roleplay[j] = roleplay[j+1];
+                                roleplay[j+1] = temp;
+                            }
+                        }
+                    }
+                    // console.log(roleplay);
+
+                    var gamedata = barlist['topbar']({
+                        ranks : roleplay
+                    })
+                    return gamedata;
+
+                }
+        init();
+    })
+</script>
+</body>
+</html>
+<!--stamp:fd7704fa-a303-44e3-aa54-b1c1637fa32e,tplId:12685,newsId:734454,tplName:15v1PC端新闻内页-->

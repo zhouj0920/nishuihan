@@ -1,0 +1,651 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style: none;
+    outline: none;
+}
+i {
+    font-style: normal;
+}
+body {
+    text-align: center;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+a {
+    text-decoration: none;
+}
+.clearfix::before,
+.clearfix::after {
+    content: '';
+    display: table;
+}
+.clearfix::after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+/* 大logo和home键 */
+.logoBtn {
+    position: absolute;
+    z-index: 10;
+    right: -31px;
+    top: 10px;
+    width: 104px;
+    height: 350px;
+}
+.bigLogo {
+    width: 104px;
+    height: 213px;
+    background: url(../images/logo.png) no-repeat;
+}
+.home,
+.share {
+    margin: 4px auto;
+    width: 35px;
+    height: 35px;
+    background: url(../images/yc_icons.png) no-repeat;
+}
+.home {
+    background-position: -1340px -528px;
+}
+.home:hover {
+    background-position: -1375px -528px;
+}
+.share {
+    background-position: -1410px -528px;
+}
+.share:hover {
+    background-position: -1445px -528px;
+}
+/* 主页视频盒子 */
+.containerVideo {
+    position: relative;
+    width: 1366px;
+    height: 1080px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.videoIcon {
+    position: absolute;
+    z-index: 3;
+    left: 524px;
+    top: 139px;
+    width: 194px;
+    height: 132px;
+    cursor: pointer;
+    background: url(../images/yc_icons.png) no-repeat -1234px -219px;
+    transition: all .5s;
+}
+.videoIconSmall {
+    position: absolute;
+    z-index: 4;
+    width: 110px;
+    height: 22px;
+    left: 53px;
+    top: 80px;
+    background: url(../images/yc_icons.png) no-repeat -1196px -573px;
+    display: none;
+}
+.picIcon {
+    position: absolute;
+    z-index: 3;
+    right: 360px;
+    bottom: 410px;
+    width: 270px;
+    height: 176px;
+    cursor: pointer;
+    background: url(../images/yc_icons.png) no-repeat -1234px -14px;
+    transition: all .5s;
+}
+.picIconSmall {
+    position: absolute;
+    z-index: 4;
+    width: 110px;
+    height: 22px;
+    right: 80px;
+    bottom: 54px;
+    background: url(../images/yc_icons.png) no-repeat -1347px -504px;
+    display: none;
+}
+.containerVideo .left {
+    left: -280px;
+    top: -123px;
+    transform: rotate(10deg);
+    transition: width .6s ease;
+    width: 983px;
+    height: 1280px;
+    cursor: pointer;
+}
+.rightMask {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.6);
+}
+.containerVideo .left,
+.containerVideo .right {
+    position: absolute;
+    transition: width .6s ease;
+    overflow: hidden;
+}
+
+.containerVideo .left video {
+    transform: rotate(-10deg);
+    top: -100px;
+    left: 0px;
+}
+
+.containerVideo .left video,
+.containerVideo .right video {
+    position: absolute;
+    margin: 0;
+    height: 100%;
+}
+
+.containerVideo .right {
+    left: 700px;
+    top: -22px;
+    transform: rotate(10deg);
+    transition: width .6s ease;
+    width: 983px;
+    height: 1280px;
+    cursor: pointer;
+}
+
+.containerVideo .right video {
+    left: -1250px;
+    top: 0px;
+    transform: rotate(-10deg);
+}
+
+/* 动画页大盒子 */
+.change {
+    display: none;
+    position: relative;
+    width: 1366px;
+    height: 1080px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.videoLeft {
+    position: absolute;
+    top: -200px;
+    left: -160px;
+    z-index: -1;
+    width: 1466px;
+    height: 1380px;
+    transform: rotate(9deg);
+    overflow: hidden;
+}
+
+.videoLeft img {
+    position: relative;
+    z-index: -3;
+    left: -200px;
+    top: -50px;
+    height: 1380px;
+    transform: rotate(-9deg);
+
+}
+
+.picRight {
+    position: absolute;
+    z-index: -6;
+    width: 100%;
+    height: 100%;
+    background: url("../images/yc_bg_rightC.jpg") no-repeat center center;
+}
+
+.picRightMask {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -5;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.change_cover {
+    position: absolute;
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(27, 42, 71, 0.9);
+}
+
+.change_icon_l {
+    position: absolute;
+    left: -306px;
+    width: 287px;
+    height: 1080px;
+    background: url("../images/yc_icons.png") no-repeat -609px 0;
+}
+
+.change_icon_r {
+    position: absolute;
+    right: -50px;
+    width: 296px;
+    height: 1080px;
+    background: url("../images/yc_icons.png") no-repeat -298px 0;
+}
+
+/* 游戏图赏 游戏视频 */
+.gamePic,
+.gameVideo {
+    position: absolute;
+    top: 110px;
+    left: 260px;
+    width: 940px;
+    height: 820px;
+    display: none;
+
+}
+.gameVideo {
+    left: 175px;
+}
+.gamePicLogo,
+.gameVideoLogo {
+    width: 328px;
+    height: 48px;
+}
+.gamePicLogo {
+    background: url(../images/picTitle.png) no-repeat;
+}
+.gameVideoLogo {
+    background: url(../images/videoTitle.png) no-repeat;
+}
+.tabNavW {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.tabNav {
+    position: relative;
+    float: right;
+    width: 400px;
+}
+.gameVideo .tabNav {
+    width: 200px;
+}
+.tabNav>ul>li {
+    position: relative;
+    float: left;
+    width: 100px;
+    height: 24px;
+    text-align: center;
+}
+
+.tabNav .line {
+    position: absolute;
+    width: 81px;
+    height: 2px;
+    background-color: #aa9452;
+    top: 29px;
+    left: 10px;
+}
+
+.tabNav>ul>li::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -7px;
+    left: 0px;
+    background-color: #aa9452;
+    transform: scaleX(0);
+    transition-duration: .2s;
+    transition-timing-function: ease-in-out;
+}
+
+.tabNav>ul>li:hover::before,
+.tabNav>ul>li:active::before {
+    transform: scaleX(0.8)
+}
+
+.tabNav>ul>li a {
+    display: inline-block;
+    width: 100px;
+    font-size: 18px;
+    color: #dbe9fe;
+}
+
+.tabNav>ul>li:nth-child(1) a {
+    color: #e9e0b9;
+}
+
+.gamePic .tabNav>ul>li:nth-child(1):after,
+.gameVideo .tabNav>ul>li:nth-child(1):after,
+.gamePic .tabNav>ul>li:nth-child(2):after,
+.gamePic .tabNav>ul>li:nth-child(3):after {
+    content: '';
+    background: url(../images/tabIcon.png) no-repeat;
+    width: 16px;
+    height: 9px;
+    position: absolute;
+    right: -8px;
+    top: 9px;
+}
+
+.tabContentBox {
+    position: relative;
+    width: 100%;
+    height: 650px;
+    overflow: hidden;
+}
+
+.tabBox {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+.tabBoxFirst {
+    display: block;
+}
+
+.tabBox>ul {
+    width: 960px;
+}
+
+.tabBox>ul>li {
+    position: relative;
+    float: left;
+    width: 300px;
+    height: 155px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.gameVideo .tabBox>ul>li {
+    height: 190px;
+}
+.tabBoxMask {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .4);
+    display: none;
+}
+
+.tabBoxLine {
+    position: absolute;
+    top: 10px;
+    margin-left: 10px;
+    z-index: 30;
+    width: 280px;
+    height: 135px;
+    overflow: hidden;
+}
+
+.topLine,
+.bottomLine {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    transition: transform .15s linear;
+}
+
+.topLine {
+    top: 0;
+    right: -100%;
+    transition-delay: 0s;
+}
+
+.tabBox>ul>li:hover .topLine {
+    transform: translate3d(-100%, 0, 0);
+    background-color: #fff;
+}
+
+.tabBox>ul>li:hover .bottomLine {
+    transform: translate3d(100%, 0, 0);
+    background-color: #fff;
+}
+
+
+.tabBox>ul>li:hover .leftLine {
+    transform: translate3d(0, 100%, 0);
+    background-color: #fff;
+}
+
+.tabBox>ul>li:hover .rightLine {
+    transform: translate3d(0, -100%, 0);
+    background-color: #fff;
+}
+
+.bottomLine {
+    bottom: 0;
+    left: -100%;
+    transition-delay: 0.3s;
+}
+
+.rightLine,
+.leftLine {
+    position: absolute;
+    width: 1px;
+    height: 100%;
+}
+
+.rightLine {
+    right: 0;
+    bottom: -100%;
+    transition-delay: 0.45s;
+}
+
+.leftLine {
+    left: 0;
+    top: -100%;
+    transition-delay: 0.15s;
+}
+
+.tabImgActive {
+    transform: scale(1.01);
+}
+
+.tabBox>ul>li img {
+    transition: all 0.4s;
+}
+.tabBox li p {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    line-height: 28px;
+}
+li p i {
+    display: inline-block;
+    vertical-align: middle;
+    width: 6px;
+    height: 1px;
+    line-height: 28px;
+    background: #fff;
+    margin: 0 3px;
+}
+.arrowDown {
+    position: relative;
+    bottom: -10px;
+    left: 50%;
+    margin-left: -35px;
+    width: 70px;
+    height: 45px;
+    background: url(../images/yc_icons.png) no-repeat -1270px -528px;
+}
+
+.arrowDown:hover {
+    background: url(../images/yc_icons.png) no-repeat -1199px -528px;
+}
+
+.arrowTop {
+    position: relative;
+    right: -952px;
+    bottom: 90px;
+    width: 51px;
+    height: 46px;
+    background: url(../images/yc_icons.png) no-repeat -1349px -451px;
+}
+
+.arrowTop:hover {
+    background: url(../images/yc_icons.png) no-repeat -1402px -451px;
+}
+
+/* footer */
+.footerW {
+    height: 73px;
+    background-color: #000;
+}
+.footer {
+    padding: 15px 0 10px;
+    margin: 0 auto;
+    width: 1060px;
+    height: 73px;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: left;
+    box-sizing: border-box;
+}
+.footer span {
+    display: inline-block;
+    height: 48px;
+}
+.footer a {
+    cursor: pointer;
+}
+.footerLeft {
+    width: 459px;
+}
+.footerLeft a {
+    float: left;;
+    height: 36px;
+    margin-right: 15px;
+}
+.footerLeft a:first-child {
+    margin-right: 0px;
+}
+.footerLeft img {
+    margin-top: 5px;
+    height: 31px;
+}
+.footerRight {
+    width: 414px;
+}
+.footerRight i {
+    float: left;
+    color: #fff;
+}
+.footerRight a {
+    color: #fff;
+}
+.footerRight a:hover {
+    text-decoration: underline;
+}
+.guardianship {
+    float: right;
+    background-color: #610000;
+    padding: 0 3px;
+}
+.tabBoxMask i {
+    background: url(../images/yc_icons.png) no-repeat -1348px -378px;
+}
+.tabBoxMask i {
+    width: 75px;
+    height: 73px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.tabVideoMask {
+    position: absolute;
+    width: 100%;
+    height: 155px;
+    left: 0;
+    top: 0;
+    opacity: 1;
+}
+
+.tabVideoMask i {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background: url(../images/yc_icons.png) no-repeat -1198px -378px;
+}
+
+
+.tabVideoMask i:after {
+    content: '';
+    display: block;
+    background: url(../images/border_420b615.png) no-repeat;
+    width: 150px;
+    height: 150px;
+}
+.gameVideo .tabBox li:hover i:after {
+    -webkit-animation: rotate 1.5s linear infinite 300ms 0 ease;
+    -moz-animation: rotate 1.5s linear infinite 300ms 0 ease;
+    -ms-animation: rotate 1.5s linear infinite 300ms 0 ease;
+    animation: rotate 1.5s linear infinite 300ms 0 ease;
+    -moz-animation: rotate 1.5s linear infinite;
+    -webkit-animation: rotate 1.5s linear infinite;
+    -o-animation: rotate 1.5s linear infinite;
+    -ms-animation: rotate 1.5s linear infinite;
+    animation: rotate 1.5s linear infinite;
+}
+@-webkit-keyframes rotate {
+    0% {
+        transform: rotate(0)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+@-moz-keyframes rotate {
+    0% {
+        transform: rotate(0)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+@-o-keyframes rotate {
+    0% {
+        transform: rotate(0)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+@-ms-keyframes rotate {
+    0% {
+        transform: rotate(0)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}

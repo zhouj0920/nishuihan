@@ -1,0 +1,545 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <title>
+        《逆水寒》官方网站 - 会呼吸的江湖 – 网易旗舰级武侠游戏！
+    </title>
+	<script src="js/jquery(mixnie).1.11.js"></script>
+    <link rel="stylesheet" data-fixed="true" href="css/yh-index.css">
+    <link rel="stylesheet" data-fixed="true" href="css/xinren.css">
+</head>
+
+<body>
+    <link type="text/css" rel="stylesheet" href="css/zttopbar.css" media="all">
+<!-- 顶部导航栏部分开始 -->
+<div class="topNavBar" id="topNavBar">
+	<div class="navBarWrap">
+		<a href="//n.163.com/index.html" target="_blank" class="logo"></a>
+		<div class="navs">
+			<div class="nav nav1">
+				<a href="index.html" target="_blank" class="navLink"></a>
+			</div>
+			<b class="line"></b>
+			<div class="nav nav2">
+				<a href="//n.163.com/download/" target="_blank" class="navLink"></a>
+			</div>
+			<b class="line"></b>
+			<div class="nav nav3">
+				<a href="//n.163.com/reg/" target="_blank" class="navLink"></a>
+			</div>
+			<b class="line"></b>
+			<div class="nav nav4">
+				<a href="//n.163.com/Z2V0ZnVsaQ/libao.html" target="_blank" class="navLink"></a>
+			</div>
+			<b class="line"></b>
+			<div class="nav nav5">
+				<div class="topShare" id="topShare"></div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- 顶部导航栏部分结束 -->
+<!-- 内容部分开始 -->
+    <div class="wrap">
+        <div class="main">
+            <div class="content">
+                <div class="nav">
+                    <a class="nav-item nielian" href="nielian.html"></a>
+                    <div class="nav-item xinren active"></div>
+                </div>
+                <div v-if="username" class="user-info">{{username}} <span @click="logout">[退出]</span></div>
+                <div class="title"></div>
+
+                <div class="content-wrap">
+                    <div class="scroll-bar">
+                        <div class="scroll-thumb"></div>
+                    </div>
+                    <div class="content-wrap-inner">
+                        <div class="content-wrap-content">
+                            <div class="title1"></div>
+                            <div class="libao-wrap">
+                                <div id="app">
+                                    <div class="step1" v-if="step == 'step1'">
+                                        <div class="claim-btn" @click="getStatus"></div>
+                                    </div>
+                                    <div class="step2" v-if="step == 'step2'">
+                                        <div class="login-wrap">
+                                            <div id="login"></div>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="step3" v-if="step == 'step3'" key="step3">
+                                        <p>同门，你的江湖成长豪礼序列包是</p>
+                                        <div class="code-wrap">
+                                            <span>{{giftcode}}</span>
+                                            <a class="copy-btn" id="copyBtn1" :data-clipboard-text="giftcode" href="javascript:void(0);"></a>
+                                        </div>
+                                    </div>
+                                    <div class="step4" v-if="step == 'step4'">
+                                        <p>同门，您曾经领取过该类礼包啦！欢迎关注更多游戏内外的福利！</p>
+                                        <div class="code-wrap">
+                                            <span>{{giftcode}}</span>
+                                            <a class="copy-btn" id="copyBtn2" :data-clipboard-text="giftcode" href="javascript:void(0);"></a>
+                                        </div>
+                                    </div>
+                                    <div class="step5" v-if="step == 'step5'" key="step5">
+                                        <h2 class="tip-msg">请同门完成验证，获取礼包码哦</h2>
+                                        <div id="captcha"></div>
+                                    </div> -->
+                                </div>
+                            </div>
+                            
+                            <div v-if="rulesFold" class="rule-btn" @click="unfoldRules">
+                                <i></i>
+                            </div>
+                            <div v-else="" class="desc">
+                                <div class="left-title"></div>
+                                <div class="right-word">
+                                    <p>领取成功后，请复制保存好弹窗中的礼包序列码。如遗忘，可在这个专题页面登录通行证查询；</p>
+                                    <p>礼包兑换：请于游戏开服后登录游戏，各位同门请前往仙居原
+                                        <span class="red">慕容秋（351,806）</span>处兑换礼包；
+                                    </p>
+                                    <p>进入游戏即得下图奖励；此外每升5级，点击礼包就能获得对应奖励物品。</p>
+                                    <p>注：同一网易通行证只能领取一次江湖成长礼包，新成长礼包的内容<span class="red">在10月18日维护后</span>进入游戏兑换才生效。本活动最终解释权归网易所有。</p>
+                                </div>
+                            </div>
+                            
+                            <div class="title2"></div>
+                              <div class="gift-wrap">
+                                <header>等级1级</header>
+                                <div class="gift-item">
+                                    <img src="images/libao03_0017667.png" alt="">
+                                    <span>油纸伞·石青<br>x1</span>
+                                </div>
+                                <div class="gift-item">
+                                    <img src="images/libao04_38a31e5.png" alt="">
+                                    <span>称号幸得识卿<br>x1</span>
+                                </div>
+                            </div>                                  
+                            <div class="gift-wrap">
+                                <header>等级5级</header>
+                                <div class="gift-item">
+                                    <img src="images/libao01_eaa9acf.png" alt="">
+                                    <span>止血散<br>x20</span>
+                                </div>
+                                <div class="gift-item">
+                                    <img src="images/libao02_0030eb1.png" alt="">
+                                    <span>生力饮<br>x20</span>
+                                </div>
+                            </div>
+                            <div class="gift-wrap">
+                                <header>等级10级</header>
+                                <div class="gift-item">
+                                    <img src="images/libao05_63f3390.png" alt="">
+                                    <span>黄鳝一味汤<br>x20</span>
+                                </div>
+                                <div class="gift-item">
+                                    <img src="images/libao06_f909190.png" alt="">
+                                    <span>雪融一年酿<br>x20</span>
+                                </div>
+                                <div class="gift-item">
+                                    <img src="images/libao07_b5a76c8.png" alt="">
+                                    <span>烟花·红双喜<br>x1</span>
+                                </div>
+                            </div>
+                            <div class="gift-wrap">
+                                <header>等级15级</header>
+                                <div class="gift-item">
+                                    <img src="images/libao01_eaa9acf.png" alt="">
+                                    <span>止血散<br>x20</span>
+                                </div>
+                                <div class="gift-item">
+                                    <img src="images/libao02_0030eb1.png" alt="">
+                                    <span>生力饮<br>x20</span>
+                                </div>
+                            </div>
+                            <div class="gift-wrap">				
+                                <header>等级20级</header>
+                                <div class="gift-item">
+                                    <img src="images/libao08_5d6d856.png" alt="">
+                                    <span>鲤鱼双合汤<br>x20</span>
+                                </div>
+                                <div class="gift-item">
+                                    <img src="images/libao09_ff776c5.png" alt="">
+                                    <span>霜落两年酿<br>x20</span>
+                                </div>
+                                <div class="gift-item">
+                                    <img src="images/libao10_e054a5e.png" alt="">
+                                    <span>1000交子<br>x1</span>
+                                </div>
+                            </div>
+                            <div class="gift-wrap">
+                                <header>等级25级</header>
+                                <div class="gift-item">
+                                    <img src="images/libao11_18b829b.png" alt="">
+                                    <span>生肌散<br>x20</span>
+                                </div>
+                                <div class="gift-item">
+                                    <img src="images/libao12_da1a832.png" alt="">
+                                    <span>回神饮<br>x20</span>
+                                </div>
+                                <div class="gift-item">
+                                    <img src="images/libao13_6954a50.png" alt="">
+                                    <span>三黄宝腊丸<br>x5</span>
+                                </div>
+                                <div class="gift-item">
+                                    <img src="images/libao14_400b4fb.png" alt="">
+                                    <span>时装礼盒<br>x1</span>
+                                </div>
+                                <div class="gift-item">
+                                    <img src="images/libao07_b5a76c8.png" alt="">
+                                    <span>烟花·三人行<br>x1</span>
+                                </div>
+                            </div>
+                            <div class="gift-wrap">
+                                <header>等级30级</header>
+                                <div class="gift-item">
+                                    <img src="images/libao15_99cd945.png" alt="">
+                                    <span>草鱼三顺汤<br>x20</span>
+                                </div>
+                                <div class="gift-item">
+                                    <img src="images/libao16_d057126.png" alt="">
+                                    <span>飘香三年酿<br>x20</span>
+                                </div>
+                                <div class="gift-item">
+                                    <img src="images/libao10_e054a5e.png" alt="">
+                                    <span>1000交子<br>x1</span>
+                                </div>
+                                <div class="gift-item">
+                                    <img src="images/libao17_a62944a.png" alt="">
+                                    <span>孔明灯·江湖初见<br>x1</span>
+                                </div>
+                                <div class="gift-item">
+                                    <img src="images/libao50_a6a4371.png" alt="">
+                                    <span>宠物零食<br>x1</span>
+                                </div>
+                            </div>
+                            <div class="gift-wrap">
+                                <header>等级35级</header>
+                                <div class="gift-item">
+                                    <img src="images/libao11_18b829b.png" alt="">
+                                    <span>生肌散<br>x20</span>
+                                </div>
+                                <div class="gift-item">
+                                    <img src="images/libao12_da1a832.png" alt="">
+                                    <span>回神饮<br>x20</span>
+                                </div>
+                                <div class="gift-item">
+                                    <img src="images/libao19_a517120.png" alt="">
+                                    <span>修精炼神丹<br>x3</span>
+                                </div>
+                                <div class="gift-item">
+                                    <img src="images/libao07_b5a76c8.png" alt="">
+                                    <span>烟花·四方风<br>x1</span>
+                                </div>
+                            </div>
+                            <div class="gift-wrap">
+                                <header>等级40级</header>
+                                <div class="gift-item">
+                                    <img src="images/libao20_e0f22aa.png" alt="">
+                                    <span>鳙鱼四合汤<br>x20</span>
+                                </div>
+                                <div class="gift-item">
+                                    <img src="images/libao21_30b144f.png" alt="">
+                                    <span>透瓶四年酿<br>x20</span>
+                                </div>
+                                <div class="gift-item">
+                                    <img src="images/libao10_e054a5e.png" alt="">
+                                    <span>1000交子<br>x1</span>
+                                </div>
+                                <div class="gift-item">
+                                    <img src="images/libao22_dc8e2e9.png" alt="">
+                                    <span>落日熔金<br>x2</span>
+                                </div>
+                            </div>
+                            <div class="gift-wrap">
+                                <header>等级45级</header>
+                                <div class="gift-item">
+                                    <img src="images/libao23_b719255.png" alt="">
+                                    <span>养心散<br>x20</span>
+                                </div>
+                                <div class="gift-item">
+                                    <img src="images/libao24_1a4e9a3.png" alt="">
+                                    <span>气定饮<br>x20</span>
+                                </div>
+                                <div class="gift-item">
+                                    <img src="images/libao13_6954a50.png" alt="">
+                                    <span>三黄宝腊丸<br>x5</span>
+                                </div>
+                                <div class="gift-item">
+                                    <img src="images/libao25_1e807ac.png" alt="">
+                                    <span>兰溪·解玉砂<br>x2</span>
+                                </div>
+                                <div class="gift-item">
+                                    <img src="images/libao26_f2cb16e.png" alt="">
+                                    <span>青铜矿镐<br>x1</span>
+                                </div>
+                                <div class="gift-item">
+                                    <img src="images/libao27_820c78d.png" alt="">
+                                    <span>钓竿<br>x1</span>
+                                </div>
+                                <div class="gift-item">
+                                    <img src="images/libao28_bd4c49b.png" alt="">
+                                    <span>青铜药锄<br>x1</span>
+                                </div>
+                            </div>
+                            <div class="gift-wrap">
+                                <header>等级50级</header>
+                                <div class="gift-item">
+                                    <img src="images/libao29_dbfdc71.png" alt="">
+                                    <span>鲫鱼五福汤<br>x20</span>
+                                </div>
+                                <div class="gift-item">
+                                    <img src="images/libao30_98bcd7c.png" alt="">
+                                    <span>仙风五年陈<br>x20</span>
+                                </div>
+                                <div class="gift-item">
+                                    <img src="images/libao10_e054a5e.png" alt="">
+                                    <span>1000交子<br>x1</span>
+                                </div>
+                                <div class="gift-item">
+                                    <img src="images/libao31_82894a9.png" alt="">
+                                    <span>宣和宝图·卷二<br>x1</span>
+                                </div>
+                                <div class="gift-item">
+                                    <img src="images/libao22_dc8e2e9.png" alt="">
+                                    <span>落日熔金<br>x2</span>
+                                </div>
+                            </div>
+                            <div class="gift-wrap">
+                                <header>等级55级</header>
+                                <div class="gift-item">
+                                    <img src="images/libao23_b719255.png" alt="">
+                                    <span>养心散<br>x20</span>
+                                </div>
+                                <div class="gift-item">
+                                    <img src="images/libao24_1a4e9a3.png" alt="">
+                                    <span>气定饮<br>x20</span>
+                                </div>
+                                <div class="gift-item">
+                                    <img src="images/libao19_a517120.png" alt="">
+                                    <span>修精炼神丹<br>x3</span>
+                                </div>
+                                <div class="gift-item">
+                                    <img src="images/libao07_b5a76c8.png" alt="">
+                                    <span>烟花·五子登科<br>x1</span>
+                                </div>
+                                <div class="gift-item">
+                                    <img src="images/libao25_1e807ac.png" alt="">
+                                    <span>兰溪·解玉砂<br>x2</span>
+                                </div>
+                            </div>
+                            <div class="gift-wrap">
+                                <header>等级60级</header>
+                                <div class="gift-item">
+                                    <img src="images/libao32_ed79b69.png" alt="">
+                                    <span>鲢鱼六和汤<br>x20</span>
+                                </div>
+                                <div class="gift-item">
+                                    <img src="images/libao33_0d3e3a0.png" alt="">
+                                    <span>瑶池六年陈<br>x20</span>
+                                </div>
+                                <div class="gift-item">
+                                    <img src="images/libao13_6954a50.png" alt="">
+                                    <span>三黄宝腊丸<br>x5</span>
+                                </div>
+                                <div class="gift-item">
+                                    <img src="images/libao34_5d09906.png" alt="">
+                                    <span>69级凌云玄铁<br>x3</span>
+                                </div>
+                                <div class="gift-item">
+                                    <img src="images/libao22_dc8e2e9.png" alt="">
+                                    <span>落日熔金<br>x2</span>
+                                </div>
+                            </div>
+                            <div class="gift-wrap">
+                                <header>等级65级</header>
+                                <div class="gift-item">
+                                    <img src="images/libao35_6954a50.png" alt="">
+                                    <span>生脉散<br>x20</span>
+                                </div>
+                                <div class="gift-item">
+                                    <img src="images/libao36_46cbdb2.png" alt="">
+                                    <span>琼华饮<br>x20</span>
+                                </div>
+                                <div class="gift-item">
+                                    <img src="images/libao19_a517120.png" alt="">
+                                    <span>修精炼神丹<br>x3</span>
+                                </div>
+                                <div class="gift-item">
+                                    <img src="images/libao31_82894a9.png" alt="">
+                                    <span>宣和宝图·卷五<br>x1</span>
+                                </div>
+                                <div class="gift-item">
+                                    <img src="images/libao25_1e807ac.png" alt="">
+                                    <span>兰溪·解玉砂<br>x2</span>
+                                </div>
+                            </div>
+                            <div class="gift-wrap">
+                                <header>等级69级</header>
+                                <div class="gift-item">
+                                    <img src="images/libao32_ed79b69.png" alt="">
+                                    <span>鲢鱼六和汤<br>x20</span>
+                                </div>
+                                <div class="gift-item">
+                                    <img src="images/libao33_0d3e3a0.png" alt="">
+                                    <span>瑶池六年陈<br>x20</span>
+                                </div>
+                                <div class="gift-item">
+                                    <img src="images/libao13_6954a50.png" alt="">
+                                    <span>三黄宝腊丸<br>x5</span>
+                                </div>
+                                <div class="gift-item">
+                                    <img src="images/libao34_5d09906.png" alt="">
+                                    <span>69级凌云玄铁<br>x3</span>
+                                </div>
+                                <div class="gift-item">
+                                    <img src="images/libao07_b5a76c8.png" alt="">
+                                    <span>烟花·六六六<br>x1</span>
+                                </div>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="foot">
+<div id="foot">
+    <div id="NIE-copyRight">
+        <style type="text/css">
+            .nie-copyright-new-inner {
+                width: 840px;
+                text-align: left;
+                margin: 0 auto;
+                padding: 15px 0 10px;
+                font-size: 12px;
+                line-height: 20px;
+            }
+
+            .nie-copyright-new-inner .nie-cn-logo {
+                display: inline-block;
+                vertical-align: middle;
+                height: 48px;
+                min-width: 300px
+            }
+
+            .nie-copyright-new-inner .nie-cn-logo a {
+                display: inline-block;
+                vertical-align: top;
+                margin-top: 2px;
+            }
+
+            .nie-copyright-new-inner .nie-cn-logo a.a0 img {
+                padding-right: 0
+            }
+
+            .nie-copyright-new-inner .nie-cn-logo img {
+                padding-right: 15px;
+                padding-top: 5px;
+                border: 0;
+                vertical-align: middle;
+            }
+
+            .nie-copyright-new-inner .nie-cn-nav {
+                display: inline-block;
+                vertical-align: top;
+                position: relative;
+                z-index: 1;
+            }
+
+            .nie-copyright-new-inner .nie-cn-nav i {
+                font-style: normal
+            }
+
+            .nie-copyright-new-inner .nie-cn-nav i.nie-cn-nav-i2 {
+                height: 28px;
+                line-height: 28px;
+                text-align: left;
+            }
+
+            .nie-copyright-new-inner .nie-cn-nav a {
+                text-decoration: none
+            }
+
+            .nie-copyright-new-inner .nie-cn-nav a:hover {
+                text-decoration: underline
+            }
+
+            .nie-copyright-new-inner .nie-cn-nav .nie-cn-reportcenter {
+                padding-left: 18px;
+                font-style: normal;
+            }
+
+            .nie-copyright-new-inner .nie-cn-nav a.nie-cn-guardianship {
+                display: inline-block;
+                color: #fff;
+                background-color: #610000;
+                position: absolute;
+                z-index: 2;
+                right: 0;
+                height: 26px;
+                line-height: 26px;
+                padding: 0 3px;
+                top: 21px
+            }
+
+            #NIE-copyRight a.nie-cn-guardianship {
+                color: #fff;
+            }
+
+            .nie-copyright-new-inner .nie-cn-part2 {
+                padding-top: 10px;
+                line-height: 24px
+            }
+
+            .nie-copyright-new-inner .nie-cn-part2 a {
+                text-decoration: none;
+                display: inline-block;
+                vertical-align: top
+            }
+
+            .nie-copyright-new-inner .nie-cn-part2 a:hover {
+                text-decoration: underline
+            }
+
+            .nie-copyright-new-inner .nie-cn-part2 span {
+                display: inline-block;
+                vertical-align: top;
+            }
+
+            .nie-cn-part2 a img {
+                vertical-align: top
+            }
+        </style>
+
+        <div class="nie-copyright-new-inner">
+            <div class="nie-cn-part1">
+                <span class="nie-cn-logo">
+                    <a class="a0" href="http://www.163.com" target="_blank"><img src="https://nie.res.netease.com/comm/NIE_copyRight/images/netease.1.png"></a><a
+                        class="a1" href="http://game.163.com" target="_blank"><img src="https://nie.res.netease.com/comm/NIE_copyRight/images/nie.1.png"></a>
+                </span>
+                <span class="nie-cn-nav">
+                    <i class="nie-cn-nav-i1">
+                        <a href="http://gb.corp.163.com/gb/about/overview.html" target="_blank">公司简介</a> - <a href="http://help.163.com/"
+                            target="_blank">客户服务</a> - <a href="http://gb.corp.163.com/gb/legal.html" target="_blank">相关法律</a>
+                        - <a href="http://game.163.com/about/" target="_blank">网易游戏</a> - <a href="http://game.163.com/contact/"
+                            target="_blank">联系我们</a> - <a href="http://game.163.com/contact/business.html" target="_blank">商务合作</a>
+                        - <a href="http://hr.game.163.com/index.html" target="_blank">加入我们</a>
+                    </i>
+                    <br>
+                    <i class="nie-cn-nav-i2">
+                        网易公司版权所有 ©1997-2019 <a class="nie-cn-reportcenter" href="http://www.cogcpa.org" target="_blank">中国网络游戏版权保护联盟举报中心</a>
+                    </i>
+                </span>
+            </div>
+
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+<!-- 内容部分结束 -->
+</body>
+
+</html>

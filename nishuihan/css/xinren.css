@@ -1,0 +1,770 @@
+﻿* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #000
+}
+
+html,
+body,
+fieldset,
+img,
+iframe,
+abbr {
+    border: 0
+}
+
+li {
+    list-style: none
+}
+
+textarea {
+    overflow: auto;
+    resize: none
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+em,
+strong,
+b {
+    font-weight: 700
+}
+
+a,
+a:hover {
+    text-decoration: none
+}
+
+body,
+textarea,
+input,
+button {
+    color: #000;
+    font-family: "\5FAE\8F6F\96C5\9ED1", "Microsoft YaHei", "Helvetica Neue", Helvetica, STHeiTi
+}
+
+a:hover {
+    text-decoration: none
+}
+
+a,
+button {
+    cursor: pointer;
+    text-align: center
+}
+
+button {
+    border: 0;
+    outline: 0;
+    background: 0 0
+}
+
+li {
+    list-style: none
+}
+
+textarea {
+    overflow: auto;
+    resize: none
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none !important;
+    margin: 0
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+td {
+    text-align: center
+}
+
+html,
+body {
+    width: 100%;
+    min-width: 1400px;
+    max-width: 1920px;
+    height: auto;
+    font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+    background: #fff;
+    line-height: 1.5;
+    margin: 0 auto
+}
+
+.hide {
+    display: none
+}
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+
+.show {
+    display: block
+}
+
+.inline {
+    display: inline-block;
+    *zoom: 1;
+    *display: inline
+}
+
+.content .nav {
+    position: absolute;
+    top: -80px;
+    left: -2px;
+    width: 1051px;
+    height: 78px;
+    background-image: url(../images/nav-bg_c314568.png);
+    z-index: 2
+}
+
+.content .nav .nav-item {
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 357px;
+    height: 86px;
+    background-image: none;
+    cursor: pointer
+}
+
+.content .nav .nav-item:hover,
+.content .nav .nav-item.active {
+    background-image: url(../images/nav-item-bg_1639625.png)
+}
+
+.content .nav .libao {
+    left: 394px
+}
+
+.content .nav .libao::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background-repeat: no-repeat;
+}
+
+.content .nav .libao.active::after,
+.content .nav .libao:hover::after {
+    background-repeat: no-repeat;
+}
+
+.content .nav .nielian {
+    left: 343px
+}
+
+.content .nav .nielian::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background-repeat: no-repeat;
+}
+
+.content .nav .nielian.active::after,
+.content .nav .nielian:hover::after {
+    background-repeat: no-repeat;
+}
+
+.content .nav .xinren {
+    left: 0
+}
+
+.content .nav .xinren::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background-repeat: no-repeat;
+}
+
+.content .nav .xinren.active::after,
+.content .nav .xinren:hover::after {
+    background-repeat: no-repeat;
+}
+
+@-webkit-keyframes test {
+    0% {
+        -webkit-opacity: 0;
+        -moz-opacity: 0;
+        opacity: 0;
+        filter: alpha(opacity=0);
+        -webkit-transform: translateY(30px)
+    }
+
+    100% {
+        -webkit-opacity: 1;
+        -moz-opacity: 1;
+        opacity: 1;
+        filter: alpha(opacity=100);
+        -webkit-transform: translateX(0px)
+    }
+}
+
+@-moz-keyframes test {
+    0% {
+        -webkit-opacity: 0;
+        -moz-opacity: 0;
+        opacity: 0;
+        filter: alpha(opacity=0);
+        -webkit-transform: translateY(30px)
+    }
+
+    100% {
+        -webkit-opacity: 1;
+        -moz-opacity: 1;
+        opacity: 1;
+        filter: alpha(opacity=100);
+        -webkit-transform: translateX(0px)
+    }
+}
+
+@-o-keyframes test {
+    0% {
+        -webkit-opacity: 0;
+        -moz-opacity: 0;
+        opacity: 0;
+        filter: alpha(opacity=0);
+        -webkit-transform: translateY(30px)
+    }
+
+    100% {
+        -webkit-opacity: 1;
+        -moz-opacity: 1;
+        opacity: 1;
+        filter: alpha(opacity=100);
+        -webkit-transform: translateX(0px)
+    }
+}
+
+@-ms-keyframes test {
+    0% {
+        -webkit-opacity: 0;
+        -moz-opacity: 0;
+        opacity: 0;
+        filter: alpha(opacity=0);
+        -webkit-transform: translateY(30px)
+    }
+
+    100% {
+        -webkit-opacity: 1;
+        -moz-opacity: 1;
+        opacity: 1;
+        filter: alpha(opacity=100);
+        -webkit-transform: translateX(0px)
+    }
+}
+
+@keyframes test {
+    0% {
+        -webkit-opacity: 0;
+        -moz-opacity: 0;
+        opacity: 0;
+        filter: alpha(opacity=0);
+        -webkit-transform: translateY(30px)
+    }
+
+    100% {
+        -webkit-opacity: 1;
+        -moz-opacity: 1;
+        opacity: 1;
+        filter: alpha(opacity=100);
+        -webkit-transform: translateX(0px)
+    }
+}
+
+.test {
+    opacity: 0;
+    -webkit-animation: leihuo .5s .3s forwards 300ms 0 ease;
+    -moz-animation: leihuo .5s .3s forwards 300ms 0 ease;
+    -ms-animation: leihuo .5s .3s forwards 300ms 0 ease;
+    animation: leihuo .5s .3s forwards 300ms 0 ease;
+    -moz-animation: leihuo .5s .3s forwards;
+    -webkit-animation: leihuo .5s .3s forwards;
+    -o-animation: leihuo .5s .3s forwards;
+    -ms-animation: leihuo .5s .3s forwards;
+    animation: leihuo .5s .3s forwards
+}
+
+@keyframes translateDown {
+
+    0%,
+    100% {
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+        transform: translateY(0)
+    }
+
+    50% {
+        -webkit-transform: translateY(5px);
+        -moz-transform: translateY(5px);
+        -ms-transform: translateY(5px);
+        -o-transform: translateY(5px);
+        transform: translateY(5px)
+    }
+}
+
+.fr {
+    float: right
+}
+
+.wrap {
+    background-image: url(../images/bg_3cc0b0d.jpg)
+}
+
+.main {
+    position: static
+}
+
+.btns {
+    z-index: 2
+}
+
+.content {
+    padding-top: 20px;
+    color: #fff
+}
+
+.content .user-info {
+    text-align: right;
+    margin-bottom: 5px
+}
+
+.content .user-info span {
+    color: #ffe6a4;
+    cursor: pointer;
+    text-decoration: underline
+}
+
+.content .user-info span:hover {
+    color: #fed467
+}
+
+.content .title {
+    background: url(../images/title_79a643a.png) no-repeat;
+    width: 936px;
+    height: 172px;
+    font-size: 22px;
+    position: relative;
+    left: -109px;
+    line-height: 100px;
+    text-align: center
+}
+
+.content .content-wrap {
+    position: absolute;
+    top: 170px;
+    left: -700px;
+    padding-left: 700px;
+    width: 1570px;
+    height: 700px;
+    overflow: hidden;
+    box-sizing: border-box
+}
+
+.content .content-wrap .scroll-bar {
+    position: absolute;
+    top: 85px;
+    right: 150px;
+    width: 5px;
+    height: 576px;
+    background-image: url(../images/scroll-track_3da5a41.png);
+    background-size: 100% 100%
+}
+
+.content .content-wrap .scroll-bar .scroll-thumb {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5px;
+    height: 75px;
+    background-repeat: no-repeat;
+}
+
+.content .content-wrap .content-wrap-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 700px;
+    bottom: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    box-sizing: border-box
+}
+
+.content .content-wrap .content-wrap-inner::-webkit-scrollbar {
+    display: none;
+    width: 0
+}
+
+.content .content-wrap .content-wrap-content {
+    width: 1570px;
+    height: 700px
+}
+
+.content .title1 {
+    width: 336px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+    background-image: url(../images/title1_b0307b5.png)
+}
+
+.content .libao-wrap {
+    width: 693px;
+    margin-bottom: -20px;
+    padding-left: 350px;
+    box-sizing: border-box;
+    background-image: url(../images/libao_f6a9cfa.png);
+    background-size: 100% auto;
+    background-position: top;
+    background-repeat: no-repeat;
+    position: relative;
+    left: -56px
+}
+
+.content .rule-btn {
+    position: relative;
+    width: 644px;
+    height: 28px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+}
+
+.content .rule-btn i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: 78px;
+    margin-top: -7px;
+    display: block;
+    width: 12px;
+    height: 10px;
+    -webkit-animation: translateDown 2s infinite 300ms 0 ease;
+    -moz-animation: translateDown 2s infinite 300ms 0 ease;
+    -ms-animation: translateDown 2s infinite 300ms 0 ease;
+    animation: translateDown 2s infinite 300ms 0 ease;
+    -moz-animation: translateDown 2s infinite;
+    -webkit-animation: translateDown 2s infinite;
+    -o-animation: translateDown 2s infinite;
+    -ms-animation: translateDown 2s infinite;
+    animation: translateDown 2s infinite;
+    background-repeat: no-repeat;
+}
+
+.content .rule-btn:hover {
+    background-repeat: no-repeat;
+}
+
+.content .title2 {
+    width: 419px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+    background-image: url(../images/title2_6732894.png)
+}
+
+.content .gift-wrap {
+    position: relative;
+    width: 560px;
+    height: 119px;
+    padding-left: 100px;
+    margin-bottom: 10px;
+    background-image: url(../images/gift-bg_920fc2d.png)
+}
+
+.content .gift-wrap:last-child {
+    margin-bottom: 50px
+}
+
+.content .gift-wrap header {
+    position: absolute;
+    width: 90px;
+    height: 37px;
+    line-height: 37px;
+    text-align: center;
+    left: 5px;
+    top: 50%;
+    margin-top: -18.5px;
+    background-repeat: no-repeat;
+}
+
+.content .gift-wrap .gift-item {
+    position: relative;
+    display: inline-block;
+    margin: 20px 0 0 12px
+}
+
+.content .gift-wrap .gift-item img {
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-image: url(../images/libao-item-bg_c19f4d7.png);
+    background-size: 100% 100%
+}
+
+.content .gift-wrap .gift-item span {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    display: block;
+    word-break: keep-all;
+    white-space: nowrap;
+    font-size: 12px;
+    text-align: center
+}
+
+.content #app {
+    width: 400px;
+    min-height: 280px;
+    margin: 0
+}
+
+.content #app .step1 {
+    padding: 0;
+    padding-top: 75px
+}
+
+.content #app .step1 .claim-btn {
+    width: 292px;
+    height: 61px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+}
+
+.content #app .step1 .claim-btn:hover {
+    background-repeat: no-repeat;
+}
+
+.content #app .step2 {
+    padding-top: 20px
+}
+
+.content #app .step2 #login {
+    margin: 0;
+    width: 292px;
+    margin-bottom: 35px
+}
+
+.content #app .step3,
+.content #app .step4 {
+    padding-top: 55px
+}
+
+.content #app .step3 p,
+.content #app .step4 p {
+    font-size: 20px;
+    margin-bottom: 10px
+}
+
+.content #app .step3 .code-wrap,
+.content #app .step4 .code-wrap {
+    position: relative;
+    width: 280px;
+    height: 45px;
+    line-height: 45px;
+    color: #1b2845;
+    padding-right: 79px;
+    text-align: center;
+    box-sizing: border-box;
+    background-image: url(../images/copy-bg_5174dfb.png)
+}
+
+.content #app .step3 .code-wrap .copy-btn,
+.content #app .step4 .code-wrap .copy-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 79px;
+    height: 45px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+}
+
+.content #app .step3 .code-wrap .copy-btn:hover,
+.content #app .step4 .code-wrap .copy-btn:hover {
+    background-repeat: no-repeat;
+}
+
+.content #app .step5 {
+    padding-top: 60px;
+    padding-right: 40px
+}
+
+.content .desc {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 15px
+}
+
+.content .desc .left-title {
+    width: 41px;
+    height: 137px;
+    float: left;
+    margin-right: 28px;
+    background-repeat: no-repeat;
+}
+
+.content .desc .right-word {
+    float: left;
+    width: 600px
+}
+
+.content .desc .right-word p {
+    position: relative;
+    color: #eee;
+    font-size: 14px;
+    line-height: 2
+}
+
+.content .desc .right-word p:before {
+    content: '';
+    width: 9px;
+    height: 9px;
+    position: absolute;
+    left: -17px;
+    top: 8px;
+    background: transparent;
+    border: 1px solid #fff;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg)
+}
+
+.red {
+    color: #ffa800
+}
+
+.yellow {
+    color: #ffecbf
+}
+
+.content .desc .left-title {
+    background-position: 0px 0px
+}
+
+.content .nav .libao::after {
+    background-position: -41px 0px
+}
+
+.content .nav .libao.active::after,
+.content .nav .libao:hover::after {
+    background-position: 0px -137px
+}
+
+.content .nav .nielian.active::after,
+.content .nav .nielian:hover::after {
+    background-position: -253px 0px
+}
+
+.content .nav .xinren.active::after,
+.content .nav .xinren:hover::after {
+    background-position: -253px -86px
+}
+
+.content .nav .nielian::after {
+    background-position: 0px -224px
+}
+
+.content .nav .xinren::after {
+    background-position: 0px -310px
+}
+
+.content .content-wrap .scroll-bar .scroll-thumb {
+    background-position: -212px -137px
+}
+
+.content #app .step1 .claim-btn {
+    background-position: 0px -396px
+}
+
+.content #app .step1 .claim-btn:hover {
+    background-position: -292px -396px
+}
+
+.content #app .step3 .code-wrap .copy-btn,
+.content #app .step4 .code-wrap .copy-btn {
+    background-position: -253px -172px
+}
+
+.content #app .step3 .code-wrap .copy-btn:hover,
+.content #app .step4 .code-wrap .copy-btn:hover {
+    background-position: -332px -172px
+}
+
+.content .gift-wrap header {
+    background-position: -411px -172px
+}
+
+.content .rule-btn {
+    background-position: -610px 0px
+}
+
+.content .rule-btn:hover {
+    background-position: -610px -28px
+}
+
+.content .rule-btn i {
+    background-position: -610px -56px
+}
+
+.content .desc .left-title,
+.content .nav .libao::after,
+.content .nav .libao.active::after,
+.content .nav .libao:hover::after,
+.content .nav .nielian.active::after,
+.content .nav .nielian:hover::after,
+.content .nav .xinren.active::after,
+.content .nav .xinren:hover::after,
+.content .nav .nielian::after,
+.content .nav .xinren::after,
+.content .content-wrap .scroll-bar .scroll-thumb,
+.content #app .step1 .claim-btn,
+.content #app .step1 .claim-btn:hover,
+.content #app .step3 .code-wrap .copy-btn,
+.content #app .step4 .code-wrap .copy-btn,
+.content #app .step3 .code-wrap .copy-btn:hover,
+.content #app .step4 .code-wrap .copy-btn:hover,
+.content .gift-wrap header,
+.content .rule-btn,
+.content .rule-btn:hover,
+.content .rule-btn i {
+    background-image: url(../images/xinren_z_3700bba.png)
+}

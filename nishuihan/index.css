@@ -1,0 +1,709 @@
+
+body {
+    background: #000;
+    zoom: 0.8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.wrap {
+    width: 100%;
+    height: 789px;
+    background: url(images/bg_dd9755c.jpg) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+
+}
+
+/* <!-- 左边盒子   --> */
+.wrap .left_wrap {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 78px;
+    height: 600px;
+}
+
+/* <!-- 逆水寒logo --> */
+.left_wrap .logo {
+    display: block;
+    width: 78px;
+    height: 209px;
+    background: url(images/logo_28d0be6.png) no-repeat;
+    background-size: cover;
+    z-index: 100;
+    position: absolute;
+}
+
+/* <!-- 链接开始 --> */
+.left_wrap .link {
+    position: absolute;
+    z-index: 10;
+    left: 26px;
+    top: 214px;
+    width: 32px;
+}
+
+.left_wrap .link>a {
+    display: inline-block;
+    margin-bottom: 6px;
+    width: 32px;
+    height: 32px;
+    background: url(images/index-icon_cef722c.png) no-repeat;
+    background-size: 200%;
+}
+
+.left_wrap .link .link_One {
+    background-position-y: 0;
+}
+
+.left_wrap .link .link_Two {
+    background-position-y: -37px;
+}
+
+.left_wrap .link_Two .site {
+    margin-left: 32px;
+    width: 200px;
+    height: 32px;
+}
+
+.left_wrap .link_Two .site li {
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 5px 5px;
+
+    border-radius: 50%;
+    background-color: #ccc;
+    text-align: center;
+}
+
+.left_wrap .link_Two .site {
+    display: none;
+}
+
+.left_wrap .link_Two .site li i {
+    color: #000;
+}
+
+.left_wrap .link .link_One:hover {
+    background-image: url(images/index-icon_cef722c.png) no-repeat;
+    background-position: -35px 0;
+}
+
+.link_Two:hover .site {
+    display: block;
+}
+
+.left_wrap .link .link_Two:hover {
+    background-image: url(images/index-icon_cef722c.png) no-repeat;
+    background-position: -35px -36px;
+}
+
+.left_wrap .link .link_Two .site li:hover {
+    background-color: #DFCD94;
+}
+
+/* <!-- 链接结束 --> */
+
+/* <!-- 选择职业 --> */
+.wrap .nav {
+    position: absolute;
+    left: 15px;
+    z-index: 10;
+    top: 300px;
+}
+
+.wrap .nav a {
+    display: block;
+    width: 55px;
+    height: 65px;
+    background: url(images/nav_d01b1ca.png) no-repeat;
+    background-size: 200%;
+}
+
+.wrap .nav .nav1 {
+    background-position: -61px 4px;
+}
+
+/* .wrap .nav .nav1:hover {
+    background-position: -61px 3px;
+} */
+
+.wrap .nav .nav2 {
+    background-position: 0 -60px;
+}
+
+/* .wrap .nav .nav2:hover {
+    background-position: -61px -59px;
+} */
+
+.wrap .nav .nav3 {
+    background-position: 0 -122px;
+}
+
+/* .wrap .nav .nav3:hover {
+    background-position: -61px -122px;
+} */
+
+.wrap .nav .nav4 {
+    background-position: 0 -184px;
+}
+
+/* .wrap .nav .nav4:hover {
+    background-position: -61px -184px;
+} */
+
+.wrap .nav .nav5 {
+    background-position: 0 -247px;
+}
+
+/* .wrap .nav .nav5:hover {
+    background-position: -61px -247px;
+} */
+
+.wrap .nav .nav6 {
+    background-position: 0 -310px;
+}
+
+/* .wrap .nav .nav6:hover {
+    background-position: -61px -310px;
+} */
+
+.wrap .nav .nav7 {
+    background-position: 0  -371px;
+}
+
+/* .wrap .nav .nav7:hover {
+    background-position: -61px -371px;
+} */
+
+
+/* <!-- 选择职业结束 --> */
+
+
+
+/* <!-- 右边的盒子 --> */
+
+
+
+
+/* <!-- 背景人物 --> */
+.renwu {
+    width: 1300px;
+    height: 788px;
+    z-index: 1;
+    transform: scale(1.5);
+    transition: all .5s;
+}
+
+/* 音频拖拽父盒子 */
+.btn {
+    position: absolute;
+    left: 612px;
+    top: 510px;
+    width: 305px;
+    height: 119px;
+    z-index: 100;
+    background: url(images/drag-bg_1612ab2.png) no-repeat;
+}
+
+/* 圆点弹动 */
+.btnl {
+    position: absolute;
+    float: left;
+    top: 30px;
+    width: 60px;
+    height: 60px;
+    background: url(images/drag-btn_b7b2ce9.png) no-repeat;
+    background-size: cover;
+    z-index: 2;
+    /* transition: all .6s; */
+}
+
+.cls {
+    /* transform: scale(1.2) */
+}
+
+.vido_btn {
+    float: right;
+    width: 120px;
+    height: 120px;
+    /* background-color: red; */
+    background: url(images/drag-video-cover_7f0e40f.png) no-repeat;
+    background-size: cover;
+    z-index: 10;
+}
+
+
+
+.vido_back video {
+    margin: 10px 10px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.sanjiao {
+    position: absolute;
+    top: 20px;
+    left: 218px;
+    width: 50px;
+    height: 50px;
+    background: url(images/play-icon_beae01d.png) no-repeat;
+    background-size: cover;
+    /* z-index: 2; */
+    transition: all .6s;
+    cursor: pointer;
+
+}
+
+.clsa {
+    transform: scale(1.2)
+}
+
+
+
+.zhiye {
+    width: 400px;
+    height: 800px;
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    z-index: 5;
+}
+
+.zhiyea {
+    width: 265px;
+    height: 402px;
+}
+
+.zheyeb {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    height: 549px;
+    width: 218px;
+    z-index: 6;
+}
+
+.zheyebuttom {
+    float: right;
+    width: 300px;
+    height: 140px;
+    margin-top: 190px;
+}
+
+.zheyebuttoma {
+    float: left;
+    width: 30px;
+    height: 140px;
+}
+
+.zheyebuttomb {
+    float: right;
+    margin: 10px 50px 0px 10px;
+    width: 198px;
+    height: 121px;
+    border: 1px solid #000;
+
+}
+
+.zheyebuttomb .sanjiao {
+    position: absolute;
+    top: 620px;
+    left: 218px;
+    width: 50px;
+    height: 50px;
+    background: url(images/play-icon_beae01d.png) no-repeat;
+    background-size: cover;
+    transition: all .6s;
+    
+}
+
+.show .ddd {
+    display: none;
+}
+
+.active {
+    display: block !important;
+}
+
+
+.button {
+    width: 1200px;
+    height: 73px;
+    margin: 0 auto;
+}
+
+.button a {
+    color: #fff;
+}
+
+.button p {
+    padding: 10px;
+    color: #fff;
+}
+
+.button .leftb {
+
+    float: left;
+    width: 600px;
+    height: 73px;
+}
+
+.button .leftc {
+    float: left;
+    width: 600px;
+    height: 73px;
+    font-size: 14px;
+}
+
+.leftb img {
+    display: inline-block;
+    margin: 20px 10px;
+}
+.tankuang {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -624px;
+    margin-top: -340px;
+    width: 1248px;
+    height: 680px;
+    display: none;
+    /* display: block; */
+    z-index: 1000;
+}
+#tankuang-video {
+    width: 100%;
+    height: 100%;
+    border-radius: 0%;
+}
+.tankuang-guanbi {
+    position: absolute;
+    left: 1257px;
+    top: 93px;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    z-index: 10000;
+    background-color: black;
+    text-align: center;
+    line-height: 50px;
+    font-size: 40px;
+
+}
+
+
+
+/* tab切换 */ 
+/* 1.龙吟人物 */
+.longyin {
+    position: absolute;
+    left: -140px;
+    top: 200px;
+    background: url(images/role-tiny_bf40a94.png) no-repeat;
+    background-size: cover;
+
+}
+/* 2.龙吟名 */
+.longyin-a {
+    background: url(images/name_3213610.png) no-repeat;
+    background-size: cover;
+}
+/* 3.剑法 */
+.longyin-b {
+    background: url(images/ability_c78a035.png);
+    background-size: cover;
+}
+/* 4.宗门 */
+.longyin-c {
+    background: url(images/school_705e2b5.png) no-repeat;
+    background-size: cover;
+}
+/* 5.门派风景 */
+.longyin-d {
+    background: url(images/cover_0f15e66.jpg) no-repeat;
+    background-size: cover;
+}
+
+/* 血河背景图 */
+.xuehewarp {
+    width: 100%;
+    height: 789px;
+    background: url(images/bg_27e54b1.jpg) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+/* 1.血河人物 */
+.xuehe{
+    position: absolute;
+    left: 190px;
+    top: 200px;
+    background: url(images/role-tiny_4f38eef.png) no-repeat;
+    background-size: cover;
+
+}
+/* 三角 */
+.zheyebuttom .zheyebuttomb .xuehe-p {
+    left: 315px;
+}
+.xuehe-f{
+    width: 500px;
+}
+
+/* 2.血河名 */
+.xuehe-a {
+    width: 368px;
+    height: 402px;
+    background: url(images/name_57f94e4.png) no-repeat;
+    background-size: cover;
+}
+/* 3.枪术 */
+.xuehe-b {
+    background: url(images/ability_08462ab.png);
+    background-size: cover;
+}
+/* 4.宗门 */
+.xuehe-c {
+    background: url(images/school_7d3c0d5_1.png) no-repeat;
+    background-size: cover;
+}
+/* 5.门派风景 */
+.xuehe-d {
+    background: url(images/cover_dc2febe.jpg) no-repeat;
+    background-size: cover;
+}
+
+/* 素问背景图 */
+.suwenwarp {
+    width: 100%;
+    height: 789px;
+    background: url(images/bg_f974588.jpg) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+/* 1.素问人物 */
+.ddd .suwen{
+    position: absolute;
+    left: -300px;
+    top: 200px;
+    background: url(images/role-tiny_f610489.png) no-repeat;
+    background-size: cover;
+
+}
+
+/* 2.素问名 */
+.suwen-a {
+    width: 368px;
+    height: 402px;
+    background: url(images/name_2182bff.png) no-repeat;
+    background-size: 200px;
+}
+/* 3.丝带 */
+.suwen-b {
+    background: url(images/ability_9e797a4.png);
+    background-size: cover;
+}
+/* 4.宗门 */
+.suwen-c {
+    background: url(images/school_a2c162e.png) no-repeat;
+    background-size: cover;
+}
+/* 5.门派风景 */
+.suwen-d {
+    background: url(images/cover_91c8374.jpg) no-repeat;
+    background-size: cover; 
+}
+
+
+/* 九灵背景图 */
+.jiulingwarp {
+    width: 100%;
+    height: 789px;
+    background: url(images/bg_cfb1d2c.jpg) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+/* 1.九灵人物 */
+.ddd .jiuling{
+    position: absolute;
+    left: -100px;
+    top:-50px;
+    height: 1000px;
+    background: url(images/role-tiny_8a64762.png) no-repeat;
+    background-size: cover;
+
+}
+
+
+/* 2.九灵名 */
+.jiuling-a {
+    width: 368px;
+    height: 402px;
+    background: url(images/name_3916a0e.png) no-repeat;
+    background-size: 280px;
+}
+/* 3.蛊灵 */
+.jiuling-b {
+    background: url(images/ability_a378e17.png);
+    background-size: cover;
+}
+/* 4.宗门 */
+.jiuling-c {
+    background: url(images/school_a2c162e_1.png) no-repeat;
+    background-size: cover;
+}
+/* 5.门派风景 */
+.jiuling-d {
+    background: url(images/cover_542f3a1.jpg) no-repeat;
+    background-size: cover; 
+}
+
+/* 碎梦背景图 */
+.suimengwarp {
+    width: 100%;
+    height: 789px;
+    background: url(images/bg_002211c.jpg) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+/* 1.碎梦人物 */
+.ddd .suimeng{
+    position: absolute;
+    left: 400px;
+    top: 200px;
+    background: url(images/role-tiny_a98435c.png) no-repeat;
+    background-size: 800px;
+    /* transition: all .6s; */
+}
+/* .suimeng-f{
+    width: 350px;
+} */
+
+/* 2.碎梦名 */
+.suimeng-a {
+    /* width: 368px;
+    height: 402px; */
+    background: url(images/name_384e2b7.png) no-repeat;
+    background-size: 215px;
+}
+/* 3.刀法 */
+.suimeng-b {
+    background: url(images/ability_5fcf033.png);
+    background-size: cover;
+}
+/* 4.宗门 */
+.suimeng-c {
+    background: url(images/school_4138bcb.png) no-repeat;
+    background-size: cover;
+}
+/* 5.门派风景 */
+.suimeng-d {
+    background: url(images/cover_3280393.jpg) no-repeat;
+    background-size: cover; 
+}
+
+/* 神相背景图 */
+.shenxiangwarp {
+    width: 100%;
+    height: 789px;
+    background: url(images/bg_775de7b.jpg) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+/* 1.神相人物 */
+.shenxiang{
+    position: absolute;
+    left:0px;
+    top: 100px;
+    background: url(images/role-tiny_6bfa3ca.png) no-repeat;
+    background-size: cover;
+
+}
+/* 2.神相名 */
+.shenxiang-a {
+    width: 300px;
+    height: 402px;
+    background: url(images/name_c7f8d1b.png) no-repeat;
+    background-size: 180px;
+
+}
+/* 3.琴剑 */
+.shenxiang-b {
+    background: url(images/ability_fcb3094.png);
+    background-size: cover;
+}
+/* 4.宗门 */
+.shenxiang-c {
+    background: url(images/school_c1470be.png) no-repeat;
+    background-size: cover;
+}
+/* 5.门派风景 */
+.shenxiang-d {
+    background: url(images/cover_3213886.jpg) no-repeat;
+    background-size: cover;
+}
+
+/*铁衣背景图 */
+.tieyiwarp {
+    width: 100%;
+    height: 789px;
+    background: url(images/bg_21bc910.jpg) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+/* 1.铁衣人物 */
+.tieyi{
+    position: absolute;
+    left: 550px;
+    top: 100px;
+    background: url(images/role-tiny_4ed9fac.png) no-repeat;
+    background-size: 700px;
+}
+/* .tieyi-f{
+    width: 500px;
+} */
+
+/* 2.铁衣名 */
+.tieyi-a {
+    width: 300px;
+    height: 402px;
+    background: url(images/name_e6b8d34.png) no-repeat;
+    background-size: 290px;
+}
+/* 3.拳套 */
+.tieyi-b {
+    background: url(images/ability_6b21c1a.png);
+    background-size: cover;
+}
+/* 4.宗门 */
+.tieyi-c {
+    background: url(images/school_7d3c0d5_1.png) no-repeat;
+    background-size: cover;
+}
+/* 5.门派风景 */
+.tieyi-d {
+    background: url(images/cover_cba8451.jpg) no-repeat;
+    background-size: cover;
+}
+
+.clsc{
+    left: 1px;
+    top: 1px;
+    transform: scaleX(1)
+}

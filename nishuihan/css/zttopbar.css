@@ -1,0 +1,90 @@
+﻿.topNavBar {
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+    background: url(../images/topbg_70ab118.jpg) center top no-repeat
+}
+
+.navBarWrap {
+    width: 1152px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative
+}
+
+.navBarWrap .logo {
+    position: absolute;
+    width: 243px;
+    height: 95px;
+    top: -5px;
+    left: -34px;
+    background: url(../images/navbar_sprite_6ca2454.png) 0 0 no-repeat
+}
+
+.navBarWrap .navs {
+    float: right;
+    width: 969px;
+    height: 100%
+}
+
+.navBarWrap .nav {
+    float: left;
+    width: 193px;
+    padding-top: 22px;
+    text-align: center
+}
+
+.navBarWrap .nav>a {
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+    height: 40px;
+    background: url(../images/navbar_sprite_6ca2454.png) 0 -95px no-repeat
+}
+
+.navBarWrap .nav>a:hover,
+.navBarWrap .nav>a.active {
+    background-position-y: -135px
+}
+
+.navBarWrap .nav.nav2 a {
+    background-position-x: -120px
+}
+
+.navBarWrap .nav.nav3 a {
+    background-position-x: -240px
+}
+
+.navBarWrap .nav.nav4 a {
+    background-position-x: -360px
+}
+
+.navBarWrap .line {
+    width: 1px;
+    height: 100%;
+    float: left;
+    background: url(../images/navbar_sprite_6ca2454.png) 0 -175px no-repeat
+}
+
+.navBarWrap .topShare {
+    text-align: right;
+    padding-top: 5px;
+    padding-right: 15px;
+    font-size: 22px;
+    line-height: 30px
+}
+
+.navBarWrap .topShare .NIE-share-txt {
+    color: #39456c;
+    font-size: 14px;
+    margin-right: 10px
+}
+
+.navBarWrap .topShare .NIE-share-iconBtn a {
+    margin-right: 5px;
+    color: #7e879b
+}
+
+.navBarWrap .topShare .NIE-share-iconBtn a:hover {
+    color: #a58b41
+}

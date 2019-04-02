@@ -1,0 +1,36 @@
+*{
+    margin: 0;padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    margin-top: -23px;
+    transform: scale(0.987);
+    margin-left: -8px;
+    
+}
+.wrap{
+    width: 100%;
+    min-width: 1363px;
+    height: 3500px;
+    background: url(../images/bg_a699551.jpg) no-repeat center top;
+    overflow: hidden;
+}
+.wrap .w{
+    width: 1363px;
+    margin: 0 auto;
+    position: relative;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+@font-face{
+    font-family:iconfont2;src:url(../font/iconfont2.eot?-l7hz8t);
+    src:url(../font/iconfont2.eot?#iefix-l7hz8t) format('embedded-opentype'),
+    url(../font/iconfont2.ttf?-l7hz8t) format('truetype'),
+    url(../font/iconfont2.woff?-l7hz8t) format('woff'),
+    url(../font/iconfont2.svg?-l7hz8t#icomoon) format('svg');
+    font-weight:400;font-style:normal}

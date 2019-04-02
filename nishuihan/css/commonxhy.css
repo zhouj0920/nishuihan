@@ -1,0 +1,271 @@
+/* 网易游戏目录 */
+.wangyi {
+    min-width: 1363px;
+    height: 54px;
+    border-bottom: 1px solid #D8D8D8;
+    background-color: #fff;
+    position: relative;
+}
+#catalog-btn{
+    position: absolute;
+    left: 0;top: 0;
+    display: block;
+    width: 180px;
+    height: 54px;
+    background-color: #CF1132;
+    color: #fff;
+    text-align: center;
+    line-height: 54px;
+    font-size: 12px;
+}
+#catalog-btn i{
+    display: inline-block;
+    width: 27px;
+    height: 13px;
+    background: url('../images/sprite-w_dd519f4.png') no-repeat -91px -306px;
+    margin-right: 2px;
+    vertical-align: middle;
+}
+#wangji-logo {
+    width: 133px;
+    height: 44px;
+    background: url(../images/logo_b5525b7.png);
+    position: absolute;
+    left: 50%;
+    margin-left: -66.5px;
+    margin-top: 5px;
+}
+
+
+/* 头部导航 */
+#header{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+}
+.logo{
+    width: 231px;
+    height: 91px;
+    display: inline-block;
+    position: absolute;
+    margin-top: 14px;
+    background: url(../images/header_z_d7cec79.png);
+}
+#btn-audio{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: url(../images/index_z_fe0b4cf.png) no-repeat -709px -325px;
+    position: absolute;
+    top: 40px;
+    left: 231px;
+}
+/* 导航 */
+#header {
+    position: absolute;
+    z-index: 3;
+}
+#header .nav-wrap{
+    width: 690px;
+    height: 85px;
+    position: absolute;
+    right: 35px;
+    
+}
+#header .nav-box {
+    width: 100%;
+    height: 50px;
+}
+#header .nav-box .nav-li {
+    float: left;
+    width: 95px;
+    height: 45px;
+    position: relative;
+    
+}
+#header .nav-box .nav-li a {
+    display: block;
+    width: 95px;
+    height: 45px;
+    background: url(../images/nav_884f8a3.png);
+    background-position-y: -50px;
+    position: relative;
+    font-size: 0;
+
+}
+#header .nav-box .nav-li .drop {
+    position: relative;
+    background: rgba(255,255,255,.85);
+    padding-top: 13px;
+    top:2px;
+    width: 95px;
+    left: 0;
+    display: none;
+}
+#header .nav-box .nav-li .drop-bx a{
+    display: block;
+    width: 85px;
+    height: 24px;
+    margin: 0 auto;
+    position: relative;
+    background: url(../images/nav-news_6289ef6.png);
+}
+#header .nav-box .nav-li .jobs a{
+    display: block;
+    width: 85px;
+    height: 24px;
+    margin: 0 auto;
+    position: relative;
+    background: url(../images/nav-job_4cca55d.png);
+}
+#header .nav-box .nav-li .jobs .job0{
+    background: url(../images/header_z_d7cec79.png) no-repeat 0 -91px;
+}
+#header .nav-box .nav-li .jobs .new{
+    width: 26px;
+    height: 9px;
+    position: absolute;
+    right: 2px;
+    top: 10px;
+    background: url(../images/header_z_d7cec79.png) no-repeat -170px -91px;
+}
+#header .nav-box .nav-li .down-dashi a{
+    display: block;
+    width: 85px;
+    height: 24px;
+    margin: 0 auto;
+    position: relative;
+    background: url(../images/nav-dashi_ced993e.png);
+}
+#header .nav-box .nav-li .down-media a{
+    display: block;
+    width: 85px;
+    height: 24px;
+    margin: 0 auto;
+    position: relative;
+    background: url(../images/nav-media_744870e.png) no-repeat;
+}
+#header .nav-box .nav-li ul::after {
+    content: '';
+    background: url(../images/transparent_aba7dcc.png);
+    background-size: 100%;
+    width: 95px;
+    height: 22px;
+    position: absolute;
+    left: 0;
+    bottom: -22px;
+}
+#header .nav-box .nav-li .active {
+    background-position-y: 0;
+}
+.xian1 {
+    width: 95px;
+    height: 2px;
+    background-color: #aa9452;
+}
+.xian {
+    width: 95px;
+    height: 2px;
+    background-color:#39456c;
+    position: absolute;
+    top: 45px;
+    transform: scaleX(0.3);
+    transition-duration: .2s;
+    transition-timing-function: ease-in-out;
+}
+#header .nav-box .nav-li .nav2 {
+    background-position-x: -95px;
+}
+#header .nav-box .nav-li .nav3{
+    background-position-x: -190px;
+}
+#header .nav-box .nav-li .nav4{
+    background-position-x: -285px;
+}
+#header .nav-box .nav-li .nav5{
+    background-position-x: -380px;
+}
+#header .nav-box .nav-li .nav6{
+    background-position-x: -475px;
+}
+#header .nav-box .nav-li .nav7 {
+    background-position-x: -570px;
+}
+#header .nav-box .nav-li em {
+    display: block;
+    width: 100%;
+    height: 30px;
+    position: relative;
+    top: 17px;
+    box-sizing: border-box;
+}
+#header .nav-box .nav-li em:after {
+    content: '';
+    background: url(../images/hot_34eb177.png) no-repeat;
+    display: block;
+    width: 25px;
+    height: 22px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#header .nav-box .nav-li .nav7 .card_border {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    top: 17px;
+    opacity: 1;
+}
+#header .nav-box .nav-li .nav7 .border {
+    background: rgb(57,69,108);
+}
+@keyframes bordertop {
+    0% {left:-95px;}
+    100% {left: 190px;}
+
+}
+@keyframes borderleft {
+    0% {top:45px;}
+    100% {top: -45px;}
+}
+@keyframes borderbottom {
+    0% {left:190px;}
+    100% {left: -95px;}
+}
+@keyframes borderright {
+    0% {top:-45px;}
+    100% {top: 45px;}
+}
+#header .nav-box .nav-li .nav7 .border-top {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    left: 0;
+    top: 0;
+    animation: bordertop 3s linear infinite;
+}
+#header .nav-box .nav-li .nav7 .border-left {
+    position: absolute;
+    width: 1.5px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    animation: borderleft 3s linear infinite;
+}
+#header .nav-box .nav-li .nav7 .border-bottom {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    left: 0;
+    top: 29px;
+    animation: borderbottom 3s linear infinite;
+}
+#header .nav-box .nav-li .nav7 .border-right {
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    left: 94px;
+    top: 0;
+    animation: borderright 3s linear infinite;
+}

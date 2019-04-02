@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/basexhy.css">
+    <link rel="stylesheet" href="css/commonxhy.css">
+    <script src="js/jquery-1.12.2.js"></script>
+    <script src="js/jobNav.js"></script>
+    <link rel="stylesheet" href="css/indexxhy.css">
+</head>
+
+<body>
+    <!-- 网易游戏导航 -->
+    <div class="wangyi">
+        <!-- 游戏目录 -->
+        <a href="javescript:;" id='catalog-btn'>
+            <i></i>
+            游戏全目录
+        </a>
+        <!-- 网易logo -->
+        <a href="javascript:;" id='wangji-logo'></a>
+    </div>
+    <!-- 主画面 -->
+    <div class="wrap">
+        <!-- 版心 -->
+        <div class="w">
+            <!-- 小动画css3技术: 
+                放大缩小
+                @keyframes scale{
+                    0%{
+                        transform: scale(1);
+                    }
+                    50%{
+                        transform: scale(1.2);
+                    }
+                    100%{
+                        transform: scale(1);
+                    }
+                } animation: scale 2s linear infinite;-->
+            <!-- 头部logo加nav -->
+            <div id="header">
+                <a href="javascript:;" class="logo"></a>
+                <a href="javascript:;" id="btn-audio"></a>
+                <audio src="flash/56fdba87fd0c82dedba263013f8692ba.mp3" autoplay='autoplay' loop id="audio1"></audio>
+                <script src="js/headerNav.js"></script>
+                <div class="nav-wrap">
+                    <ul class="nav-box">
+                        <li class="nav-li">
+                            <a href="javascript:;" class="nav1 active">
+                                官网首页
+                            </a>
+                            <div class="xian1"></div>
+                        </li>
+                        <li class="nav-li">
+                            <a href="news.html" class="nav2 drop-down">
+                                新闻资讯
+                                <div class="xian"></div>
+                            </a>
+                            <ul class="drop-bx drop">
+                                <li>
+                                    <a href="javascript:;">最新新闻</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">热点新闻</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">官方公告</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">主题活动</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-li last-li">
+                            <a href="luntanye.html" class="nav7">
+                                <div class="card_border animate">
+                                    <div class="border border-top"></div>
+                                    <div class="border border-left"></div>
+                                    <div class="border border-bottom"></div>
+                                    <div class="border border-right"></div>
+                                </div>
+                                <em class="hot">
+                                    官网论坛
+                                </em>
+                            </a>
+                            <ul class="down-bbs drop">
+                                <li>
+                                    <img src="images/bbscode_019ab1b.png" alt="" width="95" height="279">
+                                </li>
+                            </ul>
+
+                        </li>
+                        <li class="nav-li">
+                            <a href="liupai.html" class="nav3 drop-down">
+                                宗门流派
+                                <div class="xian"></div>
+                            </a>
+                            <ul class="jobs drop">
+                                <li>
+                                    <a href="javascript:;" class="job0">龙吟</a>
+                                    <span class="new"></span>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">血河</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">素问</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">九灵</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">碎梦</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">神相</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">铁衣</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-li">
+                            <a href="zn-index.html" class="nav4 drop-down">
+                                江湖知己
+                                <div class="xian"></div>
+                            </a>
+                            <ul class="down-dashi drop">
+                                <li>
+                                    <a href="javascript:;">温瑞安</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">程小东</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">骆集益</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">唐诗逸</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-li">
+                            <a href="ycVideo&Pic.html" class="nav5 drop-down">
+                                视频图赏
+                                <div class="xian"></div>
+                            </a>
+                            <ul class="down-media drop">
+                                <li>
+                                    <a href="javascript:;">高清视频</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">游戏图赏</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-li">
+                            <a href="fljh.html" class="nav6">
+                                福利合集
+                            </a>
+                            <div class="xian"></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 人物大轮播 -->
+            <div class="job-wrap">
+                <div class="job-nav">
+                    <a href="javascript:;" class="nav0 active"></a>
+                    <a href="javascript:;"></a>
+                    <a href="javascript:;"></a>
+                    <a href="javascript:;"></a>
+                    <a href="javascript:;"></a>
+                    <a href="javascript:;"></a>
+                    <a href="javascript:;"></a>
+                </div>
+                <div class="jobs">
+                    <div class="job-bg ly">
+                        <div class="person"></div>
+                        <div class="figureName">
+                            <a href="javascript:;" class="job-more"></a>
+                        </div>
+                        <div class="video1 video">
+                            <i></i>
+                        </div>
+                        <div class="animate"></div>
+                        <div class="animate2"></div>
+                    </div>
+                    <div class="job-bg xh">
+                        <div class="person"></div>
+                        <div class="figureName">
+                            <a href="javascript:;" class="job-more"></a>
+                        </div>
+                        <div class="video1 video">
+                            <i></i>
+                        </div>
+                        <div class="animate "></div>
+                    </div>
+                    <div class="job-bg sw">
+                        <div class="person"></div>
+                        <div class="figureName">
+                            <a href="javascript:;" class="job-more"></a>
+                        </div>
+                        <div class="video1 video">
+                            <i></i>
+                        </div>
+                        <div class="animate "></div>
+                    </div>
+                    <div class="job-bg jl">
+                        <div class="person"></div>
+                        <div class="figureName">
+                            <a href="javascript:;" class="job-more"></a>
+                        </div>
+                        <div class="video1 video">
+                            <i></i>
+                        </div>
+                        <div class="animate "></div>
+                    </div>
+                    <div class="job-bg sm">
+                        <div class="person"></div>
+                        <div class="figureName">
+                            <a href="javascript:;" class="job-more"></a>
+                        </div>
+                        <div class="video1 video">
+                            <i></i>
+                        </div>
+                        <div class="animate "></div>
+                    </div>
+                    <div class="job-bg sx">
+                        <div class="person"></div>
+                        <div class="figureName">
+                            <a href="javascript:;" class="job-more"></a>
+                        </div>
+                        <div class="video1 video">
+                            <i></i>
+                        </div>
+                        <div class="animate "></div>
+                    </div>
+                    <div class="job-bg ty">
+                        <div class="person"></div>
+                        <div class="figureName">
+                            <a href="javascript:;" class="job-more"></a>
+                        </div>
+                        <div class="video1 video">
+                            <i></i>
+                        </div>
+                        <div class="animate "></div>
+                    </div>
+                </div>
+            </div>
+            <!-- 下载游戏加banner轮播宣传 -->
+            <div class="top">
+                <div class="slogan"></div>
+                <div class="btns">
+                    <div class="btns-1">
+                        <a href="javascript:;" class='btn-down'></a>
+                        <a href="javascript:;" class="btn-erweima">
+                            <div class="move-line">
+                            </div>
+                        </a>
+                    </div>
+                    <a href="javascript:;" class="btn-haoli btn">
+                        <i></i>
+                    </a>
+                    <a href="javascript:;" class="btn-reg btn">
+                        <i></i>
+                    </a>
+                    <a href="javascript:;" class="btn-cz btn">
+                        <i></i>
+                    </a>
+                </div>
+                <script src="js/banner.js"></script>
+                <div class="banner">
+                    <div class="switch">
+                        <a href="javascript:;">合作</a>
+                        <a href="javascript:;" class="current">官方</a>
+                    </div>
+                    <div class="banner_wrap">
+                        <div class="gf Btnblock">
+                            <!-- 内容 -->
+                            <div class="switch-pic">
+                                <a href="javascript:;" style="z-index:100">
+                                    <img src="images/5c485ec58b74271c5b1fb523CxGM967Q02.jpg" alt="">
+                                </a>
+                                <a href="javascript:;">
+                                    <img src="images/5c36dd6b8b74272bce8c94e1zq13N4TP.jpg" alt="">
+                                </a>
+                                <a href="javascript:;">
+                                    <img src="images/5c2d892ea7f252d6f3b6098fgqboPLlz.jpg" alt="">
+                                </a>
+                                <a href="javascript:;">
+                                    <img src="images/5b90ec8f7f9d2a6673aeff20BUTimjYL.jpg" alt="">
+                                </a>
+                            </div>
+                            <!-- 索引 -->
+                            <div class="switch_ctr1">
+                                <span class="current"></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="hz hide Btnblock">
+                            <!-- 内容 -->
+                            <div class="switch-pic">
+                                <a href="javascript:;" style="z-index:100">
+                                    <img src="images/5c46c68b2786fd21c7dc0ef8F2GhquDf02.jpg" alt="">
+                                </a>
+                                <a href="javascript:;">
+                                    <img src="images/5c208cd86f049472d7776f12mZriVjMc.jpg" alt="">
+                                </a>
+                            </div>
+                            <!-- 索引 -->
+                            <div class="switch_ctr1">
+                                <span class="current"></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 公告栏tab菜单 -->
+            <script src="js/new.js"></script>
+            <div class="news-box">
+                <div class="box-title">
+                    <ul class="news-tab fl">
+                        <li>
+                            <a href="javascript:;" class='active'>最新</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">新闻</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">公告</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">主题</a>
+                        </li>
+                    </ul>
+                    <a href="javascript:;" class="more fr">+</a>
+                </div>
+                <p class="news-top">
+                    <a href="javascript:;">逆水寒将开启最严格的北宋春节庆典
+                    </a>
+                </p>
+                <div class="new-line"></div>
+                <ul class="news active ">
+                    <li class="news-special">
+                        <span class="icon32">推荐</span>
+                        <a href="javascript:;">
+                            网易CEO丁磊：
+                            <b>年度人气美食限时139-30</b>
+                        </a>
+                    </li>
+                    <li>
+                        <span class="time fr">01-24</span>
+                        <span class="type">【公告】</span>
+                        <a href="javascript:;">《逆水寒》2019年1月24日更新公告</a>
+                    </li>
+                    <li>
+                        <span class="time fr">01-24</span>
+                        <span class="type">【新闻】</span>
+                        <a href="javascript:;">《逆水寒》3V3全民争霸赛晋级四强名单</a>
+                    </li>
+                    <li>
+                        <span class="time fr">01-24</span>
+                        <span class="type">【公告】</span>
+                        <a href="javascript:;">《逆水寒》南山雪礼盒&一夕苍雷礼盒概率公示</a>
+                    </li>
+                    <li>
+                        <span class="time fr">01-24</span>
+                        <span class="type">【公告】</span>
+                        <a href="javascript:;">《遇见逆水寒》1月24日更新公告</a>
+                    </li>
+                    <li>
+                        <span class="time fr">01-24</span>
+                        <span class="type">【新闻】</span>
+                        <a href="javascript:;">《逆水寒》第一届跨服帮会联赛参与名单公布</a>
+                    </li>
+                </ul>
+                <ul class="news ">
+                    <li>
+                        <span class="time fr">01-28</span>
+                        <span class="type">【新闻】</span>
+                        <a href="javascript:;">逆水寒将开启最严格的北宋春节庆典</a>
+                    </li>
+                    <li>
+                        <span class="time fr">01-21</span>
+                        <span class="type">【新闻】</span>
+                        <a href="javascript:;">《逆水寒》第一届跨服帮会联赛参与名单公布</a>
+                    </li>
+                    <li>
+                        <span class="time fr">01-18</span>
+                        <span class="type">【新闻】</span>
+                        <a href="javascript:;">第一届《逆水寒》跨服帮会联赛规则</a>
+                    </li>
+                    <li>
+                        <span class="time fr">01-14</span>
+                        <span class="type">【新闻】</span>
+                        <a href="javascript:;">《逆水寒》3V3全民争霸赛晋级四强名单</a></li>
+                    <li>
+                        <span class="time fr">01-10</span>
+                        <span class="type">【新闻】</span>
+                        <a href="javascript:;">《逆水寒》再登世界舞台，携手英伟达CES上光芒再现！</a>
+                    </li>
+                    <li>
+                        <span class="time fr">01-08</span>
+                        <span class="type">【新闻】</span>
+                        <a href="javascript:;">【密信】此信仅限各帮会大当家亲启，万万不可泄露！</a>
+                    </li>
+                </ul>
+                <ul class="news ">
+                    <li>
+                        <span class="time fr">01-24</span>
+                        <span class="type">【公告】</span>
+                        <a href="javascript:;">《逆水寒》南山雪礼盒&一夕苍雷礼盒概率公示</a></li>
+                    <li>
+                        <span class="time fr">01-24</span>
+                        <span class="type">【公告】</span>
+                        <a href="javascript:;">《逆水寒》2019年1月24日更新公告</a></li>
+                    <li>
+                        <span class="time fr">01-24</span>
+                        <span class="type">【公告】</span>
+                        <a href="javascript:;">《遇见逆水寒》1月24日更新公告</a></li>
+                    <li>
+                        <span class="time fr">01-17</span>
+                        <span class="type">【公告】</span>
+                        <a href="javascript:;">《逆水寒》2019年1月17日更新公告</a>
+                    </li>
+                    <li>
+                        <span class="time fr">01-17</span>
+                        <span class="type">【公告】</span>
+                        <a href="javascript:;">《遇见逆水寒》1月24日更新预告</a>
+                    </li>
+                    <li>
+                        <span class="time fr">01-16</span>
+                        <span class="type">【公告】</span>
+                        <a href="javascript:;">1月10日服务器合并命名最终结果公告</a>
+                    </li>
+                </ul>
+                <ul class="news">
+                    <li>
+                        <span class="time fr">12-24</span>
+                        <span class="type">【主题】</span>
+                        <a href="javascript:;">大神将军令扫码登录，抽取点卡周边iPhone</a></li>
+                    </li>
+                    <li>
+                        <span class="time fr">10-13</span>
+                        <span class="type">【主题】</span>
+                        <a href="javascript:;">逆水寒携手斗鱼“助力龙吟破浪而来”</a></li>
+                    </li>
+                    <li>
+                        <span class="time fr">08-27</span>
+                        <span class="type">【主题】</span>
+                        <a href="javascript:;">熊猫直播《逆水寒》主播二次招募正式启动</a></li>
+                    </li>
+                    <li>
+                        <span class="time fr">08-17</span>
+                        <span class="type">【主题】</span>
+                        <a href="javascript:;">逆水寒​携手鱼乐大咖，陪你一起过七夕！</a></li>
+                    </li>
+                    <li>
+                        <span class="time fr">08-01</span>
+                        <span class="type">【主题】</span>
+                        <a href="javascript:;">虎牙直播逆水寒舞阳城竞速赛启动 千元京东卡等你拿</a></li>
+                    </li>
+                    <li>
+                        <span class="time fr">07-27</span>
+                        <span class="type">【主题】</span>
+                        <a href="javascript:;">千人千面变脸赏·7.28直播活动盛大开幕</a></li>
+                    </li>
+                </ul>
+            </div>
+            <!-- 大师模块技术：轮播图加视频 -->
+            <script src="js/dashi.js"></script>
+            <div class="dashi">
+                <div class="ds-title"></div>
+                <div class="ds-tabs">
+                    <div class="wra">
+                        <a href="javascript:; " class='more'></a>
+                    </div>
+                    <div class="csd open hide">
+                        <div class="title"></div>
+                        <div class="person">
+                        </div>
+                        <div class="play">
+                            <i></i>
+                        </div>
+                        <div class="video">
+                            <!-- autoplay:视频就绪后自动播放 loop:自动重播 muted:视频静音(如果视频不播放记得加)-->
+                            <video muted src="flash/d9cb53cf95b0012f9bae0c031b1ada36qt.mp4" autoplay loop></video>
+                        </div>
+                        <div class="zhezhao"></div>
+                        <a href="javascript:;" class="more"></a>
+                    </div>
+                    <div class="tsy open hide">
+                        <div class="title"></div>
+                        <div class="person">
+                        </div>
+                        <div class="play">
+                            <i></i>
+                        </div>
+                        <div class="video">
+                            <!-- autoplay:视频就绪后自动播放 loop:自动重播 muted:视频静音(如果视频不播放记得加)-->
+                            <video muted src="flash/c47f2d62753b955ca89f1eb4fe0d6a2cqt.mp4" autoplay loop></video>
+                        </div>
+                        <div class="zhezhao"></div>
+                        <a href="javascript:;" class="more"></a>
+                    </div>
+                    <div class="ljy hide">
+                        <a href="javascript:;" class="more"></a>
+                    </div>
+                </div>
+                <div class="switch">
+                    <span class="current"></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <!-- 游戏图鉴和高清视频入口技术:css3     transform: scale(1.1);     transform: rotateY(180deg); -->
+            <div class="media">
+                <a href="javascript;;">
+                    <div class="bz fl media-tab">
+                        <img src="images/bg-bz_b1ad568.png" alt="">
+                        <div class="title">
+                            <div class="flip">
+                                <div class="flip-box">
+                                    <div class="flip-item flip-item-front">
+                                        <img src="images/bz-1_de6e10e.png" alt=""></div>
+                                    <div class="flip-item flip-item-back">
+                                        <img src="images/bz-2_8351384.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="javascript;;">
+                    <div class="video media-tab fr">
+                        <img src="images/bg-video_c4b3f83.png" alt="">
+                        <div class="title">
+                            <div class="flip">
+                                <div class="flip-box">
+                                    <div class="flip-item flip-item-front">
+                                        <img src="images/video-1_f6b8be2.png" alt=""></div>
+                                    <div class="flip-item flip-item-back">
+                                        <img src="images/video-2_84eb88d.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- 攻略模块技术:    transform: translate3d(0,10%,0); tab表切换 轮播 transform: translate(0,-6px);-->
+            <script src='js/gonglue.js'></script>
+            <div class="gonglue">
+                <div class="title"></div>
+                <a href="javascript:;" class="more"></a>
+                <div class="content-wrap clearfix">
+                    <div class="gl-luntan fl">
+                        <div class="search-wrap">
+                            <input type="text" placeholder="请输入想要查找的内容">
+                            <a href="javascript:;" class="btn-search"></a>
+                        </div>
+                        <div class="luntan-tab">
+                            <a href="javascript:;" class="lpgl active"><em></em></a>
+                            <a href="javascript:;" class="zbjj"><em></em></a>
+                            <a href="javascript:;" class="tswf"><em></em></a>
+                            <a href="javascript:;" class="fbjc "><em></em></a>
+                            <a href="javascript:;" class="qwsj"><em></em></a>
+                        </div>
+                        <div class="luntan-news">
+                            <ul class="news active">
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="type">[攻略]</span>
+                                        <span>气盾效果究竟怎么样？这次我来做一个较为严谨的测试，给大家一个参考</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="type">[攻略]</span>
+                                        <span>【自在门】最强神相教你玩，如何成功一夫当关，只要做好这几点！</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="type">[攻略]</span>
+                                        <span>【逆水寒TV】主播开讲啦第八期：职业讲解—我是一个柔情铁衣</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="type">[攻略]</span>
+                                        <span>【逆水寒TV】主播开讲啦第七期：职业讲解—素问转发不遇龙吟锦鲤</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="type">[攻略]</span>
+                                        <span>【逆水寒TV】主播开讲啦第七期：职业讲解—血河大帝在线解说</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="type">[攻略]</span>
+                                        <span>【逆水寒TV】主播开讲啦第六期：职业讲解—神相是一种什么样的存在</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="type">[攻略]</span>
+                                        <span>【碎梦】纯新手入门攻略</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="type">[攻略]</span>
+                                        <span>【流派攻略大赛】虽然论坛任务我也是认真写的</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="news ">
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="type">[装备]</span>
+                                        <span>【逆水寒TV】主播开讲啦第五期：小姐姐教你首饰打造</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="type">[装备]</span>
+                                        <span>【逆水寒TV】主播开讲啦第四期：四攻武器打造</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="type">[装备]</span>
+                                        <span>【逆水寒TV】主播开讲啦第二期：百炼装备升级</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="type">[装备]</span>
+                                        <span>【逆水寒TV】主播开讲啦第一期：吸海垂虹应用实操</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="type">[装备]</span>
+                                        <span>【属性换算】快来看看削金/断玉能加多少攻击</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="type">[装备]</span>
+                                        <span>【流派攻略大赛】点卡玩家如何0成本上5000大功！</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="type">[装备]</span>
+                                        <span>关于5、6稀有词条百炼武器等级提升经过详细计算后的分析</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="type">[装备]</span>
+                                        <span>平民小资玩家百炼升级指导【自在门】【相思离别愁】</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="news ">
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="type">[探索]</span>
+                                        <span>【自在门】《逆水寒》连云寨-双人押镖攻略流程（图文攻略）</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="type">[探索]</span>
+                                        <span>【逆水寒TV】主播开讲啦第九期：妹子带你体验燕云大乱斗</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="type">[探索]</span>
+                                        <span>[玩法] 雪人大作战视频图文攻略【自在门】</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="type">[探索]</span>
+                                        <span>【试剑天下】冲阶姿势~</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="type">[探索]</span>
+                                        <span>皇宋国库失窃案·攻略【自在门】【吃瓜看江湖】</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="type">[探索]</span>
+                                        <span>【冬节】活动攻略大集合 【自在门】</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="type">[探索]</span>
+                                        <span>逆水寒奇遇记42：二师兄疯狂作死调侃策划，这问题憋太久了！</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="type">[探索]</span>
+                                        <span>【莫】卧龙岭打法（基础篇）2</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="news ">
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="type">[副本]</span>
+                                        <span>铁衣武林风云录英雄老3老4心得</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="type">[副本]</span>
+                                        <span>英雄武林老三攻略！！！</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="type">[副本]</span>
+                                        <span>[副本] 风雪铁牢关老二平民稳过视频图文攻略【自在门】【攻略】</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="type">[副本]</span>
+                                        <span>风雪铁牢老二攻略（新方法）【自在门】</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="type">[副本]</span>
+                                        <span>进击的舞阳城——英雄1256【自在门】</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="type">[副本]</span>
+                                        <span>逆水寒12人本——风雪铁牢关老三教学【自在门】【相思离别愁】</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="type">[副本]</span>
+                                        <span>【自在门】风雪铁牢关•一二三•先行版（文字版）</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="type">[副本]</span>
+                                        <span>风雪铁牢关 老二教学【自在门】</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="news ">
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="type">[社交]</span>
+                                        <span>总奇遇182攻略</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="type">[社交]</span>
+                                        <span>【逆水寒工具箱】收录99.9%的科举题目，题库每周更新</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="type">[社交]</span>
+                                        <span>【新奇遇】谪仙东游触发攻略</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="type">[社交]</span>
+                                        <span>【奇遇工具箱】新功能上线，公司/网吧也可以记录奇遇完成状态</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="type">[社交]</span>
+                                        <span>主线剧情 第五十六回 缘本有情痴 八卦文字攻略56章</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="type">[社交]</span>
+                                        <span>关于旷世奇遇惊鸿飘羽前置奇遇-欢来</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="type">[社交]</span>
+                                        <span>逆水寒奇遇·小吉·伐木学问【自在门】【相思离别愁】</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="type">[社交]</span>
+                                        <span>九格锦囊自取-坐下 正常操作【自在门】【相思离别愁】</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="gl-banner fr">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide slide1">
+                                    <a href="javascript:;"></a>
+                                </div>
+                                <div class="swiper-slide slide2">
+                                    <a href="javascript:;"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination">
+                            <span class="artive"></span>
+                            <span></span>
+                        </div>
+                        <ul class="gl-links chearfix">
+                            <li class="li1">
+                                <a href="javascript:;">
+                                    攻略集合
+                                    <br>
+                                    舞阳副本
+                                </a>
+                            </li>
+                            <li class="li2">
+                                <a href="javascript:;">
+                                    赚金大法
+                                </a>
+                            </li>
+                            <li class="li3">
+                                <a href="javascript:;">
+                                    游戏视频
+                                </a>
+                            </li>
+                            <li class="li4">
+                                <a href="javascript:;">
+                                    帮会玩法
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- 二维码区 -->
+            <div class="codes">
+                <div class="bbs">
+                    <div class="icon"></div>
+                    <div class="code"></div>
+                    <a href="javascript:;" class="bbs-btn"></a>
+                </div>
+                <div class="wx">
+                    <div class="icon"></div>
+                    <div class="code"></div>
+                </div>
+                <div class="wb">
+                    <div class="icon"></div>
+                    <div class="code"></div>
+                    <a href="javascript:;" class="bbs-btn"></a>
+                </div>
+
+                <div class="kefu">
+                    <ul class="links clearfix">
+                        <li>
+                            <a href="javascript:;">
+                                客服专区
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                自助百宝箱
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                忘记密码
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                网易将军令
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                网易游戏
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                查看更多
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="phone">
+                        <i></i>
+                        <p>客服电话:95163527</p>
+                        <p>服务时间:7x24小时</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 落叶动画 -->
+            <!-- 技术：页面滚动事件 等待落叶动画完毕显示logo 一次性定时器 事件触发一次就解绑 -->
+            <script src="js/foot.js"></script>
+            <div class="cd-animate show">
+
+            </div>
+            <div class="caidan"></div>
+            <div class="jian"></div>
+
+            <!-- 分享到模块:字体图标 -->
+            <div class="Mshare">
+                <div class="share">
+                    <span class="txt">分享到:</span>
+                    <ul class="iconBtn">
+                        <li>
+                            <a href="javascript" class="iconfont"></a>
+                        </li>
+                        <li>
+                            <a href="javascript" class="iconfont"></a>
+                        </li>
+                        <li>
+                            <a href="javascript" class="iconfont"></a>
+                        </li>
+                        <li>
+                            <a href="javascript" class="iconfont"></a>
+                        </li>
+                        <li>
+                            <a href="javascript" class="iconfont"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 尾部 -->
+            <div class="foot">
+                <div class="inner">
+                    <div class="inner-part1">
+                        <span class="inner-logo">
+                            <a href="javascript:;"><img src="images/netease.1.png" alt=""></a>
+                            <a href="javascript:;"><img src="images/nie.1.png" alt=""></a>
+                            <a href="javascript:;"><img src="images/leihuo.1.png" alt=""></a>
+                            <a href="javascript:;"><img src="images/wen.png" alt=""></a>
+                            <a href="javascript:;"><img src="images/wen2.png" alt=""></a>
+                            <a href="javascript:;"><img src="images/fuxi.1.png" alt=""></a>
+                        </span>
+                        <span class="inner-txt">
+                            <i class="txt-i1">
+                                <a href="javasctipr:;">公司简介</a>
+                                -
+                                <a href="javasctipr:;">客户服务</a>
+                                -
+                                <a href="javasctipr:;">相关法律</a>
+                                -
+                                <a href="javasctipr:;">网易游戏</a>
+                                -
+                                <a href="javasctipr:;">联系我们</a>
+                                -
+                                <a href="javasctipr:;">商务合作</a>
+                                -
+                                <a href="javasctipr:;">加入我们</a>
+                            </i>
+                            <br>
+                            <i class="txt-i2">
+                                网易公司版权所有 ©1997-2019
+                                <a href="javascript:;">
+                                    点击查看家长监护工程 >
+                                </a>
+                            </i>
+                        </span>
+                    </div>
+                    <div class="inner-part2">
+                        <p>本游戏适合18岁以上的玩家进入。</p>
+                        <p>积极健康的游戏心态是健康游戏的开端，本游戏故事情节设置紧凑，请您合理控制游戏时间，避免沉溺游戏影响生活，注意自我保护，防范网络陷阱。</p>
+                        <a href="javascript:;">《网络游戏管理暂行办法》</a>
+                        <span>文网游备字〔2017〕Ｃ-RPG 0042号</span>
+                        <span>《网络文化经营许可证》</span>
+                        <span>浙网文[2016]0155-055号</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
